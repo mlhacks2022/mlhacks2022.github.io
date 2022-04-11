@@ -30,6 +30,7 @@ export default function Home() {
       if (vantaEffect) vantaEffect.destroy();
     };
   }, [vantaEffect]);
+
   return (
     <div className={styles.container}>
       <Head>
@@ -41,6 +42,13 @@ export default function Home() {
       <div ref={vantaRef} className={styles.vantaBg}>
         <h1 className={styles.title}>ML Hacks</h1>
         <h2 className={styles.subtitle}>May 20 - 22</h2>
+        <a
+          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className={styles.btn}>JOIN NOW</button>
+        </a>
       </div>
 
       <main className={styles.main}>
@@ -49,8 +57,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Get started by doing some stuff.
         </p>
 
         <div className={styles.grid}>

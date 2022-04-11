@@ -1,5 +1,5 @@
 .vantaBg {
-  height: 100vh;
+  height: 110vh;
   width: 100vw;
   padding: 40vh 10rem;
   background-color: white;
@@ -13,6 +13,14 @@
 
 .subtitle {
   color: var(--dark-pink);
+  font-size: 3rem;
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 1.7rem;
+  border-radius: 8px;
 }
 
 .main {
@@ -23,6 +31,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
+  background: rgb(10,0,185);
+  background: linear-gradient(135deg, rgba(10,0,185,1) 0%, rgba(83,0,255,1) 23%, rgba(155,27,255,1) 53%, rgba(235,75,250,1) 80%, rgba(255,110,246,1) 100%);
 }
 
 .footer {

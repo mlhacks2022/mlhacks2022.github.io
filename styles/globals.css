@@ -1,6 +1,6 @@
 :root {
   --bright-pink: rgb(255, 68, 227);
-  --dark-pink: rgb(140, 0, 123);
+  --dark-pink: rgb(56, 0, 168);
 
   --darker: rgb(0, 7, 112);
   --dark: rgb(0, 11, 168);
@@ -119,12 +119,30 @@ h1 {
   font-size: 4rem;
 }
 
-button {
+button{
+  outline: none;
+  border: solid 2.6px var(--bright-pink);
+  background-color: white;
+  color: var(--bright-pink);
+  border-radius: 50px;
+  font-family: inherit;
+  font-size: 2rem;
+  font-weight: 600;
+  transition: 1s ease;
+  padding: 8px 12px;
+  margin: 0;
+  cursor: pointer;
+}
+button:hover {
+  color: white;
+  background-color: var(--bright-pink);
+}
+
+.button2 {
   outline: none;
   border: none;
   background-color: white;
   color: var(--main);
-  border: none;
   border-radius: 5px;
   font-family: inherit;
   font-size: 1.5rem;
@@ -134,7 +152,7 @@ button {
   margin: 0 1rem .5rem .5rem;
   cursor: pointer;
 }
-button:hover {
+.button2:hover {
   color: var(--light);
 }
 
