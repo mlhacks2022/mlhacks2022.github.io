@@ -38,10 +38,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div ref={vantaRef} className={styles.vantaBg}></div>
+      <div ref={vantaRef} className={styles.vantaBg}>
+        <h1 className={styles.title}>ML Hacks</h1>
+        <h2 className={styles.subtitle}>May 20 - 22</h2>
+      </div>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        <h1>
           Welcome to <a href="https://nextjs.org">ML Hacks!</a>
         </h1>
 
@@ -82,16 +85,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+        <p>Copyright © 2022 ML Hacks. All rights reserved.</p>
       </footer>
     </div>
   )
