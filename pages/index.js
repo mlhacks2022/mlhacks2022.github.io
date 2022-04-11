@@ -13,7 +13,16 @@ export default function Home() {
       setVantaEffect(
         RINGS({
           el: vantaRef.current, 
-          THREE
+          THREE,
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          backgroundColor: 0xffffff,
+          color: 0xff1e
         })
       );
     };
@@ -29,7 +38,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div ref={vantaRef}></div>
+      <div ref={vantaRef} className={styles.vantaBg}></div>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
