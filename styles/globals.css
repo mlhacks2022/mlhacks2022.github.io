@@ -216,9 +216,10 @@ button:hover {
 .section {
   width: 100vw;
   max-width: 1400px;
-  height: auto;
+  height: 80vh;
   padding: 40px;
-  margin: 0 auto;
+  margin: 2rem auto;
+  background-color: pink;
 }
 
 .deck-section {
