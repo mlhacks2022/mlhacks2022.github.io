@@ -19,52 +19,37 @@ export default function Navbar() {
             const label = document.createElement('span');
             const spot = document.createElement('span');
         
-            // A label should have a nav-label class and contain the same text as the
-            // element.
-            label.className = 'nav-label';
-            label.textContent = element.textContent.trim();
+            // give label section id
+            label.className = "nav-label";
+            label.textContent = element.id.trim();
         
-            spot.className = 'nav-spot';
+            spot.className = "nav-spot";
             spot.textContent = '●';
-        
-            li.appendChild(label);
+    
             li.appendChild(spot);
+            li.appendChild(label);
         
             // Custom className for our CSS purposes only. navbar will work around
             // existing classes by appending or removing the navbar-active class.
-            li.className = 'nav-element';
+            li.className = "nav-element";
         
-            // I want clicks on nav items to scroll the relevant title into view.
             li.addEventListener('click', () => element.scrollIntoView(true));
         
-            // Remember to return the list element at the end!
             return li;
         }
         
-        // Generate a nav list element for every h2 element on the page.
+        // Generate a nav list element for every element on the page.
         const nav = navbar({
             elementList: document.querySelectorAll('.nav-sec'),
             makeNavListItem: makeNavListItem,
             debounceTime: 100
         });
         
-        // Finally, append the element to the document. In this demo the navbar is
-        // fixed, so I have simply appended to the body.
+        // append element to document 
         document.body.appendChild(nav);
     });
     return (
         <div className={styles.navbar}>
-            <nav>
-                {navLinks.map((link, index) => {
-                return (
-                    <ul className={styles.list}>
-                        <Link href={link.path}>
-                            <li key={index} className={styles.link}>{link.name}</li>
-                        </Link>
-                    </ul>
-                );
-                })}
-            </nav>
         </div>
     );
 };

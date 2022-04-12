@@ -1,6 +1,9 @@
 import Head from 'next/head';
 //import Image from 'next/image';
+
 import styles from '../styles/Home.module.css';
+import { navLinks } from "../utils/data";
+
 import { useEffect, useRef, useState } from 'react';
 import RINGS from 'vanta/dist/vanta.rings.min';
 import * as THREE from 'three';
@@ -57,7 +60,7 @@ export default function Home() {
         </a>
       </div>
 
-      <div className={styles.intro}>
+      <div id='About' className={styles.intro + " section nav-sec"}> 
         <div className={styles.introWrapper}>
           <h1>
             Welcome to ML Hacks!
@@ -73,12 +76,14 @@ export default function Home() {
         </div>
       </div>
 
-      <div id='test1' className="section nav-sec">
-        test
-      </div>
-      <div id='test2' className="section nav-sec">
-        test87
-      </div>
+      {navLinks.map((link, index) => {
+        return (
+          <div key={index} id={link.name} className="section nav-sec">
+            test
+            {link.name}
+          </div>
+        );
+        })}
     </div>
   )
 }

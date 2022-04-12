@@ -48,6 +48,40 @@ body {
   left: 0;
 }
 
+nav {
+  position: fixed;
+  top: 50%;
+  bottom: auto;
+  transform: translateY(-50%);
+}
+
+.nav-element {
+  text-align: left;
+  cursor: pointer;
+  margin: 1rem;
+  color: rgb(212, 212, 212);
+  transition: color 0.25s;
+}
+
+.navbar-active {
+  color: rgb(195, 0, 255);
+}
+
+.nav-label {
+  opacity: 0;
+  transition: opacity 0.25s;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+li:hover .nav-label {
+  opacity: 1;
+}
+
+ul {
+  list-style-type: none;
+}
+
 select {
   outline: none;
   border: 1px solid var(--dark);
@@ -219,7 +253,8 @@ button:hover {
   height: 80vh;
   padding: 40px;
   margin: 2rem auto;
-  background-color: pink;
+  background-color: black;
+  color: white;
 }
 
 .deck-section {
@@ -230,47 +265,6 @@ button:hover {
   flex-wrap: wrap;
   margin: auto;
   padding: 50px;
-}
-
-.no-decks-found {
-  width: 100%;
-  height: fit-content;
-  padding: 120px 0 50px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.nd-text1 {
-  font-weight: 700;
-  margin: 3px;
-  font-size: 2.5rem;
-}
-.nd-text2 {
-  color: var(--light);
-}
-
-.popup-container {
-  position: fixed;
-  top: 20%;
-  left: calc(50vw - 205px);
-  padding: 60px 65px 40px 65px;
-  width: 410px;
-  font-size: 1.5rem;
-  font-weight: 300;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-start;
-  margin: auto;
-  background-color: white;
-  color: black;
-  box-shadow: 0px 0px 4px 1px rgba(128, 128, 128, 0.322);
-  border-radius: 10px;
-  display: none;
-  z-index: 650;
-  transform: scale(.5);
 }
 
 .grow {
