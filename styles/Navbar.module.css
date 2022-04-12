@@ -9,6 +9,10 @@
     color: black;
 }
 
+.list {
+    list-style-type: none;
+}
+
 .link {
     color: var(--light);
     font-size: 2rem;
@@ -17,6 +21,7 @@
 }
 .link:hover {
     color: var(--dark);
+    cursor: pointer;
 }
 
 .nav {

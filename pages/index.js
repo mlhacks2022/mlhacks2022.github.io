@@ -72,6 +72,14 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <div id='test1' className={styles.section + " nav-sec"}>
+        test
+      </div>
+      <div id='test2' className={styles.section + " nav-sec"}>
+        test87
+      </div>
     </div>
   )
 }
+
