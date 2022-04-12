@@ -1,4 +1,5 @@
 :root {
+  --light-pink: rgb(255, 202, 248);
   --bright-pink: rgb(255, 68, 227);
   --dark-pink: rgb(56, 0, 168);
 
@@ -104,8 +105,12 @@ input{
 a {
   color: var(--light);
   text-decoration: none;
-  font-size: inherit;
-  color: inherit;
+  font-size: inherit; 
+  transition: .5s ease;
+}
+a:hover {
+  cursor: pointer;
+  color: var(--bright-pink);
 }
 
 h1 a:hover,
@@ -128,7 +133,7 @@ button{
   font-family: inherit;
   font-size: 2rem;
   font-weight: 600;
-  transition: 1s ease;
+  transition: .5s ease;
   padding: 8px 12px;
   margin: 0;
   cursor: pointer;

@@ -1,6 +1,8 @@
 import '../styles/globals.css';
 import { useEffect } from 'react';
 
+import Layout from '../components/layout'
+
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     const threeScript = document.createElement('script');
@@ -13,7 +15,11 @@ function MyApp({ Component, pageProps }) {
       };
     };
   }, []);
-  return <Component {...pageProps} />
+  return (
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
+  );
 };
 
 export default MyApp;

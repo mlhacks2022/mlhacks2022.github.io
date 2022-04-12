@@ -13,7 +13,8 @@
 }
 
 .subtitle {
-  color: var(--dark-pink);
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 3rem;
 }
 
@@ -37,6 +38,7 @@
   color: white;
   background: rgb(10,0,185);
   background: linear-gradient(135deg, rgba(10,0,185,1) 0%, rgba(83,0,255,1) 23%, rgba(155,27,255,1) 53%, rgba(235,75,250,1) 80%, rgba(255,110,246,1) 100%);
+  background: linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(83,0,255,1) 50%, rgba(195,87,255,1) 100%);
 }
 
 .introWrapper {
