@@ -7,8 +7,30 @@ import Link from "next/link";
 
 import styles from '../styles/Navbar.module.css';
 
-export default function Navbar() {
-    useEffect(() => {
+export default class Navbar extends React.Component {
+    constructor (props) {
+        super(props);
+        this.state = {
+            visible: true,
+        };
+    };
+    
+    updateNav = () => {
+        const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+
+        const scrolled = winScroll / height;
+
+        this.setState({
+            visibility: scrolled > document.body.height
+        })
+    };
+
+    componentDidMount() {
+        window.addEventListener('scroll', this.updateNav);
+    };
+
+    componentDidUpdate() {
         
         // This function is where you define a list element, giving it classes,
         // registering listeners, and appending children as you like. This one couples
@@ -47,9 +69,12 @@ export default function Navbar() {
         
         // append element to document 
         document.body.appendChild(nav);
-    });
-    return (
-        <div className={styles.navbar}>
-        </div>
-    );
+    };
+
+    render() {
+        return (
+            <div className={styles.navbar}>
+            </div>
+        );
+    };
 };
