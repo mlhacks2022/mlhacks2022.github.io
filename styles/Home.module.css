@@ -1,5 +1,6 @@
 .vantaBg {
-  height: 110vh;
+  height: 120vh;
+  margin: 0;
   width: 100vw;
   padding: 40vh 10rem;
   background-color: white;
@@ -23,8 +24,10 @@
   border-radius: 8px;
 }
 
-.main {
-  min-height: 100vh;
+.intro {
+  height: 110vh;
+  width: 100vw;
+  transform: skew(0deg, 4deg) translateY(-10vh);
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -34,6 +37,12 @@
   color: white;
   background: rgb(10,0,185);
   background: linear-gradient(135deg, rgba(10,0,185,1) 0%, rgba(83,0,255,1) 23%, rgba(155,27,255,1) 53%, rgba(235,75,250,1) 80%, rgba(255,110,246,1) 100%);
+}
+
+.introWrapper {
+  width: auto;
+  margin: 0 auto;
+  transform: skew(0deg, -4deg);
 }
 
 .footer {
