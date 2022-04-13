@@ -1,5 +1,6 @@
 :root {
   --light-pink: rgb(255, 202, 248);
+  --pink: rgb(255, 145, 240);
   --bright-pink: rgb(255, 68, 227);
   --dark-pink: rgb(56, 0, 168);
 
@@ -68,20 +69,17 @@ nav {
   color: rgb(88, 88, 88);
 }
 
-.nav-label-container {
-  opacity: 0;
-}
-
 .nav-label {
   transition: opacity 0.25s;
   border-radius: 0.5rem;
   padding-left: 10px;
   font-size: 1.5rem;
   text-transform: uppercase;
+  opacity: 0%;
 }
 
-.nav-label-container:hover {
-  opacity: 1;
+li:hover .nav-label {
+  opacity: 100%;
 }
 
 ul {
@@ -166,9 +164,9 @@ h1 {
 
 button{
   outline: none;
-  border: solid 2.6px var(--bright-pink);
+  border: solid 2.6px black;
   background-color: white;
-  color: var(--bright-pink);
+  color: black;
   border-radius: 50px;
   font-family: inherit;
   font-size: 2rem;
@@ -180,7 +178,7 @@ button{
 }
 button:hover {
   color: white;
-  background-color: var(--bright-pink);
+  background-color: black;
 }
 
 .button2 {

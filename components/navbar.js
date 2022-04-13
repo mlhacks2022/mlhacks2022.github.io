@@ -12,7 +12,7 @@ export default class Navbar extends React.Component {
     constructor (props) {
         super(props);
         this.state = {
-            visible: true,
+            display: 'none',
         };
     };
 
@@ -25,7 +25,7 @@ export default class Navbar extends React.Component {
         const height = window.innerHeight;
 
         this.setState({
-            visible: scrolled > height
+            display: (scrolled > height) ? 'block' : 'none'
         })
     };
 
@@ -68,18 +68,19 @@ export default class Navbar extends React.Component {
             debounceTime: 100
         });
 
-        let visible = this.state.visible;
+        let display = this.state.display;
         
         // append element to document 
-        if (visible) document.getElementById('navbar-wrapper').appendChild(nav);
+        if (display === 'block') document.getElementById('navbar-wrapper').appendChild(nav);
     };
 
     render() {
         return (
             <div>
-                {this.state.visible && 
-                    <div id="navbar-wrapper" className={styles.navbar}></div>
-                }
+                <div id="navbar-wrapper" 
+                    className={styles.navbar + this.state.display} 
+                    style={{display: this.state.display, zIndex: 100}}>
+                </div>
                 <div className={styles.navbarTop}>
                 <Image
                     src="/favicon.ico"
@@ -90,8 +91,8 @@ export default class Navbar extends React.Component {
                     <div className={styles.navLinksWrapper}>
                         {sections.map((link, index) => {
                             return (
-                                <Link href={link.path}>
-                                    <div key={index} className={styles.navLink}>{link.name}</div>
+                                <Link href={link.path} key={index}>
+                                    <div className={styles.navLink}>{link.name}</div>
                                 </Link>
                             );
                         })}

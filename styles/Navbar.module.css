@@ -10,7 +10,7 @@
 }
 
 .navbarTop {
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     z-index: 100;
@@ -21,12 +21,13 @@
     align-items: flex-start;
     padding: 20px 40px;
     background-color: white;
+    background-color: transparent;
 }
 
 .navLinksWrapper {
     top: 0;
     right: 0;
-    width: 50vw;
+    width: 400px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
