@@ -2,6 +2,7 @@ import '../styles/globals.css';
 import { useEffect } from 'react';
 
 import Layout from '../components/layout'
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -16,9 +17,11 @@ function MyApp({ Component, pageProps }) {
     };
   }, []);
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <ParallaxProvider>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </ParallaxProvider>
   );
 };
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import { useEffect } from 'react';
 import navbar from 'navbar';
+import { Parallax } from 'react-scroll-parallax';
 
-import { navLinks } from "../utils/data";
 import Link from "next/link";
 
 import styles from '../styles/Navbar.module.css';
@@ -20,28 +20,23 @@ export default class Navbar extends React.Component {
     };
 
     updateNav = () => {
-        const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-        const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-
-        const scrolled = winScroll / height;
+        const scrolled = document.body.scrollTop || document.documentElement.scrollTop;
+        const height = window.innerHeight;
 
         this.setState({
-            visibility: scrolled > document.body.height
+            visible: scrolled > height
         })
     };
 
     componentDidUpdate() {
         
-        // This function is where you define a list element, giving it classes,
-        // registering listeners, and appending children as you like. This one couples
-        // with demo.css to produce labels that appear when a the list item is hovered
-        // over.
+        // define a list element, register listeners, append children
         function makeNavListItem(element) {
             const li = document.createElement('li');
             const label = document.createElement('span');
             const spot = document.createElement('span');
         
-            // give label section id
+            // produces labels that appear when a the list item is hovered over
             label.className = "nav-label";
             label.textContent = element.id.trim();
         
@@ -51,7 +46,7 @@ export default class Navbar extends React.Component {
             li.appendChild(spot);
             li.appendChild(label);
         
-            // Custom className for our CSS purposes only. navbar will work around
+            // custom className for CSS purposes only. navbar will work around
             // existing classes by appending or removing the navbar-active class.
             li.className = "nav-element";
         
@@ -66,15 +61,24 @@ export default class Navbar extends React.Component {
             makeNavListItem: makeNavListItem,
             debounceTime: 100
         });
+
+        let visible = this.state.visible;
         
         // append element to document 
-        document.body.appendChild(nav);
+        if (visible) document.getElementById('navbar-wrapper').appendChild(nav);
     };
 
     render() {
         return (
-            <div className={styles.navbar}>
-            </div>
+            <Parallax translateX={['-100px', '200px']} 
+                speed={-10}
+                startScroll={100}>
+                <div>
+                    {this.state.visible && 
+                        <div id="navbar-wrapper" className={styles.navbar}></div>
+                    }
+                </div>
+             </Parallax>
         );
     };
 };

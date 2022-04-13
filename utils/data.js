@@ -1,4 +1,4 @@
-export const navLinks = [
+export const sections = [
     {
       name: "Schedule",
       path: "#schedule",

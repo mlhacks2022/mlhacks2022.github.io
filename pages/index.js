@@ -2,7 +2,7 @@ import Head from 'next/head';
 //import Image from 'next/image';
 
 import styles from '../styles/Home.module.css';
-import { navLinks } from "../utils/data";
+import { sections } from "../utils/data";
 
 import { useEffect, useRef, useState } from 'react';
 import RINGS from 'vanta/dist/vanta.rings.min';
@@ -76,7 +76,7 @@ export default function Home() {
         </div>
       </div>
 
-      {navLinks.map((link, index) => {
+      {sections.map((link, index) => {
         return (
           <div key={index} id={link.name} className="section nav-sec">
             test
