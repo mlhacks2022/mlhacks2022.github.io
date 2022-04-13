@@ -30,7 +30,7 @@ export const faqs = [
   },
   {
     question: 'What can I make?',
-    answer: 'Hackathon is centered around AI and Machine Learning, beginner level workshops and resources will be provided. However, you can make anything you want, don\'t have to adhere to theme.',
+    answer: 'Hackathon is centered around AI and Machine Learning, beginner level workshops and resources will be provided. However, you can make anything you want, don&apos;t have to adhere to theme.',
     color: '',
   },
   {
