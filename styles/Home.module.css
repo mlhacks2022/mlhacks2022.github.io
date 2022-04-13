@@ -2,20 +2,25 @@
   height: 120vh;
   margin: 0;
   width: 100vw;
-  padding: 40vh 10rem;
+  left: 0vw;
+  padding: 30vh 10rem;
   background-color: white;
+}
+
+.titleWrapper {
+  left: 0vw;
 }
 
 .title {
   padding: 0;
-  font-size: 8rem;
+  font-size: 10rem;
   font-weight: 300;
 }
 
 .subtitle {
   color: black;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .btn {

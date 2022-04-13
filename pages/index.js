@@ -1,12 +1,15 @@
 import Head from 'next/head';
 //import Image from 'next/image';
 
+import About from '../components/about';
+
 import styles from '../styles/Home.module.css';
 import { sections } from "../utils/data";
 
 import { useEffect, useRef, useState } from 'react';
 import RINGS from 'vanta/dist/vanta.rings.min';
 import * as THREE from 'three';
+import { Parallax } from 'react-scroll-parallax';
 
 //import { ThemeProvider } from 'theme-ui';
 //import theme from '../styles/theme.js';
@@ -49,32 +52,22 @@ export default function Home() {
       </Head>
 
       <div ref={vantaRef} className={styles.vantaBg}>
-        <h1 className={styles.title}>ML Hacks</h1>
-        <h2 className={styles.subtitle}>May 20 - 22</h2>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button className={styles.btn}>JOIN NOW</button>
-        </a>
+        <Parallax speed={15} className={styles.titleWrapper}>
+          <h1 className={styles.title}>ML Hacks</h1>
+          <Parallax speed={1}>
+            <h2 className={styles.subtitle}>May 20 - 22</h2>
+          </Parallax>
+          <a
+            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className={styles.btn}>JOIN NOW</button>
+          </a>
+        </Parallax>
       </div>
 
-      <div id='About' className={styles.intro + " section nav-sec"}> 
-        <div className={styles.introWrapper}>
-          <h1>
-            Welcome to ML Hacks!
-          </h1>
-
-          <p className={styles.description}>
-            Get started by doing some stuff.
-          </p>
-
-          <div className={styles.grid}>
-            
-          </div>
-        </div>
-      </div>
+      <About></About>
 
       {sections.map((link, index) => {
         return (

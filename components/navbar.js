@@ -1,11 +1,12 @@
 import React from 'react';
-import { useEffect } from 'react';
+import Image from 'next/image';
 import navbar from 'navbar';
 import { Parallax } from 'react-scroll-parallax';
 
 import Link from "next/link";
 
 import styles from '../styles/Navbar.module.css';
+import { sections } from "../utils/data";
 
 export default class Navbar extends React.Component {
     constructor (props) {
@@ -70,15 +71,28 @@ export default class Navbar extends React.Component {
 
     render() {
         return (
-            <Parallax translateX={['-100px', '200px']} 
-                speed={-10}
-                startScroll={100}>
-                <div>
-                    {this.state.visible && 
-                        <div id="navbar-wrapper" className={styles.navbar}></div>
-                    }
+            <div>
+                {this.state.visible && 
+                    <div id="navbar-wrapper" className={styles.navbar}></div>
+                }
+                <div className={styles.navbarTop}>
+                <Image
+                    src="/favicon.ico"
+                    alt="Logo"
+                    width={40}
+                    height={40}
+                />
+                    <div className={styles.navLinksWrapper}>
+                        {sections.map((link, index) => {
+                            return (
+                                <Link href={link.path}>
+                                    <div key={index} className={styles.navLink}>{link.name}</div>
+                                </Link>
+                            );
+                        })}
+                    </div>
                 </div>
-             </Parallax>
+            </div>
         );
     };
 };
