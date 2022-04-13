@@ -17,7 +17,7 @@ export default function About() {
                         </h1>
                     </Parallax>
                     <p className={styles.description}>
-                        We are Tri-Valley's premier <b>AI and machine learning</b> focused hackathon for 
+                        We are Tri-Valley&apos;s premier <b>AI and machine learning</b> focused hackathon for 
                         female and non-binary students, brought to you virtually through <b>48 hours </b>
                         of boundless collaborative innovation. By 
                         encouraging participation from students of all levels of experience and interest, 
