@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import navbar from 'navbar';
-import { Parallax } from 'react-scroll-parallax';
 
 import Link from "next/link";
 
@@ -82,12 +81,16 @@ export default class Navbar extends React.Component {
                     style={{display: this.state.display, zIndex: 100}}>
                 </div>
                 <div className={styles.navbarTop}>
-                <Image
-                    src="/favicon.ico"
-                    alt="Logo"
-                    width={40}
-                    height={40}
-                />
+                    <Link 
+                        className="link"
+                        href='https://mlhacks2022.vercel.app/'>
+                        <Image
+                            src="/favicon.ico"
+                            alt="Logo"
+                            width={40}
+                            height={40}
+                        />
+                    </Link>
                     <div className={styles.navLinksWrapper}>
                         {sections.map((link, index) => {
                             return (

@@ -151,10 +151,9 @@ a:hover {
   color: var(--bright-pink);
 }
 
-h1 a:hover,
-h1 a:focus,
-h1 a:active {
-  text-decoration: underline;
+.link {
+  cursor: pointer;
+  display: none;
 }
 
 h1 {
@@ -179,6 +178,13 @@ button{
 button:hover {
   color: white;
   background-color: black;
+}
+
+.card {
+  background-color: white;
+  color: black;
+  box-shadow: 2px 2px 8px 5px rgba(128, 128, 128, 0.322);
+  border-radius: 10px;
 }
 
 .button2 {
@@ -225,12 +231,6 @@ button:hover {
   margin: 110px auto 60px auto;
   width: 80%;
   max-width: 1000px;
-}
-
-.heading {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .switch-btn {
