@@ -14,7 +14,11 @@ export default class Navbar extends React.Component {
             visible: true,
         };
     };
-    
+
+    componentDidMount() {
+        window.addEventListener('scroll', this.updateNav);
+    };
+
     updateNav = () => {
         const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
         const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
@@ -24,10 +28,6 @@ export default class Navbar extends React.Component {
         this.setState({
             visibility: scrolled > document.body.height
         })
-    };
-
-    componentDidMount() {
-        window.addEventListener('scroll', this.updateNav);
     };
 
     componentDidUpdate() {
