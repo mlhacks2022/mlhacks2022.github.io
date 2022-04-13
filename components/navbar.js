@@ -30,6 +30,9 @@ export default class Navbar extends React.Component {
     };
 
     componentDidUpdate() {
+
+        const labelContainer = document.createElement('div');
+        labelContainer.className = 'nav-label-container';
         
         // define a list element, register listeners, append children
         function makeNavListItem(element) {
@@ -38,16 +41,18 @@ export default class Navbar extends React.Component {
             const spot = document.createElement('span');
         
             // produces labels that appear when a the list item is hovered over
-            label.className = "nav-label";
+            label.className = 'nav-label';
             label.textContent = element.id.trim();
         
-            spot.className = "nav-spot";
+            spot.className = 'nav-spot';
             spot.textContent = '●';
     
             li.appendChild(spot);
             li.appendChild(label);
+
+            labelContainer.appendChild(li);
         
-            // custom className for CSS purposes only. navbar will work around
+            // custom className for CS  S purposes only. navbar will work around
             // existing classes by appending or removing the navbar-active class.
             li.className = "nav-element";
         

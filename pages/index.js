@@ -54,7 +54,7 @@ export default function Home() {
       <div ref={vantaRef} className={styles.vantaBg}>
         <Parallax speed={15} className={styles.titleWrapper}>
           <h1 className={styles.title}>ML Hacks</h1>
-          <Parallax speed={1}>
+          <Parallax speed={2}>
             <h2 className={styles.subtitle}>May 20 - 22</h2>
           </Parallax>
           <a

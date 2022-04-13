@@ -18,7 +18,13 @@ export default function About() {
                     </Parallax>
 
                     <p className={styles.description}>
-                        Get started by doing some stuff.
+                        We are Tri-Valley's premier AI and machine learning focused hackathon for 
+                        female and non-binary students, brought to you virtually through 48 hours
+                        of engaged learning, boundless creation, and collaborative innovation. By 
+                        encouraging participation from students of all levels of experience and interest, 
+                        we aim to build the diverse tech community that has become essential to our 
+                        increasingly digitized society. Whether you want to  
+                        Through unconventional perspectives, we hope to break barriers and venture.   
                     </p>
 
                     <div className={styles.grid}>
