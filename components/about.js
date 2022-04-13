@@ -15,21 +15,21 @@ export default function About() {
                     <Parallax speed={-5}>
                         <div className={styles.introCard + " card"}></div>
                     </Parallax>
-                    <div className={styles.introText}>
-                        <Parallax speed={10}>
+                    <div className={styles.introText + " card"}>
+                        <Parallax speed={0}>
                             <h1>
                                 Welcome to ML Hacks!
                             </h1>
                         </Parallax>
                         <p className={styles.description}>
-                            We are Tri-Valley's premier AI and machine learning focused hackathon for 
-                            female and non-binary students, brought to you virtually through 48 hours
-                            of engaged learning, out-of-the-box thinking, and collaborative innovation. By 
+                            We are Tri-Valley's premier <b>AI and machine learning</b> focused hackathon for 
+                            female and non-binary students, brought to you virtually through <b>48 hours </b>
+                            of boundless collaborative innovation. By 
                             encouraging participation from students of all levels of experience and interest, 
                             we aim to build the diverse tech community that we believe is essential to the 
                             future of our increasingly digitized society. Whether you dream of building your
                             first app, pioneering sentient trash cans, or solving world hunger, ML Hacks is 
-                            the place for you.    
+                            the place for you to <b>make an impact</b>.    
                         </p>
                     </div>
 
