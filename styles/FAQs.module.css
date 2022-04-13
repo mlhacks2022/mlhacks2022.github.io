@@ -1,6 +1,7 @@
 .faqCard {
     background-color: white;
-    width: 50%;
+    width: 40%;
+    margin: 20px;
 }
 
 .grid {
@@ -8,10 +9,9 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 800px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .grid {
       width: 100%;
       flex-direction: column;

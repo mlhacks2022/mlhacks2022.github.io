@@ -11,7 +11,7 @@ import { faqs } from '../utils/data';
 
 export default function FAQs() {
     return (
-        <div id='FAQs' className={styles.intro + " section nav-sec"}> 
+        <div id='FAQs' className={styles.faqs + " section nav-sec"}> 
             <h2>FAQs</h2>
             <div className={styles.grid}>
                 {faqs.map((faq, i) => {

@@ -20,42 +20,47 @@ export const sections = [
 export const faqs = [
   {
     question: 'Who can attend?',
-    answer: 'Any high schooler that identifies as female or nonbinary. No prior experience required.',
+    answer: 'Any high schooler that identifies as female or nonbinary. No prior experience required. Any location.',
     color: '',
   },
   {
-    question: '',
-    answer: '',
+    question: 'Do I need coding experience?',
+    answer: 'No. ML Hacks is beginner-friendly.',
     color: '',
   },
   {
-    question: '',
-    answer: '',
+    question: 'What can I make?',
+    answer: 'Hackathon is centered around AI and Machine Learning, beginner level workshops and resources will be provided. However, you can make anything you want, don\'t have to adhere to theme.',
     color: '',
   },
   {
-    question: '',
-    answer: '',
+    question: 'What do I need to bring?',
+    answer: 'Computer, good internet connection.',
     color: '',
   },
   {
-    question: '',
-    answer: '',
+    question: 'How do I sign up?',
+    answer: 'Fill in our sign up form, sign up on Devpost, and join our discord here. ',
     color: '',
   },
   {
-    question: '',
-    answer: '',
+    question: 'How will projects be judged?',
+    answer: 'Can find rubric and more info here.',
     color: '',
   },
   {
-    question: '',
-    answer: '',
+    question: 'How will teams work?',
+    answer: 'Can form teams of 1-4 people. You can find a team by joining our Discord. Meet new people.',
     color: '',
   },
   {
-    question: '',
-    answer: '',
+    question: 'How will I submit my project?',
+    answer: 'Devpost, video demo, description, Github if possible.',
+    color: '',
+  },
+  {
+    question: 'Can\' find the answer to your question?',
+    answer: 'Email us at mlhacks.22@gmail.com',
     color: '',
   },
 ];
