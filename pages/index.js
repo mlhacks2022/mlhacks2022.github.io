@@ -2,6 +2,7 @@ import Head from 'next/head';
 //import Image from 'next/image';
 
 import About from '../components/about';
+import FAQs from '../components/faqs';
 
 import styles from '../styles/Home.module.css';
 import { sections } from "../utils/data";
@@ -69,14 +70,20 @@ export default function Home() {
 
       <About></About>
 
-      {sections.map((link, index) => {
-        return (
-          <div key={index} id={link.name} className="section nav-sec">
-            test
-            {link.name}
-          </div>
-        );
-        })}
+      <FAQs></FAQs>
+
+      <div id="Schedule" className="section nav-sec">
+        test
+        Schedule
+      </div>
+      <div id="Sponsors" className="section nav-sec">
+        test
+        Sponsors
+      </div>
+      <div id="Contact" className="section nav-sec">
+        test
+        Contact
+      </div>
     </div>
   )
 }

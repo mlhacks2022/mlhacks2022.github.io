@@ -206,28 +206,6 @@ button:hover {
   color: var(--light);
 }
 
-.usable-btn {
-  border-radius: 25px;
-  background-color: var(--main-light);
-  color: white;
-  padding: 10px 12px;
-}
-.usable-btn:hover {
-  background-color: var(--light);
-  color: white;
-}
-
-.unusable-btn {
-  border-radius: 25px;
-  background-color: var(--lighter);
-  color: white;
-  padding: 10px 12px;
-}
-.unusable-btn:hover {
-  cursor: auto;
-  color: white;
-}
-
 .container{
   margin: 110px auto 60px auto;
   width: 80%;
@@ -242,16 +220,6 @@ button:hover {
   background-color: white;
 }
 
-.cardset-name {
-  width: 70%;
-  font-size: 3rem;
-  font-weight: 600;
-  color: var(--light);
-  position: relative;
-  top: -10px;
-  left: 20px;
-}
-
 .section {
   width: 100vw;
   max-width: 1400px;
@@ -261,16 +229,6 @@ button:hover {
   background-color: white;
   color: black;
   border: 1px solid black;
-}
-
-.deck-section {
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: auto;
-  padding: 50px;
 }
 
 .grow {
@@ -302,19 +260,6 @@ button:hover {
     transform: scale(.01);
     opacity: 0%;
   }
-}
-
-.shade {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 200vh;
-  background-color: rgba(0, 0, 0, 0.349);
-  opacity: 0%;
-  display: none;
-  z-index: 600;
-  overflow: hidden;
 }
 
 .fadeIn {
