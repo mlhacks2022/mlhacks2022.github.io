@@ -5,7 +5,6 @@ import About from '../components/about';
 import FAQs from '../components/faqs';
 
 import styles from '../styles/Home.module.css';
-import { sections } from "../utils/data";
 
 import { useEffect, useRef, useState } from 'react';
 import RINGS from 'vanta/dist/vanta.rings.min';

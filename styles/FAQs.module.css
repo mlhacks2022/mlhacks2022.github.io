@@ -1,3 +1,8 @@
+.faqCard {
+    background-color: white;
+    width: 50%;
+}
+
 .grid {
     display: flex;
     align-items: center;

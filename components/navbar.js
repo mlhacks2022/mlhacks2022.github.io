@@ -2,10 +2,10 @@ import React from 'react';
 import Image from 'next/image';
 import navbar from 'navbar';
 
-import Link from "next/link";
+import Link from 'next/link';
 
 import styles from '../styles/Navbar.module.css';
-import { sections } from "../utils/data";
+import { sections } from '../utils/data';
 
 export default class Navbar extends React.Component {
     constructor (props) {
@@ -53,7 +53,7 @@ export default class Navbar extends React.Component {
         
             // custom className for CS  S purposes only. navbar will work around
             // existing classes by appending or removing the navbar-active class.
-            li.className = "nav-element";
+            li.className = 'nav-element';
         
             li.addEventListener('click', () => element.scrollIntoView(true));
         
@@ -92,10 +92,10 @@ export default class Navbar extends React.Component {
                         />
                     </Link>
                     <div className={styles.navLinksWrapper}>
-                        {sections.map((link, index) => {
+                        {sections.map((sec, i) => {
                             return (
-                                <Link href={link.path} key={index}>
-                                    <div className={styles.navLink}>{link.name}</div>
+                                <Link href={sec.path} key={i}>
+                                    <div className={styles.navLink}>{sec.name}</div>
                                 </Link>
                             );
                         })}
