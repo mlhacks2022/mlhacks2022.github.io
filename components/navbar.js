@@ -85,12 +85,14 @@ export default class Navbar extends React.Component {
                         className="link"
                         href='https://mlhacks2022.vercel.app/'
                         passHref>
-                        <Image
-                            src="/favicon.ico"
-                            alt="Logo"
-                            width={40}
-                            height={40}
-                        />
+                        <a>
+                            <Image
+                                src="/favicon.ico"
+                                alt="Logo"
+                                width={40}
+                                height={40}
+                            />
+                        </a>
                     </Link>
                     <div className={styles.navLinksWrapper}>
                         {sections.map((sec, i) => {

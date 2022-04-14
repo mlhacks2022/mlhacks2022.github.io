@@ -51,11 +51,13 @@ export default function Home() {
       </Head>
 
       <div ref={vantaRef} className={styles.vantaBg}>
-        <Parallax speed={15} className={styles.titleWrapper}>
+        <Parallax translateY={[80, -20]} className={styles.titleWrapper}>
           <h1 className={styles.title}>ML Hacks</h1>
-          <Parallax speed={2}>
-            <h2 className={styles.subtitle}>May 20 - 22</h2>
-          </Parallax>
+        </Parallax>
+        <Parallax translateY={[150, -50]}>
+          <h2 className={styles.subtitle}>May 20 - 22</h2>
+        </Parallax>
+        <Parallax translateY={[200, -100]}>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             target="_blank"
