@@ -1,0 +1,9 @@
+.page {
+    background-color: rgb(246, 245, 255);
+    margin: 0;
+    z-index: 200;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    transition: 1s ease;
+}

@@ -12,6 +12,7 @@ import * as THREE from 'three';
 import { Parallax } from 'react-scroll-parallax';
 
 export default function Home() {
+  const [loaded, setLoaded] = useState(false);
   const [vantaEffect, setVantaEffect] = useState(0);
   const vantaRef = useRef(null);
   useEffect(() => {
@@ -32,12 +33,15 @@ export default function Home() {
         })
       );
     };
+
+    const myTimeout = setTimeout(() => {
+      setLoaded(true);
+    }, 4000);
+
     return () => {
       if (vantaEffect) vantaEffect.destroy();
     };
   }, [vantaEffect]);
-
-  
 
   return (
     <div>
@@ -47,7 +51,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <PageLoading></PageLoading>
+      {!loaded && <PageLoading></PageLoading>}
 
       <div ref={vantaRef} className={styles.vantaBg}>
         <Parallax translateY={[80, -20]} className={styles.titleWrapper}>
