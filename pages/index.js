@@ -43,6 +43,8 @@ export default function Home() {
     };
   }, [vantaEffect]);
 
+  
+
   return (
     <div>
       <Head>
@@ -50,6 +52,8 @@ export default function Home() {
         <meta name="description" content="Tri-Valley's AI & Machine Learning Hackathon for Female/Non-binary Students. " />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <PageLoading></PageLoading>
 
       <div ref={vantaRef} className={styles.vantaBg}>
         <Parallax translateY={[80, -20]} className={styles.titleWrapper}>
@@ -86,6 +90,6 @@ export default function Home() {
         Contact
       </div>
     </div>
-  )
+  );
 }
 
