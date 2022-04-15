@@ -51,7 +51,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {!loaded && <PageLoading></PageLoading>}
+      {!loaded && <div></div>}
 
       <div ref={vantaRef} className={styles.vantaBg}>
         <Parallax translateY={[80, -20]} className={styles.titleWrapper}>
