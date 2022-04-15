@@ -32,7 +32,10 @@ export default class FAQCard extends React.Component {
                     onClick={this.toggleView}>
                     <h3>{this.props.question}</h3>
                 </div>
-                {this.state.open && <p className={styles.answer}>{this.props.answer}</p>}
+                {this.state.open && 
+                    <p className={styles.answer}
+                        style={{padding: '0 15px', marginBottom: '0'}}>{this.props.answer}</p>
+                }
             </div>
         );
     }
