@@ -11,12 +11,6 @@ import RINGS from 'vanta/dist/vanta.rings.min';
 import * as THREE from 'three';
 import { Parallax } from 'react-scroll-parallax';
 
-//import { ThemeProvider } from 'theme-ui';
-//import theme from '../styles/theme.js';
-
-//import 'bootstrap/dist/css/bootstrap.min.css';
-//import '../styles/globals.css';
-
 export default function Home() {
   const [vantaEffect, setVantaEffect] = useState(0);
   const vantaRef = useRef(null);
