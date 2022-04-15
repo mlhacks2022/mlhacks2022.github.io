@@ -73,19 +73,17 @@ export default function Home() {
 
       <About></About>
 
+      <div id="Schedule" className="section nav-sec">
+        <h2>Schedule</h2>
+      </div>
+
       <FAQs></FAQs>
 
-      <div id="Schedule" className="section nav-sec">
-        test
-        Schedule
-      </div>
       <div id="Sponsors" className="section nav-sec">
-        test
-        Sponsors
+        <h2>Sponsors</h2>
       </div>
       <div id="Contact" className="section nav-sec">
-        test
-        Contact
+        <h2>Contact</h2>
       </div>
     </div>
   );

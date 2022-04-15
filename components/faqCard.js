@@ -9,6 +9,14 @@ export default class FAQCard extends React.Component {
     }
 
     render() {
+        if (this.props.number === 8) {
+            return (
+                <div className={styles.faqCard + " card"}> 
+                    <h3>{this.props.question}</h3>
+                    <p>{this.props.answer}</p>
+                </div>
+            );
+        }
         return (
             <div className={styles.faqCard + " card"}> 
                 <h3>{this.props.question}</h3>
