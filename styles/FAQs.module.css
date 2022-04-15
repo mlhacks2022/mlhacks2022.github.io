@@ -1,17 +1,30 @@
+.cardWrapper {
+    margin: 20px 20px 0px 20px;
+}
+
 .faqCard {
     background-color: white;
-    width: 40%;
-    min-height: 215px;
-    margin: 20px;
     box-shadow: 1px 1px 5px 2px rgba(128, 128, 128, 0.322);
     padding: 15px 30px;
+    transition: .5s ease;
+}
+.faqCard:hover {
+    transform: translateY(-8px);
+    cursor: pointer;
+}
+
+.col {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    justify-content: top;
 }
 
 .grid {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    align-items: top;
+    justify-content: space-between;
 }
 
 @media (max-width: 750px) {
@@ -20,5 +33,34 @@
     }
     .faqCard {
         width: 100%;
+    }
+}
+
+.answer {
+    color: black;
+    animation: fadeIn 1s ease 0s 1 forwards;
+}
+
+.fadeIn {
+    animation: fadeIn .5s ease 0s 1 forwards;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+  
+.fadeOut {
+    animation: fadeOut .5s ease 0s 1 forwards;
+}
+@keyframes fadeOut {
+    0% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
     }
 }
