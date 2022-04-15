@@ -2,6 +2,7 @@
     background-color: white;
     width: 40%;
     margin: 20px;
+    box-shadow: 1px 1px 5px 2px rgba(128, 128, 128, 0.322);
 }
 
 .grid {
@@ -11,9 +12,11 @@
     flex-wrap: wrap;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 750px) {
     .grid {
-      width: 100%;
-      flex-direction: column;
+        flex-direction: column;
+    }
+    .faqCard {
+        width: 100%;
     }
 }

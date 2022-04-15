@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import PageLoading from './PageLoading';
 
 import About from '../components/about';
 import FAQs from '../components/faqs';
