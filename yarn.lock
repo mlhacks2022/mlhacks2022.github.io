@@ -200,7 +200,7 @@
 
 "@emotion/react@^11.9.0":
   version "11.9.0"
-  resolved "https://registry.npmjs.org/@emotion/react/-/react-11.9.0.tgz"
+  resolved "https://registry.yarnpkg.com/@emotion/react/-/react-11.9.0.tgz#b6d42b1db3bd7511e7a7c4151dc8bc82e14593b8"
   integrity sha512-lBVSF5d0ceKtfKCDQJveNAtkC7ayxpVlgOohLgXqRwqWr9bOf4TZAFFyIcNngnV6xK6X4x2ZeXq7vliHkoVkxQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
@@ -278,7 +278,7 @@
 
 "@mdx-js/react@^2.1.1":
   version "2.1.1"
-  resolved "https://registry.npmjs.org/@mdx-js/react/-/react-2.1.1.tgz"
+  resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-2.1.1.tgz#c59d844fd61b776fea8673fb77405d4e14db48c5"
   integrity sha512-7zlZDf5xmWH8I0kFE4DG91COOkxjaW9DX5f1HWztZpFcVua2gJgMYfIkFaDpO/DH/tWi6Mz+OheW4194r15igg==
   dependencies:
     "@types/mdx" "^2.0.0"
@@ -4480,7 +4480,7 @@ text-table@^0.2.0:
 
 theme-ui@^0.14.2:
   version "0.14.2"
-  resolved "https://registry.npmjs.org/theme-ui/-/theme-ui-0.14.2.tgz"
+  resolved "https://registry.yarnpkg.com/theme-ui/-/theme-ui-0.14.2.tgz#a1b10cc6b8aab0d474c2af36c82437f92813bb7f"
   integrity sha512-psyaqDheEJjAC1XBevwa7XghPvix1jWRiFcjfCbTv4FZRClIQIZRAnjLL26rzvNB8WbHqlQgRB/Wr1aXyO7Gyg==
   dependencies:
     "@theme-ui/color-modes" "0.14.2"
