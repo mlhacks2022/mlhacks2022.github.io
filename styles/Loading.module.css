@@ -4,6 +4,7 @@
     z-index: 200;
     width: 100vw;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     transition: 1s ease;
+    overflow: hidden;
 }

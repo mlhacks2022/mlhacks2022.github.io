@@ -12,7 +12,7 @@ export default class FAQCard extends React.Component {
         return (
             <div className={styles.faqCard + " card"}> 
                 <h3>{this.props.question}</h3>
-                <h4>{this.props.answer}</h4>
+                <p>{this.props.answer}</p>
             </div>
         );
     }

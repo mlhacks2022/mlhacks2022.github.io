@@ -62,7 +62,7 @@ export default function Home() {
         </Parallax>
         <Parallax translateY={[200, -100]}>
           <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -19,6 +19,11 @@ export const sections = [
 
 export const faqs = [
   {
+    question: 'What is ML Hacks?',
+    answer: 'ML Hacks is an online, completely free hackathon where high school girls (including nonbinary and trans) can experiment with coding in a fun and welcoming way. Our focus is on introducing AI/machine learning and giving our coders a chance to try it out themselves. They can also create anything they’d like to—a website, app, game, etc! With seminars and classes from our wonderful guest speakers as well as a stimulating environment, we hope to see each of our participants fall in love with something new.',
+    color: '',
+  },
+  {
     question: 'Who can attend?',
     answer: 'Any high schooler that identifies as female or nonbinary. No prior experience required. Any location.',
     color: '',
