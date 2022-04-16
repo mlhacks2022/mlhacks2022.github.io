@@ -176,11 +176,19 @@ button{
   transition: .5s ease;
   padding: 8px 12px;
   margin: 0;
-  cursor: pointer;
+
 }
 button:hover {
   color: white;
+  cursor: pointer;
   background-color: black;
+}
+
+.buttonWrapper {
+  background-color: white;
+  width: auto;
+  border-radius: 10px;
+  position: absolute;
 }
 
 .card {

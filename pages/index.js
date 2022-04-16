@@ -69,7 +69,11 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className={styles.btn}>Join as a Hacker</button>
+            <div className={styles.btnWrapper + 'buttonWrapper'}>
+              <button className={styles.btn}>
+                Join as a Hacker
+              </button>
+            </div>
           </a>
         </Parallax>
       </div>
