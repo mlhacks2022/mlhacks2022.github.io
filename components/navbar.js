@@ -74,7 +74,17 @@ export default class Navbar extends React.Component {
     };
 
     changeLinkColors(el) {
-        console.log(el)
+        sections.forEach(sec => {
+           if (sec.name !== el) {
+               document.getElementById(sec.name).style.color = 'gray';
+           }
+        });
+    };
+
+    resetLinkColors(el) {
+        sections.forEach(sec => {
+           document.getElementById(sec.name).style.color = 'white';
+        });
     };
 
     render() {
@@ -108,7 +118,8 @@ export default class Navbar extends React.Component {
                                     <div 
                                         className={styles.navLink}
                                         id={sec.name}
-                                        onMouseEnter={() => this.changeLinkColors(sec.name)}>{sec.name}</div>
+                                        onMouseEnter={() => this.changeLinkColors(sec.name)}
+                                        onMouseLeave={this.resetLinkColors}>{sec.name}</div>
                                 </Link>
                             );
                         })}

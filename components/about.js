@@ -14,7 +14,7 @@ export default function About() {
                 <div>
                     <Parallax translateX={[50, -120]}>
                         <h1 className={styles.welcomeText}>
-                            welcome to <span className={styles.highlight}>ML Hacks</span>!
+                            welcome to <span className={styles.highlight}>ML Hacks!</span>
                         </h1>
                     </Parallax>
                     <div className={styles.introCard + " card"}>

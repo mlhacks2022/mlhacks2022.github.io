@@ -34,7 +34,6 @@
     padding: 0.5rem;
 }
 .navLink:hover {
-    color: var(--light);
     cursor: pointer;
 }
 
