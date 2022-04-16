@@ -25,7 +25,13 @@ export default function About() {
                                 width={200}
                                 height={200}
                             />
-                            <button className={styles.btn}>JOIN NOW</button>
+                            <a
+                                href="https://9rnqzf9xeeo.typeform.com/to/gxTBMhTn"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <button className={styles.btn}>Sign up today!</button>
+                            </a>
                         </div>
                         <div className={styles.introCol + ' ' + styles.col2}>
                             <p className={styles.description}>
@@ -33,7 +39,7 @@ export default function About() {
                                 female and non-binary students, brought to you virtually through <b>48 hours </b>
                                 of boundless collaborative innovation. By 
                                 encouraging participation from students of all levels of experience and interest, 
-                                we aim to build the diverse tech community that we believe is essential to the 
+                                we aim to build the <b>diverse tech community</b> that we believe is essential to the 
                                 future of our increasingly digitized society. Whether you dream of building your
                                 first app, pioneering sentient trash cans, or solving world hunger, ML Hacks is 
                                 the place for you to <b>make an impact</b>.    

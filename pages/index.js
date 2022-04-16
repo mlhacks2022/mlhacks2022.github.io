@@ -29,8 +29,10 @@ export default function Home() {
           minWidth: 200.00,
           scale: 1.00,
           scaleMobile: 1.00,
+          color: 0x67c9ff,
           backgroundColor: 0xffffff,
-          color: 0xff1e
+          backgroundColor: 0x0f1d4a,
+          backgroundColor: 0x171717,
         })
       );
     };
@@ -63,11 +65,11 @@ export default function Home() {
         </Parallax>
         <Parallax translateY={[200, -100]}>
           <a
-            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            href="https://9rnqzf9xeeo.typeform.com/to/gxTBMhTn"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className={styles.btn}>JOIN NOW</button>
+            <button className={styles.btn}>Join as a Hacker</button>
           </a>
         </Parallax>
       </div>

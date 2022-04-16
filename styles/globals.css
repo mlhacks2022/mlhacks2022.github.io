@@ -1,4 +1,6 @@
 :root {
+  --navbar: rgba(0, 0, 0, 0.768);
+
   --light-pink: rgb(255, 202, 248);
   --pink: rgb(255, 145, 240);
   --bright-pink: rgb(255, 68, 227);
@@ -34,6 +36,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 * {
@@ -163,7 +166,7 @@ h1 {
 
 button{
   outline: none;
-  border: solid 2.6px black;
+  border:none;
   background-color: white;
   color: black;
   border-radius: 50px;
