@@ -9,12 +9,12 @@ export default function About() {
         <div id='About' className={styles.intro + " section nav-sec"}> 
             <div className={styles.introWrapper}>
                 <Parallax speed={-5}>
-                    <div className={styles.introDeco + " card"}></div>
+                    <div className={styles.deco + " card"}></div>
                 </Parallax>
                 <div>
-                    <Parallax translateX={[0, 0]}>
+                    <Parallax translateX={[50, -120]}>
                         <h1 className={styles.welcomeText}>
-                            welcome to ML Hacks!
+                            welcome to <span className={styles.highlight}>ML Hacks</span>!
                         </h1>
                     </Parallax>
                     <div className={styles.introCard + " card"}>
