@@ -20,17 +20,17 @@ export default function About() {
                     <div className={styles.introCard + " card"}>
                         <div className={styles.introCol + ' ' + styles.col1}>
                             <Image
-                                src="/favicon.ico"
-                                alt="Logo"
-                                width={200}
-                                height={200}
+                                src="/server.svg"
+                                alt="server"
+                                width={400}
+                                height={400}
                             />
                             <a
                                 href="https://9rnqzf9xeeo.typeform.com/to/gxTBMhTn"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <button className={styles.btn}>Sign up today!</button>
+                                <button className={styles.btn}>Test Button</button>
                             </a>
                         </div>
                         <div className={styles.introCol + ' ' + styles.col2}>

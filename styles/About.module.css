@@ -41,11 +41,12 @@
     font-family: monospace;
     text-shadow: 2px 2px 3px 5px #c2c2c2;
     color: white;
-    color: gray;
+    color: rgb(236, 236, 236);
+    color: white;
 }
 .highlight {
-    color: rgb(255, 255, 158);
-    color: rgb(196, 192, 255);
+    color: rgb(203, 202, 225);
+    color: rgb(255, 192, 255);
 }
 
 .introCard {
@@ -53,9 +54,8 @@
     position: relative;
     top:20px;
     width: 80%;
-    max-width: 1200px;
+    max-width: 1000px;
     box-shadow: 1px 1px 8px 5px rgba(0, 0, 0, 0.322);
-    background-color: rgb(32, 32, 32);
     color: white;
     padding: 0;
     display: flex;
@@ -83,6 +83,9 @@
     font-weight: 700;
     font-size: 1.7rem;
     border-radius: 8px;
+    background: linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(83,0,255,1) 50%, rgba(195,87,255,1) 100%);
+    background: linear-gradient(135deg, rgba(10,0,185,1) 0%, rgba(83,0,255,1) 23%, rgba(155,27,255,1) 53%, rgba(235,75,250,1) 80%, rgba(255,110,246,1) 100%);
+    background: linear-gradient(90deg, rgb(255, 87, 199), rgb(172, 220, 255));
     background: linear-gradient(90deg, rgb(255, 87, 199), rgb(172, 220, 255));
     color: white;
     border: 3px solid white;
@@ -93,10 +96,9 @@
 }
 
 .col2 {
-    background: linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(83,0,255,1) 50%, rgba(195,87,255,1) 100%);
-    background: linear-gradient(135deg, rgba(10,0,185,1) 0%, rgba(83,0,255,1) 23%, rgba(155,27,255,1) 53%, rgba(235,75,250,1) 80%, rgba(255,110,246,1) 100%);
-    background: linear-gradient(90deg, rgb(255, 87, 199), rgb(172, 220, 255));
-    background-color: pink;
+    height: inherit;
+    background-color: var(--light-pink);
+    background-color: rgb(37, 37, 37);
     border-radius: 0 30px 30px 0;
 }
 
