@@ -93,8 +93,8 @@ export default class Navbar extends React.Component {
                             <Image
                                 src="/favicon.ico"
                                 alt="Logo"
-                                width={40}
-                                height={40}
+                                width={35}
+                                height={35}
                             />
                         </a>
                     </Link>

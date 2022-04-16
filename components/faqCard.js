@@ -11,6 +11,10 @@ export default class FAQCard extends React.Component {
     };
 
     toggleView = () => {
+        let card = document.getElementById('faqCard' + this.props.number);
+        card.classList.remove('toggleAnim');
+        card.classList.add('toggleAnim');
+
         this.setState({
             open: !this.state.open,
         });
@@ -26,7 +30,8 @@ export default class FAQCard extends React.Component {
             );
         }
         return (
-            <div className={styles.cardWrapper}>
+            <div className={styles.cardWrapper}
+                id={'faqCard' + this.props.number}>
                 <div 
                     className={styles.faqCard + " card"}
                     onClick={this.toggleView}>

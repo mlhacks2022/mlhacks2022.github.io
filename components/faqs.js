@@ -1,7 +1,5 @@
 import React from 'react';
 
-import Link from "next/link";
-
 import FAQCard from '../components/faqCard';
 
 import styles from '../styles/FAQs.module.css';

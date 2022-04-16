@@ -36,6 +36,9 @@
     .grid {
         flex-direction: column;
     }
+    .col {
+        width: 100%;
+    }
     .faqCard {
         width: 100%;
     }
@@ -68,5 +71,19 @@
     }
     100% {
         opacity: 0%;
+    }
+}
+.toggleAnim {
+    animation: toggle .5s ease 0s 1 forwards;
+}
+@keyframes toggle {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
     }
 }

@@ -2,6 +2,7 @@ import Head from 'next/head';
 import PageLoading from './PageLoading';
 
 import About from '../components/about';
+import Schedule from '../components/schedule';
 import FAQs from '../components/faqs';
 
 import styles from '../styles/Home.module.css';
@@ -73,9 +74,7 @@ export default function Home() {
 
       <About></About>
 
-      <div id="Schedule" className="section nav-sec">
-        <h2>Schedule</h2>
-      </div>
+      <Schedule></Schedule>
 
       <FAQs></FAQs>
 
