@@ -73,6 +73,10 @@ export default class Navbar extends React.Component {
         if (display === 'block') document.getElementById('navbar-wrapper').appendChild(nav);
     };
 
+    changeLinkColors(el) {
+        console.log(el)
+    };
+
     render() {
         return (
             <div>
@@ -97,8 +101,14 @@ export default class Navbar extends React.Component {
                     <div className={styles.navLinksWrapper}>
                         {sections.map((sec, i) => {
                             return (
-                                <Link href={sec.path} passHref key={i}>
-                                    <div className={styles.navLink}>{sec.name}</div>
+                                <Link 
+                                    href={sec.path} 
+                                    passHref 
+                                    key={i}>
+                                    <div 
+                                        className={styles.navLink}
+                                        id={sec.name}
+                                        onMouseEnter={() => this.changeLinkColors(sec.name)}>{sec.name}</div>
                                 </Link>
                             );
                         })}

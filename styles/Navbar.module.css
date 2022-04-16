@@ -1,16 +1,5 @@
-.navbar {
-    position: fixed;
-    z-index: 100;
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    color: black;
-}
-
 .navbarTop {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     z-index: 100;
@@ -18,10 +7,9 @@
     display: flex;
     flex-direction:row;
     justify-content: space-between;
-    align-items: flex-start;
-    padding: 20px 40px;
-    background-color: white;
-    background-color: transparent;
+    align-items: center;
+    padding: 5px 40px;
+    background-color: rgba(255, 255, 255, 0.768);
 }
 
 .navLinksWrapper {
@@ -32,11 +20,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    color: black;
 }
 
 .navLink {
     color:rgb(166, 166, 166);
+    color: black;
     font-size: 1.8rem;
     font-weight: 400;
     margin: 0 0 0px 10px;
@@ -45,8 +33,19 @@
     padding: 0.5rem;
 }
 .navLink:hover {
-    color: var(--darker);
+    color: var(--light);
     cursor: pointer;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 100;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: black;
 }
 
 .navElement {
