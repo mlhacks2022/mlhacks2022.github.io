@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import PageLoading from './PageLoading';
 
 import About from '../components/about';
@@ -79,6 +80,13 @@ export default function Home() {
       </div>
 
       <About></About>
+
+      <Image
+        src="/logo.png"
+        alt="Logo"
+        width={600}
+        height={600}
+      />
 
       <Schedule></Schedule>
 

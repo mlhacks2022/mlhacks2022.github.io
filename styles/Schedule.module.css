@@ -3,3 +3,26 @@
     align-items: flex-start;
     justify-content: space-between;
 }
+
+.eventBox {
+    background-color: rgb(59, 59, 59);
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.time {
+    margin: 10px 0 10px 0;
+    font-weight: 400;
+}
+
+.title {
+    margin: 20px 0 10px 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.sub {
+    margin: 10px 0 0px 0;
+}
