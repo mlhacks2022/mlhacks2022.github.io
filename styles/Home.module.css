@@ -37,7 +37,11 @@
   transition: opacity .5s ease;
 }
 .btn:hover {
-  opacity: 80%;
+  opacity: 70%;
+}
+
+.btnWrapper {
+  margin-top: 45px;
 }
 
 .code {
