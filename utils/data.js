@@ -82,3 +82,94 @@ export const faqs2 = [
     number: 10,
   },
 ];
+
+export const events1 = [
+  {
+    time: '4:30 PM - 4:45 PM',
+    name: 'Opening Ceremony',
+  },
+  {
+    time: '5:00 PM',
+    name: 'Hacking starts!',
+  },
+  {
+    time: '6:00 PM - 7:00 PM',
+    name: 'Team Building Activities',
+  },
+  {
+    time: '7:00 PM - 8:00 PM',
+    name: 'Intro to Python',
+    sub: '',
+  },
+  {
+    time: '8:00 PM - 9:00 PM',
+    name: 'Intro to HTML/CSS and Javascript',
+    sub: '',
+  },
+];
+
+export const events2 = [
+  {
+    time: '9:00 AM - 10:00 AM',
+    name: 'Diversity/Inclusion Talk',
+    sub: '',
+  },
+  {
+    time: '11:00 AM - 12:00 PM',
+    name: 'Intro to Machine Learning',
+    sub: '',
+  },
+  {
+    time: '1:00 PM - 2:00 PM',
+    name: 'Intro to Github',
+    sub: '',
+  },
+  {
+    time: '3:00 PM - 4:00 PM',
+    name: 'Advanced Machine Learning Topics',
+    sub: '',
+  },
+  {
+    time: '5:00 PM - 6:00 PM',
+    name: 'Tackling Imposter Syndrome',
+    sub: '',
+  },
+  {
+    time: '7:00 PM - 8:00 PM',
+    name: 'Game/Movie Night',
+  },
+];
+
+export const events3 = [
+  {
+    time: '8:00 AM',
+    name: 'Submissions start',
+  },
+  {
+    time: '9:00 AM - 10:00 AM',
+    name: 'Women in STEM Panel + Q&A',
+    sub: '',
+  },
+  {
+    time: '1:00 PM - 2:00 PM',
+    name: 'Proof Assistant',
+    sub: '',
+  },
+  {
+    time: '3:00 PM - 4:00 PM',
+    name: 'Prototyping with Figma',
+    sub: '',
+  },
+  {
+    time: '5:00 PM',
+    name: 'Hacking Ends',
+  },
+  {
+    time: '5:15 PM - 7:45 PM',
+    name: 'Judging',
+  },
+  {
+    time: '8:00 PM - 8:30 PM',
+    name: 'Closing Ceremony + Winners Announced!',
+  },
+];

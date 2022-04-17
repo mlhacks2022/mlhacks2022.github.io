@@ -25,6 +25,7 @@
 }
 
 .btn {
+  width: 183px;
   font-family: inherit;
   font-weight: 700;
   font-size: 1.7rem;
@@ -41,7 +42,7 @@
 }
 
 .btnWrapper {
-  margin-top: 45px;
+  margin-top: 30px;
 }
 
 .code {
