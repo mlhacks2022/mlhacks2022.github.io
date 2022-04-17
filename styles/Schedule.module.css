@@ -1,15 +1,36 @@
+.schedule {
+    background-color: #171717;
+    color: white;
+}
+
 .scheduleWrapper {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
 }
 
+.scheduleCol {
+    width: 33%;
+}
+
 .eventBox {
     background-color: rgb(59, 59, 59);
+    background: rgb(0,153,255);
+    background: linear-gradient(135deg, rgba(0,153,255,1) 0%, rgba(195,87,255,1) 100%);
     color: white;
     padding: 20px;
     margin: 10px;
     border-radius: 10px;
+    box-shadow: 0px 0px 20px 2px rgb(0, 0, 0);
+}
+
+.eventBox2 {
+    background: rgb(255,203,0);
+    background: linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%);
+}
+
+.eventBox3 {
+    background: linear-gradient(90deg, rgb(255, 87, 199), rgb(172, 220, 255));
 }
 
 .time {
@@ -25,4 +46,6 @@
 
 .sub {
     margin: 10px 0 0px 0;
+    color: rgb(227, 227, 227);
+    font-weight: 400;
 }

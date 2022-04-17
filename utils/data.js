@@ -99,7 +99,7 @@ export const events1 = [
   {
     time: '7:00 PM - 8:00 PM',
     name: 'Intro to Python',
-    sub: 'Speaker Name',
+    sub: 'Host Name',
   },
   {
     time: '8:00 PM - 9:00 PM',
