@@ -8,15 +8,27 @@ export default function About() {
     return (
         <div id='About' className={styles.intro + " section nav-sec"}> 
             <div className={styles.introWrapper}>
-                <Parallax speed={-5}>
-                    <div className={styles.deco + " card"}></div>
+                <Parallax speed={0}>
+                    <div style={{display: 'none'}} className={styles.deco + " card"}></div>
                 </Parallax>
                 <div>
-                    <Parallax translateX={[50, -120]}>
-                        <h1 className={styles.welcomeText}>
-                            welcome to <span className={styles.highlight}>ML Hacks!</span>
-                        </h1>
-                    </Parallax>
+                    <div className={styles.welcomeWrapper}>
+                        <Parallax translateX={[-40, -60]}>
+                            <h1 className={styles.welcomeText}>
+                                welcome to <span className={styles.highlight}>ML Hacks!</span> welcome to <span className={styles.highlight}>ML Hacks!</span>
+                            </h1>
+                        </Parallax>
+                        <Parallax translateX={[-35, -25]}>
+                            <h1 className={styles.welcomeText}>
+                                welcome to <span className={styles.highlight}>ML Hacks!</span> welcome to <span className={styles.highlight}>ML Hacks!</span>
+                            </h1>
+                        </Parallax>
+                        <Parallax translateX={[-10, -30]}>
+                            <h1 className={styles.welcomeText}>
+                                welcome to <span className={styles.highlight}>ML Hacks!</span> welcome to <span className={styles.highlight}>ML Hacks!</span>
+                            </h1>
+                        </Parallax>
+                    </div>
                     <div className={styles.introCard + " card"}>
                         <div className={styles.introCol + ' ' + styles.col1}>
                             <Image

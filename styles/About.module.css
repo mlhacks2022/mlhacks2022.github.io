@@ -32,12 +32,15 @@
     background-color: rgb(255, 255, 255);
 }
 
+.welcomeWrapper {
+    position: absolute;
+    top: -130px;
+}
+
 .welcomeText {
     font-size: 20rem;
     font-weight: 300;
     white-space: nowrap;
-    position: absolute;
-    top: -130px;
     font-family: monospace;
     text-shadow: 2px 2px 3px 5px #c2c2c2;
     color: white;
@@ -47,6 +50,7 @@
 .highlight {
     color: rgb(203, 202, 225);
     color: rgb(255, 192, 255);
+    color: rgb(192, 194, 255);
 }
 
 .introCard {
