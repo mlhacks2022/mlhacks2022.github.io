@@ -32,7 +32,7 @@ export default function About() {
                     <div className={styles.introCard + " card"}>
                         <div className={styles.introCol + ' ' + styles.col1}>
                             <Image
-                                src="/server.svg"
+                                src="/logo.png"
                                 alt="server"
                                 width={400}
                                 height={400}

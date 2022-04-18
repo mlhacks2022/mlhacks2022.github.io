@@ -81,13 +81,6 @@ export default function Home() {
 
       <About></About>
 
-      <Image
-        src="/logo.png"
-        alt="Logo"
-        width={600}
-        height={600}
-      />
-
       <Schedule id="Schedule"></Schedule>
 
       <FAQs></FAQs>
