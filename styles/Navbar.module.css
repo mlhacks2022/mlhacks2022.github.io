@@ -1,4 +1,6 @@
 .navbarTop {
+    --linkSub: rgb(164, 164, 164);
+    --linkPrim: black;
     position: fixed;
     top: 0;
     right: 0;
@@ -9,7 +11,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 40px;
-    background-color: var(--navbar);
+    background-color: rgba(255, 255, 255, 0.768);
     backdrop-filter: blur(6px);
 }
 
@@ -35,36 +37,4 @@
 }
 .navLink:hover {
     cursor: pointer;
-}
-
-.navbar {
-    position: fixed;
-    z-index: 100;
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    color: black;
-}
-
-.navElement {
-    text-align: right;
-    cursor: pointer;
-    margin: 1rem;
-    color: #aaa;
-    transition: color 0.25s;
-}
-
-.navSpot:hover {
-    color: black;
-}
-
-.nav-active {
-    color: black;
-}
-
-li:hover .navLink {
-    opacity: 1;
-    background-color: #fff;
 }
