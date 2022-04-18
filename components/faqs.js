@@ -8,8 +8,8 @@ import { faqs1, faqs2 } from '../utils/data';
 
 export default function FAQs() {
     return (
-        <div id='FAQs' className={styles.faqs + " section nav-sec"}> 
-            <h2>FAQs</h2>
+        <div id='faqs' className={styles.faqs + " section nav-sec"}> 
+            <h1>FAQs</h1>
             <div className={styles.grid}>
                 <div className={styles.col}>
                     {faqs1.map((faq, i) => {

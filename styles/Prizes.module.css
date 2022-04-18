@@ -1,0 +1,12 @@
+.awards {
+    color: white;
+}
+
+.awardsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.awardCard {
+    background-color: white;
+}

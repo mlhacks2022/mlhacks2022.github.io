@@ -1,10 +1,11 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import PageLoading from './PageLoading';
 
 import About from '../components/about';
 import Schedule from '../components/schedule';
 import FAQs from '../components/faqs';
+import Prizes from '../components/prizes';
+import Contact from '../components/contact';
 
 import styles from '../styles/Home.module.css';
 
@@ -83,14 +84,11 @@ export default function Home() {
 
       <Schedule id="Schedule"></Schedule>
 
+      <Prizes></Prizes>
+
       <FAQs></FAQs>
 
-      <div id="Sponsors" className="section nav-sec">
-        <h2>Sponsors</h2>
-      </div>
-      <div id="Contact" className="section nav-sec">
-        <h2>Contact</h2>
-      </div>
+      <Contact></Contact>
     </div>
   );
 }

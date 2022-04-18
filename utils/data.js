@@ -1,19 +1,19 @@
 export const sections = [
   {
-    name: 'FAQs',
-    path: '#FAQs',
-  },
-  {
     name: 'Schedule',
-    path: '#Schedule',
+    path: '#schedule',
   },
   {
-    name: 'Sponsors',
-    path: '#Sponsors',
+    name: 'FAQs',
+    path: '#faqs',
+  },
+  {
+    name: 'Prizes',
+    path: '#prizes',
   },
   {
     name: 'Contact',
-    path: '#Contact',
+    path: '#contact',
   },
 ];
 
@@ -216,5 +216,38 @@ export const events3 = [
     time: '8:00 PM - 8:30 PM',
     name: 'Closing Ceremony + Winners Announced!',
     cat: 'general',
+  },
+];
+
+export const awards = [
+  {
+    name: '1st Overall',
+    img: '/logo.png',
+    prizes: ['something', 'something'],
+  },
+  {
+    name: '2nd Overall',
+    img: '/logo.png',
+    prizes: ['something', 'something'],
+  },
+  {
+    name: '3rd Overall',
+    img: '/logo.png',
+    prizes: ['something', 'something'],
+  },
+  {
+    name: 'Best ML Hack',
+    img: '/logo.png',
+    prizes: ['something', 'something'],
+  },
+  {
+    name: 'Best Design',
+    img: '/logo.png',
+    prizes: ['something', 'something'],
+  },
+  {
+    name: 'Best Social Good Hack',
+    img: '/logo.png',
+    prizes: ['something', 'something'],
   },
 ];

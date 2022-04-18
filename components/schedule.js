@@ -42,7 +42,7 @@ export default class Schedule extends React.Component {
 
     render() {
         return(
-            <div className={styles.schedule + " section nav-sec"}>
+            <div id="schedule" className={styles.schedule + " section nav-sec"}>
                 <h1 className={styles.scheduleTitle}>Tentative Schedule (PST)</h1>
                 <div className={styles.legend}>
                     {eventCategories.map((cat, i) => {

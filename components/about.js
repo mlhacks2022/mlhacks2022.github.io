@@ -6,7 +6,7 @@ import styles from '../styles/About.module.css';
 
 export default function About() {
     return (
-        <div id='About' className={styles.intro + " section nav-sec"}> 
+        <div id='about' className={styles.intro + " section nav-sec"}> 
             <div className={styles.introWrapper}>
                 <Parallax speed={0}>
                     <div style={{display: 'none'}} className={styles.deco + " card"}></div>
