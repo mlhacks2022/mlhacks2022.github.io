@@ -16,8 +16,23 @@ export default class Schedule extends React.Component {
     };
 
     setDisplay(cat) {
+        console.log('first cat: ' + cat)
         this.setState({
             display: cat,
+        });
+        this.changeBtnStyle(cat);
+    };
+
+    changeBtnStyle(el) {
+        eventCategories.forEach(cat => {
+            let c = document.getElementById(cat);
+            if (cat !== el) {
+                c.style.background = 'rgb(59, 59, 59)';
+                c.style.color = 'white';
+            } else {
+                c.style.background = 'white';
+                c.style.color = 'rgb(59, 59, 59)';
+            }
         });
     };
 
@@ -29,6 +44,7 @@ export default class Schedule extends React.Component {
                     {eventCategories.map((cat, i) => {
                         return (
                             <button key={i}
+                                id={cat}
                                 className={styles.btn}
                                 onClick={() => this.setDisplay(cat)}>
                                 {cat}

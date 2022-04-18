@@ -13,9 +13,13 @@
 
 .btn {
     color: white;
-    background-color: black;
+    background-color: rgb(59, 59, 59);
     margin: 0 10px;
     font-size: 1.8rem;
+}
+#all {
+    color: black;
+    background-color: white;
 }
 
 .scheduleWrapper {
@@ -41,7 +45,6 @@
 }
 
 .eventBox {
-    background-color: rgb(59, 59, 59);
     background: rgb(0,153,255);
     background: linear-gradient(135deg, rgba(0,153,255,1) 0%, rgba(195,87,255,1) 100%);
     color: white;
@@ -60,7 +63,6 @@
     background: rgb(255,119,244);
     background: rgb(106,255,150);
     background: linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%);
-  
     background: linear-gradient(135deg, rgba(255,119,244,1) 0%, rgba(116,197,255,1) 100%);
 }
   

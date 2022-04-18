@@ -29,9 +29,9 @@ export default class Navbar extends React.Component {
 
     changeLinkColors(el) {
         sections.forEach(sec => {
-           if (sec.name !== el) {
+            if (sec.name !== el) {
                document.getElementById(sec.name).style.color = 'gray';
-           }
+            }
         });
     };
 
