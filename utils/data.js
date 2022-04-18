@@ -106,11 +106,16 @@ export const events1 = [
   },
   {
     time: '8:00 PM - 9:00 PM',
+    name: 'Prototyping with Figma',
+    sub: '',
+  },
+  {
+    time: '9:00 PM - 10:00 PM',
     name: 'Intro to HTML/CSS and Javascript',
     sub: '',
   },
   {
-    time: '9:00 AM - 10:00 AM',
+    time: '10:00 AM - 11:00 AM',
     name: 'MS Paint Bob Ross Contest',
     sub: '',
     background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
@@ -164,11 +169,6 @@ export const events3 = [
   {
     time: '1:00 PM - 2:00 PM',
     name: 'Proof Assistant',
-    sub: '',
-  },
-  {
-    time: '3:00 PM - 4:00 PM',
-    name: 'Prototyping with Figma',
     sub: '',
   },
   {
