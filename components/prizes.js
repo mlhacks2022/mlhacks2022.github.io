@@ -4,13 +4,17 @@ import Image from 'next/image';
 import { awards, faqs1, events1 } from '../utils/data';
 
 import styles from '../styles/Prizes.module.css';
+import { Parallax } from 'react-scroll-parallax';
 
 export default function Prizes() {
     return (
         <div id='prizes' className={styles.awards + " section"}> 
             <div className={styles.awardsWrapper}>
-                <h1 className={styles.awardsTitle}>Prizes</h1>
-                <div className={styles.awardsGridWrapper}>
+                <Parallax translateY={[0, -70]}>
+                    <h1 className={styles.awardsTitle}>Prizes</h1>
+                </Parallax>
+                <Parallax translateY={[0, -20]}
+                    className={styles.awardsGridWrapper}>
                     {awards.map((award, i) => {
                         return (
                             <div key={i}
@@ -26,7 +30,7 @@ export default function Prizes() {
                             </div>
                         );
                     })}
-                </div>
+                </Parallax>
             </div>
         </div>
     );

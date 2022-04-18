@@ -14,12 +14,11 @@
 }
 
 .faqCard {
-    background-color: rgb(18, 18, 18);
-    /**background: linear-gradient(90deg, rgb(255, 87, 199), rgb(172, 220, 255));**/
+    background-color: rgb(39, 39, 39);
     color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 20px 2px rgb(0, 0, 0);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.203);
     padding: 10px 30px;
-    transition: .5s ease;
+    transition: .3s ease;
     border-radius: 5px;
 }
 .faqCard:hover {
