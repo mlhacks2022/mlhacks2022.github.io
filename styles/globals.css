@@ -37,7 +37,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
   overflow-x: hidden;
-  background-color: #171717;
   color: white;
 }
 
@@ -147,6 +146,7 @@ button:hover {
   max-width: 1400px;
   padding: 100px 100px 40px 100px;
   margin: 2rem auto;
+  background-color: #171717;
 }
 
 .grow {

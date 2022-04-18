@@ -6,6 +6,7 @@ export default function Contact() {
     return (
         <div id='contact' className={styles.contact + " section nav-sec"}> 
             <h1>Contact</h1>
+            <a href="https://freeicons.io/profile/5790" title="icons">Icons created by ColourCreatype - FreeIcons</a>
         </div>
     );
 };

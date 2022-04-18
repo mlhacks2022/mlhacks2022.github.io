@@ -221,33 +221,33 @@ export const events3 = [
 
 export const awards = [
   {
-    name: '1st Overall',
-    img: '/people2.svg',
-    prizes: 'prizes',
-  },
-  {
-    name: '2nd Overall',
-    img: '/webComputer.svg',
-    prizes: 'prizes',
-  },
-  {
-    name: '3rd Overall',
+    name: 'Best Overall Hack',
     img: '/prize3.svg',
-    prizes: 'prizes',
+    prizes: 'TBD!',
+  },
+  {
+    name: 'Runner-Up Hack',
+    img: '/circle.svg',
+    prizes: 'TBD!',
+  },
+  {
+    name: 'Best Beginner Hack',
+    img: '/rocket.svg',
+    prizes: 'TBD!',
   },
   {
     name: 'Best AI Hack',
-    img: '/tablet.svg',
-    prizes: 'prizes',
+    img: '/webComputer.svg',
+    prizes: 'TBD!',
   },
   {
     name: 'Best Design',
-    img: '/webComputer.svg',
-    prizes: 'prizes',
+    img: '/square.svg',
+    prizes: 'TBD!',
   },
   {
     name: 'Best Social Good Hack',
-    img: '/robot.svg',
-    prizes: 'prizes',
+    img: '/people3.svg',
+    prizes: 'TBD!',
   },
 ];

@@ -11,7 +11,23 @@
 
 .awardCard {
     width: 30%;
-    margin: 15px;
+    margin-top: 55px;
     border-radius: 40px;
     box-shadow: 0px 0px 20px 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    transition: .7s ease;
+}
+.awardCard:hover {
+    transform: scale(1.05);
+}
+
+.awardName {
+    margin: 20px 0 0 0;
+}
+
+.awardDescrip {
+    margin: 20px 0 0 0;
 }
