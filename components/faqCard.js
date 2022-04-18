@@ -16,6 +16,13 @@ export default class FAQCard extends React.Component {
         card.classList.remove('toggleAnim');
         card.classList.add('toggleAnim');
 
+        let arrow = document.getElementById('faqArrow' + this.props.number);
+        if (!this.state.open) {
+            arrow.style.transform = 'rotate(180deg)';
+        } else {
+            arrow.style.transform = 'rotate(0deg)';
+        }
+
         this.setState({
             open: !this.state.open,
         });
@@ -30,7 +37,9 @@ export default class FAQCard extends React.Component {
                         onClick={this.toggleView}> 
                         <div className={styles.question}>
                             <h3>{this.props.question}</h3>
-                            <FaChevronDown />
+                            <FaChevronDown 
+                                id={'faqArrow' + this.props.number}
+                                className={styles.faqArrow} />
                         </div>
                         {this.state.open &&
                             <p className={styles.answer}>
@@ -44,18 +53,20 @@ export default class FAQCard extends React.Component {
         return (
             <div className={styles.cardWrapper}
                 id={'faqCard' + this.props.number}>
-                <div 
-                    className={styles.faqCard + ' ' + styles.question + ' card'}
-                    onClick={this.toggleView}>
-                    <h3>{this.props.question}</h3>
-                    {this.state.open ? <FaChevronUp /> : <FaChevronDown />}
+                <div className={styles.faqCard + " card"}
+                    onClick={this.toggleView}> 
+                    <div className={styles.question}>
+                        <h3>{this.props.question}</h3>
+                        <FaChevronDown 
+                            id={'faqArrow' + this.props.number}
+                            className={styles.faqArrow} />
+                    </div>
+                    {this.state.open &&
+                        <p className={styles.answer}>
+                            {this.props.answer}
+                        </p>
+                    }
                 </div>
-                {this.state.open && 
-                    <p className={styles.answer}
-                        style={{padding: '0 15px', marginBottom: '0'}}>
-                        {this.props.answer}
-                    </p>
-                }
             </div>
         );
     }
