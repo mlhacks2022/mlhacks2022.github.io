@@ -9,9 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emotion/react": "^11.9.0",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
-    "@mdx-js/react": "^2.1.1",
     "navbar": "^2.1.0",
     "next": "12.1.4",
     "react": "^18.0.0",
@@ -20,7 +18,6 @@
     "react-spinner-loader": "^1.1.1",
     "sc-react": "^0.1.7",
     "sharp": "^0.30.3",
-    "theme-ui": "^0.14.2",
     "three": "^0.139.2",
     "vanta": "^0.5.21"
   },
