@@ -87,14 +87,17 @@ export const events1 = [
   {
     time: '4:30 PM - 4:45 PM',
     name: 'Opening Ceremony',
+    background: '1',
   },
   {
     time: '5:00 PM',
     name: 'Hacking starts!',
+    background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
   },
   {
     time: '6:00 PM - 7:00 PM',
     name: 'Team Building Activities',
+    background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
   },
   {
     time: '7:00 PM - 8:00 PM',
@@ -106,14 +109,15 @@ export const events1 = [
     name: 'Intro to HTML/CSS and Javascript',
     sub: '',
   },
+  {
+    time: '9:00 AM - 10:00 AM',
+    name: 'MS Paint Bob Ross Contest',
+    sub: '',
+    background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
+  },
 ];
 
 export const events2 = [
-  {
-    time: '9:00 AM - 10:00 AM',
-    name: 'Diversity/Inclusion Talk',
-    sub: '',
-  },
   {
     time: '11:00 AM - 12:00 PM',
     name: 'Intro to Machine Learning',
@@ -135,8 +139,14 @@ export const events2 = [
     sub: '',
   },
   {
-    time: '7:00 PM - 8:00 PM',
-    name: 'Game/Movie Night',
+    time: '7:00 PM - 8:30 PM',
+    name: 'Party Games!',
+    background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
+  },
+  {
+    time: '9:00 PM - 10:30 PM',
+    name: 'Movie Night',
+    background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
   },
 ];
 
@@ -149,6 +159,7 @@ export const events3 = [
     time: '9:00 AM - 10:00 AM',
     name: 'Women in STEM Panel + Q&A',
     sub: '',
+    background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
   },
   {
     time: '1:00 PM - 2:00 PM',
@@ -166,7 +177,7 @@ export const events3 = [
   },
   {
     time: '5:15 PM - 7:45 PM',
-    name: 'Judging',
+    name: 'Judging Period',
   },
   {
     time: '8:00 PM - 8:30 PM',

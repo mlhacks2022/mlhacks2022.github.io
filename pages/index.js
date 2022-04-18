@@ -88,7 +88,7 @@ export default function Home() {
         height={600}
       />
 
-      <Schedule></Schedule>
+      <Schedule id="Schedule"></Schedule>
 
       <FAQs></FAQs>
 
