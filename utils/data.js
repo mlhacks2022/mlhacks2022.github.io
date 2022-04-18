@@ -4,12 +4,12 @@ export const sections = [
     path: '#schedule',
   },
   {
-    name: 'FAQs',
-    path: '#faqs',
-  },
-  {
     name: 'Prizes',
     path: '#prizes',
+  },
+  {
+    name: 'FAQs',
+    path: '#faqs',
   },
   {
     name: 'Contact',

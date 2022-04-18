@@ -7,7 +7,7 @@ import styles from '../styles/Prizes.module.css';
 
 export default function Prizes() {
     return (
-        <div id='awards' className={styles.awards + " section"}> 
+        <div id='prizes' className={styles.awards + " section"}> 
             <h1>Prizes</h1>
             <div className={styles.awardsWrapper}>
                 {awards.map((award, i) => {

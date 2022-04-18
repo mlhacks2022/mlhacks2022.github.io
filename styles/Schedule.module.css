@@ -1,6 +1,11 @@
 .schedule {
     background-color: #171717;
     color: white;
+    transform: skew(0deg, 4deg);
+}
+
+.scheduleWrapper {
+    transform: skew(0deg, -4deg);
 }
 
 .scheduleTitle {
@@ -18,7 +23,7 @@
     font-size: 1.6rem;
 }
 
-.scheduleWrapper {
+.colWrapper {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;

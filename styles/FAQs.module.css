@@ -1,11 +1,15 @@
+.faqs {
+    background-color: rgb(30, 32, 32);
+}
+
 .cardWrapper {
     margin: 0px 20px 40px 20px;
 }
 
 .faqCard {
-    background-color: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgb(255, 87, 199), rgb(172, 220, 255));
-    color: rgb(0, 0, 0);
+    background-color: rgb(18, 18, 18);
+    /**background: linear-gradient(90deg, rgb(255, 87, 199), rgb(172, 220, 255));**/
+    color: rgb(255, 255, 255);
     box-shadow: 0px 0px 20px 2px rgb(0, 0, 0);
     padding: 10px 30px;
     transition: .5s ease;
