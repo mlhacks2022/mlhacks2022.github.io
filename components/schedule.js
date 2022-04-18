@@ -14,6 +14,10 @@ export default class Schedule extends React.Component {
             display: 'all',
         };
     };
+    
+    componentDidMount() {
+        this.changeBtnStyle(this.state.display);
+    };
 
     setDisplay(cat) {
         console.log('first cat: ' + cat)

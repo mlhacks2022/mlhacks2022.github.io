@@ -17,10 +17,6 @@
     margin: 0 10px;
     font-size: 1.8rem;
 }
-#all {
-    color: black;
-    background-color: white;
-}
 
 .scheduleWrapper {
     display: flex;
