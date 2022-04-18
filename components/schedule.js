@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/fontawesome-free';
+import { faCircle } from '@fortawesome/free-solid-svg-icons';
+
 import { events1, events2, events3 } from '../utils/data';
 
 import styles from '../styles/Schedule.module.css';
@@ -8,7 +11,8 @@ export default function Schedule() {
         <div className={styles.schedule + " section nav-sec"}>
             <h1 className={styles.scheduleTitle}>Tentative Schedule (PST)</h1>
             <div className={styles.legend}>
-                
+                <div>
+                </div>
             </div>
             <div className={styles.scheduleWrapper}>
                 <div className={styles.scheduleCol}>

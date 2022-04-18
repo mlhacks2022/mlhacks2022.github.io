@@ -100,7 +100,7 @@ export const events1 = [
   {
     time: '7:00 PM - 8:00 PM',
     name: 'Intro to Python',
-    sub: 'Host Name',
+    sub: '',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
