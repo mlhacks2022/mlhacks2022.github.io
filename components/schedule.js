@@ -43,79 +43,81 @@ export default class Schedule extends React.Component {
     render() {
         return(
             <div id="schedule" className={styles.schedule + " section nav-sec"}>
-                <div className={styles.scheduleWrapper}>
-                    <Parallax translateY={[0, -400]}>
-                        <h1 className={styles.scheduleTitle}>Tentative Schedule (PST)</h1>
-                    </Parallax>
-                    <Parallax translateY={[0, -400]}>
-                        <div className={styles.legend}>
-                            {eventCategories.map((cat, i) => {
-                                return (
-                                    <button key={i}
-                                        id={cat}
-                                        className={styles.btn}
-                                        onClick={() => this.setDisplay(cat)}>
-                                        {cat}
-                                    </button>
-                                );
-                            })}
-                        </div>
-                    </Parallax>
-                    <Parallax  translateY={[0, -35]}
-                        className={styles.colWrapper}>
-                        <div className={styles.scheduleCol}>
-                            <h2 className={styles.colName}>Friday <span className={styles.colDate}>5/20</span></h2>
-                            {events1.map((event, i) => {
-                                let d = this.state.display;
-                                if (d === 'all' || d === event.cat) {
+                <Parallax translateY={[10, 0]} >
+                    <div className={styles.scheduleWrapper}>
+                        <Parallax translateY={[0, -400]}>
+                            <h1 className={styles.scheduleTitle}>Tentative Schedule (PST)</h1>
+                        </Parallax>
+                        <Parallax translateY={[0, -400]}>
+                            <div className={styles.legend}>
+                                {eventCategories.map((cat, i) => {
                                     return (
-                                        <div key={i} 
-                                            className={styles.eventBox}
-                                            style={{background: event.background}}>
-                                            <h4 className={styles.time}>{event.time}</h4>
-                                            <h3 className={styles.title}>{event.name}</h3>
-                                            <h5 className={styles.sub}>{event.sub}</h5>
-                                        </div>
+                                        <button key={i}
+                                            id={cat}
+                                            className={styles.btn}
+                                            onClick={() => this.setDisplay(cat)}>
+                                            {cat}
+                                        </button>
                                     );
-                                }
-                            })}
-                        </div>
-                        <div className={styles.scheduleCol}>
-                            <h2 className={styles.colName}>Saturday <span className={styles.colDate}>5/21</span></h2>
-                            {events2.map((event, i) => {
-                                let d = this.state.display;
-                                if (d === 'all' || d === event.cat) {
-                                    return (
-                                        <div key={i} 
-                                            className={styles.eventBox}
-                                            style={{background: event.background}}>
-                                            <h4 className={styles.time}>{event.time}</h4>
-                                            <h3 className={styles.title}>{event.name}</h3>
-                                            <h5 className={styles.sub}>{event.sub}</h5>
-                                        </div>
-                                    );
-                                }
-                            })}
-                        </div>
-                        <div className={styles.scheduleCol}>
-                            <h2 className={styles.colName}>Sunday  <span className={styles.colDate}>5/22</span></h2>
-                            {events3.map((event, i) => {
-                                let d = this.state.display;
-                                if (d === 'all' || d === event.cat) {
-                                    return (
-                                        <div key={i} 
-                                            className={styles.eventBox}
-                                            style={{background: event.background}}>
-                                            <h4 className={styles.time}>{event.time}</h4>
-                                            <h3 className={styles.title}>{event.name}</h3>
-                                            <h5 className={styles.sub}>{event.sub}</h5>
-                                        </div>
-                                    );
-                                }
-                            })}
-                        </div>
-                    </Parallax>
-                </div>
+                                })}
+                            </div>
+                        </Parallax>
+                        <Parallax  translateY={[0, -35]}
+                            className={styles.colWrapper}>
+                            <div className={styles.scheduleCol}>
+                                <h2 className={styles.colName}>Friday <span className={styles.colDate}>5/20</span></h2>
+                                {events1.map((event, i) => {
+                                    let d = this.state.display;
+                                    if (d === 'all' || d === event.cat) {
+                                        return (
+                                            <div key={i} 
+                                                className={styles.eventBox}
+                                                style={{background: event.background}}>
+                                                <h4 className={styles.time}>{event.time}</h4>
+                                                <h3 className={styles.title}>{event.name}</h3>
+                                                <h5 className={styles.sub}>{event.sub}</h5>
+                                            </div>
+                                        );
+                                    }
+                                })}
+                            </div>
+                            <div className={styles.scheduleCol}>
+                                <h2 className={styles.colName}>Saturday <span className={styles.colDate}>5/21</span></h2>
+                                {events2.map((event, i) => {
+                                    let d = this.state.display;
+                                    if (d === 'all' || d === event.cat) {
+                                        return (
+                                            <div key={i} 
+                                                className={styles.eventBox}
+                                                style={{background: event.background}}>
+                                                <h4 className={styles.time}>{event.time}</h4>
+                                                <h3 className={styles.title}>{event.name}</h3>
+                                                <h5 className={styles.sub}>{event.sub}</h5>
+                                            </div>
+                                        );
+                                    }
+                                })}
+                            </div>
+                            <div className={styles.scheduleCol}>
+                                <h2 className={styles.colName}>Sunday  <span className={styles.colDate}>5/22</span></h2>
+                                {events3.map((event, i) => {
+                                    let d = this.state.display;
+                                    if (d === 'all' || d === event.cat) {
+                                        return (
+                                            <div key={i} 
+                                                className={styles.eventBox}
+                                                style={{background: event.background}}>
+                                                <h4 className={styles.time}>{event.time}</h4>
+                                                <h3 className={styles.title}>{event.name}</h3>
+                                                <h5 className={styles.sub}>{event.sub}</h5>
+                                            </div>
+                                        );
+                                    }
+                                })}
+                            </div>
+                        </Parallax>
+                    </div>
+                </Parallax>
             </div>
         );
     }

@@ -94,14 +94,13 @@ ul {
 }
 
 a {
-  color: var(--pink);
-  font-weight: 700;
-  text-decoration: none;
+  color: white;
+  text-decoration: underline;
   font-size: inherit; 
   transition: .5s ease;
 }
 a:hover {
-  color: var(--light-pink);
+  color: var(--lighter);
   cursor: pointer;
 }
 

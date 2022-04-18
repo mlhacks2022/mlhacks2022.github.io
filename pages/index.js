@@ -5,7 +5,6 @@ import About from '../components/about';
 import Schedule from '../components/schedule';
 import FAQs from '../components/faqs';
 import Prizes from '../components/prizes';
-import Contact from '../components/contact';
 
 import styles from '../styles/Home.module.css';
 
@@ -95,8 +94,6 @@ export default function Home() {
       <Parallax translateY={[0, 20]}>
         <FAQs></FAQs>
       </Parallax>
-
-      <Contact></Contact>
     </div>
   );
 }
