@@ -7,6 +7,9 @@ export default function Schedule() {
     return(
         <div className={styles.schedule + " section nav-sec"}>
             <h1 className={styles.scheduleTitle}>Tentative Schedule (PST)</h1>
+            <div className={styles.legend}>
+                
+            </div>
             <div className={styles.scheduleWrapper}>
                 <div className={styles.scheduleCol}>
                     <h2 className={styles.colName}>Friday 5/20</h2>

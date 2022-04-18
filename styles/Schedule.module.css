@@ -36,15 +36,15 @@
     background: rgb(255,203,0);
     background: linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%);
 }
-
+  
 .eventBox3 {
     background: rgb(255,119,244);
     background: rgb(106,255,150);
     background: linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%);
-
+  
     background: linear-gradient(135deg, rgba(255,119,244,1) 0%, rgba(116,197,255,1) 100%);
 }
-
+  
 .time {
     margin: 10px 0 10px 0;
     font-weight: 400;
@@ -58,6 +58,5 @@
 
 .sub {
     margin: 10px 0 0px 0;
-    color: rgb(227, 227, 227);
     font-weight: 400;
 }

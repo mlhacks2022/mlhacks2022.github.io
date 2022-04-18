@@ -142,38 +142,6 @@ button:hover {
   padding: 30px;
 }
 
-.button2 {
-  outline: none;
-  border: none;
-  background-color: white;
-  color: var(--main);
-  border-radius: 5px;
-  font-family: inherit;
-  font-size: 1.5rem;
-  font-weight: 600;
-  transition: 1s ease;
-  padding: 3px 10px;
-  margin: 0 1rem .5rem .5rem;
-  cursor: pointer;
-}
-.button2:hover {
-  color: var(--light);
-}
-
-.container{
-  margin: 110px auto 60px auto;
-  width: 80%;
-  max-width: 1000px;
-}
-
-.switch-btn {
-  background-color: white;
-  color: var(--light)
-}
-.switch-btn:hover {
-  background-color: white;
-}
-
 .section {
   width: 100vw;
   max-width: 1400px;

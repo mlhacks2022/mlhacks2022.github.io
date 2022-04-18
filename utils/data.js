@@ -87,12 +87,10 @@ export const events1 = [
   {
     time: '4:30 PM - 4:45 PM',
     name: 'Opening Ceremony',
-    background: '1',
   },
   {
     time: '5:00 PM',
     name: 'Hacking starts!',
-    background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
   },
   {
     time: '6:00 PM - 7:00 PM',
@@ -103,19 +101,16 @@ export const events1 = [
     time: '7:00 PM - 8:00 PM',
     name: 'Intro to Python',
     sub: 'Host Name',
+    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
     time: '8:00 PM - 9:00 PM',
     name: 'Prototyping with Figma',
     sub: '',
+    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
-    time: '9:00 PM - 10:00 PM',
-    name: 'Intro to HTML/CSS and Javascript',
-    sub: '',
-  },
-  {
-    time: '10:00 AM - 11:00 AM',
+    time: '9:00 AM - 10:00 AM',
     name: 'MS Paint Bob Ross Contest',
     sub: '',
     background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
@@ -124,24 +119,34 @@ export const events1 = [
 
 export const events2 = [
   {
+    time: '10:00 PM - 11:00 PM',
+    name: 'Intro to HTML/CSS and Javascript',
+    sub: '',
+    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
+  },
+  {
     time: '11:00 AM - 12:00 PM',
     name: 'Intro to Machine Learning',
     sub: '',
+    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
     time: '1:00 PM - 2:00 PM',
     name: 'Intro to Github',
     sub: '',
+    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
     time: '3:00 PM - 4:00 PM',
     name: 'Advanced Machine Learning Topics',
     sub: '',
+    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
     time: '5:00 PM - 6:00 PM',
     name: 'Tackling Imposter Syndrome',
     sub: '',
+    background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
   },
   {
     time: '7:00 PM - 8:30 PM',
@@ -170,6 +175,7 @@ export const events3 = [
     time: '1:00 PM - 2:00 PM',
     name: 'Proof Assistant',
     sub: '',
+    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
     time: '5:00 PM',
