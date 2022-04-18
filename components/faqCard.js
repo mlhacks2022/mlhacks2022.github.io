@@ -43,7 +43,18 @@ export default class FAQCard extends React.Component {
                         </div>
                         {this.state.open &&
                             <p className={styles.answer}>
-                                {this.props.answer}
+                                Fill in our registration form&nbsp;
+                                <a href="https://9rnqzf9xeeo.typeform.com/to/gxTBMhTn" 
+                                    target="_blank"
+                                    rel="noopener noreferrer">here</a> to sign up! 
+                                Make sure to also join our&nbsp;
+                                <a href="https://9rnqzf9xeeo.typeform.com/to/gxTBMhTn" 
+                                    target="_blank"
+                                    rel="noopener noreferrer">Discord server</a> and&nbsp; 
+                                <a href="https://9rnqzf9xeeo.typeform.com/to/gxTBMhTn" 
+                                    target="_blank"
+                                    rel="noopener noreferrer">Devpost</a> to be notified 
+                                on the latest updates.
                             </p>
                         }
                     </div>

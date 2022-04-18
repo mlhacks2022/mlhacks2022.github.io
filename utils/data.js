@@ -38,7 +38,7 @@ export const faqs1 = [
   },
   {
     question: 'How will projects be judged?',
-    answer: 'Each project will be scored based on their functionality, design, innovation, and originality. You can find the judging rubric and more specific information here.',
+    answer: 'Each project will be scored based on their functionality, design, impact, and originality. Check out our Devpost to learn more about scoring!',
     color: '',
     number: 4,
   },

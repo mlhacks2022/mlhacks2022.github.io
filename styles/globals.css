@@ -1,5 +1,5 @@
 :root {
-  --navbar: rgba(0, 0, 0, 0.768);
+  --navbar: rgba(255, 255, 255, 0.768);
 
   --light-pink: rgb(255, 202, 248);
   --pink: rgb(255, 145, 240);
@@ -96,14 +96,15 @@ ul {
 }
 
 a {
-  color: var(--light);
+  color: var(--pink);
+  font-weight: 700;
   text-decoration: none;
   font-size: inherit; 
   transition: .5s ease;
 }
 a:hover {
+  color: var(--light-pink);
   cursor: pointer;
-  color: var(--bright-pink);
 }
 
 h1 {
