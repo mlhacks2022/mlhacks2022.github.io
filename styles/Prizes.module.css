@@ -1,13 +1,22 @@
 .awards {
     color: white;
     background-color: rgb(244, 244, 244);
+    transform: skew(0deg,-2deg);
 }
 
 .awardsWrapper {
+    transform: skew(0deg, 2deg);
+}
+
+.awardsGridWrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.awardsTitle {
+    color: rgb(75, 75, 75);
 }
 
 .awardCard {
@@ -20,6 +29,7 @@
     align-items: center;
     justify-content: flex-start;
     transition: .7s ease;
+    text-align: center;
 }
 .awardCard:hover {
     transform: scale(1.05);

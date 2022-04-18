@@ -6,6 +6,7 @@ import { FaCircle } from 'react-icons/fa';
 import { eventCategories, events1, events2, events3 } from '../utils/data';
 
 import styles from '../styles/Schedule.module.css';
+import { Parallax } from 'react-scroll-parallax';
 
 export default class Schedule extends React.Component {
     constructor (props) {
@@ -44,20 +45,25 @@ export default class Schedule extends React.Component {
         return(
             <div id="schedule" className={styles.schedule + " section nav-sec"}>
                 <div className={styles.scheduleWrapper}>
-                    <h1 className={styles.scheduleTitle}>Tentative Schedule (PST)</h1>
-                    <div className={styles.legend}>
-                        {eventCategories.map((cat, i) => {
-                            return (
-                                <button key={i}
-                                    id={cat}
-                                    className={styles.btn}
-                                    onClick={() => this.setDisplay(cat)}>
-                                    {cat}
-                                </button>
-                            );
-                        })}
-                    </div>
-                    <div className={styles.colWrapper}>
+                    <Parallax translateY={[0, -400]}>
+                        <h1 className={styles.scheduleTitle}>Tentative Schedule (PST)</h1>
+                    </Parallax>
+                    <Parallax translateY={[0, -400]}>
+                        <div className={styles.legend}>
+                            {eventCategories.map((cat, i) => {
+                                return (
+                                    <button key={i}
+                                        id={cat}
+                                        className={styles.btn}
+                                        onClick={() => this.setDisplay(cat)}>
+                                        {cat}
+                                    </button>
+                                );
+                            })}
+                        </div>
+                    </Parallax>
+                    <Parallax  translateY={[0, -35]}
+                        className={styles.colWrapper}>
                         <div className={styles.scheduleCol}>
                             <h2 className={styles.colName}>Friday <span className={styles.colDate}>5/20</span></h2>
                             {events1.map((event, i) => {
@@ -109,7 +115,7 @@ export default class Schedule extends React.Component {
                                 }
                             })}
                         </div>
-                    </div>
+                    </Parallax>
                 </div>
             </div>
         );

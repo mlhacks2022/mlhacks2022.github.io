@@ -82,11 +82,13 @@ export default function Home() {
 
       <About></About>
 
-      <Schedule id="Schedule"></Schedule>
+      <Parallax translateY={[0, 20]}>
+        <Schedule></Schedule>
+      </Parallax>
 
-      <Prizes></Prizes>
+      <Prizes style={{zIndex: '100'}}></Prizes>
 
-      <FAQs></FAQs>
+      <FAQs style={{zIndex: '0'}}></FAQs>
 
       <Contact></Contact>
     </div>
