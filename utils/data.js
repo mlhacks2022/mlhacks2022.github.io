@@ -26,13 +26,13 @@ export const faqs1 = [
   },
   {
     question: 'Do I need coding experience?',
-    answer: 'Nope! ML Hacks is beginner-friendly, and first time coders are encouraged to attend! With seminars and classes from our wonderful guest speakers as well as a stimulating environment, we hope to see each of our participants fall in love with something new.',
+    answer: 'Nope! ML Hacks is beginner-friendly, and first time coders are encouraged to attend! With seminars and classes from our wonderful guest speakers as well as a stimulating environment, we hope to help each of our participants discover a passion for something new.',
     color: '',
     number: 2,
   },
   {
-    question: 'Cool! Now how do I sign up?',
-    answer: 'Fill in our sign up form here to register! Make sure to also join our Discord server and Devpost to stay updated on the latest info.',
+    question: 'Cool! How do I sign up?',
+    answer: 'Fill in our sign up form here to register! Make sure to also join our Discord server and Devpost to be notified on the latest updates.',
     color: '',
     number: 3,
   },
@@ -44,7 +44,7 @@ export const faqs1 = [
   },
   {
     question: 'How will I submit my project?',
-    answer: 'Devpost, video demo, description, Github if possible.',
+    answer: 'Projects will be submitted digitally through Devpost. A three-minute video demo and basic description are required, and all code written must also be accessible.',
     color: '',
     number: 5,
   },

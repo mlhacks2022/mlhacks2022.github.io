@@ -1,7 +1,6 @@
 import React from 'react';
 //import { FontAwesomeIcon } from '@fortawesome/fontawesome-free';
 //import { faCircle, faCoffee } from '@fortawesome/free-solid-svg-icons';
-import { FaCircle } from 'react-icons/fa';
 
 import { eventCategories, events1, events2, events3 } from '../utils/data';
 

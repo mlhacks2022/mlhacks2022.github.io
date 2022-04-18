@@ -18,7 +18,8 @@ export default function FAQs() {
                                 <FAQCard key={i} 
                                     question={faq.question}
                                     answer={faq.answer}
-                                    color={faq.color}>
+                                    color={faq.color}
+                                    number={faq.number}>
                                 </FAQCard>
                             );
                         })}
@@ -29,7 +30,8 @@ export default function FAQs() {
                                 <FAQCard key={i} 
                                     question={faq.question}
                                     answer={faq.answer}
-                                    color={faq.color}>
+                                    color={faq.color}
+                                    number={faq.number}>
                                 </FAQCard>
                             );
                         })}
