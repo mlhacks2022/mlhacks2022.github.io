@@ -83,35 +83,43 @@ export const faqs2 = [
   },
 ];
 
+export const eventCategories = ['all', 'general', 'workshop', 'activity'];
+
 export const events1 = [
   {
     time: '4:30 PM - 4:45 PM',
     name: 'Opening Ceremony',
+    cat: 'general',
   },
   {
     time: '5:00 PM',
     name: 'Hacking starts!',
+    cat: 'general',
   },
   {
     time: '6:00 PM - 7:00 PM',
     name: 'Team Building Activities',
+    cat: 'activity',
     background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
   },
   {
     time: '7:00 PM - 8:00 PM',
     name: 'Intro to Python',
+    cat: 'workshop',
     sub: '',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
     time: '8:00 PM - 9:00 PM',
     name: 'Prototyping with Figma',
+    cat: 'workshop',
     sub: '',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
     time: '9:00 AM - 10:00 AM',
     name: 'MS Paint Bob Ross Contest',
+    cat: 'activity',
     sub: '',
     background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
   },
@@ -121,41 +129,55 @@ export const events2 = [
   {
     time: '10:00 PM - 11:00 PM',
     name: 'Intro to HTML/CSS and Javascript',
+    cat: 'workshop',
     sub: '',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
     time: '11:00 AM - 12:00 PM',
     name: 'Intro to Machine Learning',
+    cat: 'workshop',
     sub: '',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
     time: '1:00 PM - 2:00 PM',
     name: 'Intro to Github',
+    cat: 'workshop',
     sub: '',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
-    time: '3:00 PM - 4:00 PM',
+    time: '2:00 PM - 3:30 PM',
+    name: 'Party Games!',
+    cat: 'activity',
+    background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
+  },
+  {
+    time: '4:00 PM - 5:00 PM',
     name: 'Advanced Machine Learning Topics',
+    cat: 'workshop',
     sub: '',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
     time: '5:00 PM - 6:00 PM',
     name: 'Tackling Imposter Syndrome',
+    cat: 'workshop',
     sub: '',
-    background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
+    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
-    time: '7:00 PM - 8:30 PM',
-    name: 'Party Games!',
-    background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
+    time: '6:00 PM - 7:00 PM',
+    name: 'College Discussion',
+    cat: 'workshop',
+    sub: '',
+    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
     time: '9:00 PM - 10:30 PM',
     name: 'Movie Night',
+    cat: 'activity',
     background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
   },
 ];
@@ -164,29 +186,35 @@ export const events3 = [
   {
     time: '8:00 AM',
     name: 'Submissions start',
+    cat: 'general',
   },
   {
     time: '9:00 AM - 10:00 AM',
     name: 'Women in STEM Panel + Q&A',
+    cat: 'workshop',
     sub: '',
-    background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
+    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
     time: '1:00 PM - 2:00 PM',
     name: 'Proof Assistant',
+    cat: 'workshop',
     sub: '',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
     time: '5:00 PM',
     name: 'Hacking Ends',
+    cat: 'general',
   },
   {
     time: '5:15 PM - 7:45 PM',
     name: 'Judging Period',
+    cat: 'general',
   },
   {
     time: '8:00 PM - 8:30 PM',
     name: 'Closing Ceremony + Winners Announced!',
+    cat: 'general',
   },
 ];

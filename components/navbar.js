@@ -24,7 +24,7 @@ export default class Navbar extends React.Component {
 
         this.setState({
             display: (scrolled > height) ? 'block' : 'none'
-        })
+        });
     };
 
     changeLinkColors(el) {

@@ -7,6 +7,16 @@
     margin: 0 0 20px 10px;
 }
 
+.legend {
+    margin: 20px 0;
+}
+
+.btn {
+    color: white;
+    background-color: black;
+    margin: 0 10px;
+}
+
 .scheduleWrapper {
     display: flex;
     align-items: flex-start;
