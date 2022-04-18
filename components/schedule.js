@@ -29,7 +29,8 @@ export default class Schedule extends React.Component {
                     {eventCategories.map((cat, i) => {
                         return (
                             <button key={i}
-                                className={styles.btn}>
+                                className={styles.btn}
+                                onClick={() => this.setDisplay(cat)}>
                                 {cat}
                             </button>
                         );
@@ -37,7 +38,7 @@ export default class Schedule extends React.Component {
                 </div>
                 <div className={styles.scheduleWrapper}>
                     <div className={styles.scheduleCol}>
-                        <h2 className={styles.colName}>Friday 5/20</h2>
+                        <h2 className={styles.colName}>Friday <span className={styles.colDate}>5/20</span></h2>
                         {events1.map((event, i) => {
                             let d = this.state.display;
                             if (d === 'all' || d === event.cat) {
@@ -54,7 +55,7 @@ export default class Schedule extends React.Component {
                         })}
                     </div>
                     <div className={styles.scheduleCol}>
-                        <h2 className={styles.colName}>Saturday 5/21</h2>
+                        <h2 className={styles.colName}>Saturday <span className={styles.colDate}>5/21</span></h2>
                         {events2.map((event, i) => {
                             let d = this.state.display;
                             if (d === 'all' || d === event.cat) {
@@ -71,7 +72,7 @@ export default class Schedule extends React.Component {
                         })}
                     </div>
                     <div className={styles.scheduleCol}>
-                        <h2 className={styles.colName}>Sunday 5/22</h2>
+                        <h2 className={styles.colName}>Sunday  <span className={styles.colDate}>5/22</span></h2>
                         {events3.map((event, i) => {
                             let d = this.state.display;
                             if (d === 'all' || d === event.cat) {
