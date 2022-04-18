@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
+import { FaChevronDown } from 'react-icons/fa';
 
 import styles from '../styles/FAQs.module.css';
 
@@ -48,10 +48,10 @@ export default class FAQCard extends React.Component {
                                     target="_blank"
                                     rel="noopener noreferrer">here</a> to sign up! 
                                 Make sure to also join our&nbsp;
-                                <a href="https://9rnqzf9xeeo.typeform.com/to/gxTBMhTn" 
+                                <a href="https://discord.gg/epVVJeUs" 
                                     target="_blank"
                                     rel="noopener noreferrer">Discord server</a> and&nbsp; 
-                                <a href="https://9rnqzf9xeeo.typeform.com/to/gxTBMhTn" 
+                                <a href="https://ml-hacks.devpost.com/" 
                                     target="_blank"
                                     rel="noopener noreferrer">Devpost</a> to be notified 
                                 on the latest updates.

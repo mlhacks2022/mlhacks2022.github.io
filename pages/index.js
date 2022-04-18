@@ -80,9 +80,11 @@ export default function Home() {
         </Parallax>
       </div>
 
-      <About></About>
+      <Parallax translateY={[0, -20]}>
+        <About></About>
+      </ Parallax>
 
-      <Parallax translateY={[0, 20]}>
+      <Parallax translateY={[-5, 0]}>
         <Schedule></Schedule>
       </Parallax>
 

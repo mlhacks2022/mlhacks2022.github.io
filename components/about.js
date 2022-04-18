@@ -1,6 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
+
 import { Parallax } from 'react-scroll-parallax';
+import { FaDiscord } from 'react-icons/fa';
 
 import styles from '../styles/About.module.css';
 
@@ -37,13 +39,25 @@ export default function About() {
                                 width={400}
                                 height={400}
                             />
-                            <a
-                                href="https://9rnqzf9xeeo.typeform.com/to/gxTBMhTn"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <button className={styles.btn}>Test Button</button>
-                            </a>
+                            <div>
+                                <a
+                                    href="https://discord.gg/epVVJeUs"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <button className={styles.btn}>
+                                        <FaDiscord style={{position: 'relative', top: '3px'}}/> 
+                                        &nbsp; Discord
+                                    </button>
+                                </a>
+                                <a
+                                    href="https://ml-hacks.devpost.com/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <button className={styles.btn}>Devpost</button>
+                                </a>
+                            </div>
                         </div>
                         <div className={styles.introCol + ' ' + styles.col2}>
                             <p className={styles.description}>
