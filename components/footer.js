@@ -26,6 +26,11 @@ export default function Footer() {
                                 href="" 
                                 rel="noopener noreferrer"
                                 title="icons">Sponsor us</a>
+                            <a className={styles.link}
+                                target="_blank" 
+                                href="" 
+                                rel="noopener noreferrer"
+                                title="icons">Code of Conduct</a>
                         </div>
                         <div className={styles.col}>
                             <a className={styles.icon}
