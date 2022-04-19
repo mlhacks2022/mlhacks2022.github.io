@@ -1,12 +1,11 @@
 
 .footer {
     width: 100vw;
-    z-index: 30;
     position: relative;
-    top: 120px;
+    top: 150px;
     margin: 0;
     padding: 50px 50px 20px 50px;
-    height: 350px;
+    height: 300px;
     color: black;
     display: flex;
     flex-direction: column;
@@ -19,10 +18,10 @@
 }
 
 .contact {
-    margin: 20px;
+    margin: 20px 0;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 90vw;
 }
 

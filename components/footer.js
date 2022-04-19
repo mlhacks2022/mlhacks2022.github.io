@@ -13,14 +13,17 @@ export default function Footer() {
                     <div className={styles.colContainer}>
                         <h1 className={styles.title}>ML Hacks</h1>
                     </div>
-                    <div className={styles.colContainer}>
+                    <div className={styles.colContainer}
+                        style={{marginLeft: "100px"}}>
                         <div className={styles.col}>
                             <a className={styles.link}
-                                href="https://freeicons.io/profile/5790" 
+                                target="_blank" 
+                                href="https://mlhacks2022.vercel.app/" 
                                 rel="noopener noreferrer"
                                 title="icons">Home</a>
                             <a className={styles.link}
-                                href="https://freeicons.io/profile/5790" 
+                                target="_blank" 
+                                href="" 
                                 rel="noopener noreferrer"
                                 title="icons">Sponsor us</a>
                         </div>
@@ -30,7 +33,7 @@ export default function Footer() {
                                 rel="noopener noreferrer"
                                 href="mailto:mlhacks.22@gmail.com"><FaEnvelope /></a>
                             <a className={styles.icon}
-                                href="https://discord.gg/epVVJeUs" 
+                                href="https://www.instagram.com/ml.hacks22/" 
                                 target="_blank"
                                 rel="noopener noreferrer"><FaInstagram /></a>
                             <a className={styles.icon}
@@ -44,6 +47,7 @@ export default function Footer() {
             <div className={styles.disclaimer}>
                 <a 
                     className={styles.link}
+                    target="_blank" 
                     href="https://freeicons.io/profile/5790" 
                     rel="noopener noreferrer"
                     title="icons">Icons created by ColourCreatype - FreeIcons</a>
