@@ -31,16 +31,15 @@ export default function About() {
                             </h1>
                         </Parallax>
                     </div>
-                    <Image
-                        src="/logo.png"
-                        alt="server"
-                        width={450}
-                        height={450}
-                        className={styles.logo}
-                    />
-                    <Parallax className={styles.introCard + " card"}>
+                        <Image
+                            src="/logo.png"
+                            alt="server"
+                            width={450}
+                            height={450}
+                            className={styles.logo}
+                        />
+                    <div className={styles.introCard + " card"}>
                         <div className={styles.introCol + ' ' + styles.col1}>
-                            
                             <div>
                                 <a
                                     href="https://discord.gg/epVVJeUs"
@@ -73,7 +72,7 @@ export default function About() {
                                 the place for you to <b>make an impact</b>.    
                             </p>
                         </div>
-                    </Parallax>
+                    </div>
                 </div>
                 <div className={styles.grid}>
                     
