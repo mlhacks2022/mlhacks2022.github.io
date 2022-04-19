@@ -1,6 +1,6 @@
 .navbarTop {
     --linkSub: rgb(164, 164, 164);
-    --linkPrim: black;
+    --linkPrim: rgb(255, 255, 255);
     position: fixed;
     top: 0;
     right: 0;
@@ -11,7 +11,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 40px;
-    background-color: rgba(255, 255, 255, 0.768);
+    background-color: rgba(0, 0, 0, 0.626);
     backdrop-filter: blur(6px);
 }
 
@@ -26,8 +26,7 @@
 }
 
 .navLink {
-    color:rgb(166, 166, 166);
-    color: rgb(0, 0, 0);
+    color: var(--linkPrim);
     font-size: 1.8rem;
     font-weight: 400;
     margin: 0 0 0px 10px;

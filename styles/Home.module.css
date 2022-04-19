@@ -1,10 +1,9 @@
 .vantaBg {
-  height: 115vh;
+  height: 118vh;
   margin: 0;
   width: 100vw;
   left: 0vw;
   padding: 30vh 10rem;
-  background-color: white;
 }
 
 .titleWrapper {
@@ -15,11 +14,11 @@
   padding: 0;
   font-size: 9rem;
   font-weight: 300;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .subtitle {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-family: 'Courier New', Courier, monospace;
   font-size: 3.5rem;
 }

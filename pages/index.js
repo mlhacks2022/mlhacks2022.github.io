@@ -31,9 +31,9 @@ export default function Home() {
           scale: 1.00,
           scaleMobile: 1.00,
           color: 0x67c9ff,
+          backgroundColor: 0xffffff,
           backgroundColor: 0x0f1d4a,
           backgroundColor: 0x171717,
-          backgroundColor: 0xffffff,
         })
       );
     };
@@ -79,7 +79,7 @@ export default function Home() {
         </Parallax>
       </div>
 
-      <Parallax translateY={[0, -20]}>
+      <Parallax translateY={[-6, -20]}>
         <About></About>
       </ Parallax>
 
