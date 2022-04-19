@@ -11,7 +11,7 @@ export default function Prizes() {
         <div id='prizes' className={styles.awards + " section"}> 
             <div className={styles.awardsWrapper}>
                 <Parallax translateY={[0, -70]}>
-                    <h1 className={styles.awardsTitle}>Prizes</h1>
+                    <h1 className={styles.awardsTitle}>Tracks</h1>
                 </Parallax>
                 <Parallax translateY={[0, -20]}
                     className={styles.awardsGridWrapper}>

@@ -1,7 +1,9 @@
 .awards {
     color: white;
     background-color: rgb(244, 244, 244);
+    background-color: transparent;
     transform: skew(0deg,-2deg);
+    padding-bottom: 80px;
 }
 
 .awardsWrapper {
@@ -16,7 +18,7 @@
 }
 
 .awardsTitle {
-    color: rgb(75, 75, 75);
+    color: rgb(59, 59, 59);
 }
 
 .awardCard {
