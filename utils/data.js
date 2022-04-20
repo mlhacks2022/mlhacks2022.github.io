@@ -44,7 +44,7 @@ export const faqs1 = [
   },
   {
     question: 'How will I submit my project?',
-    answer: 'Projects will be submitted digitally through Devpost. A three-minute video demo and basic description are required, and all code written must also be accessible.',
+    answer: 'Projects will be submitted digitally through Devpost. A three-minute video demo and basic description are required, and all code written must also be accessible (whether that be through Github or some other means).',
     color: '',
     number: 5,
   },
@@ -59,7 +59,7 @@ export const faqs2 = [
   },
   {
     question: 'What can I make?',
-    answer: 'Although the hackathon is centered around AI and machine learning, hackers can create anything they’d like to—a website, app, game, etc. Beginner level workshops and resources will be provided to help you get started!',
+    answer: 'Your project must fall within one of our three tracks: Machine Learning, Beginner, or Social Good. However, the exact type of project you want to create is up to you—websites, apps, hardware, etc. are all fair game! Beginner level workshops and resources will be provided to help you get started :)',
     color: '',
     number: 7,
   },
