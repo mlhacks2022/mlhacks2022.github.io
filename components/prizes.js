@@ -26,7 +26,7 @@ export default function Prizes() {
                                     height={100}
                                 />
                                 <h2 className={styles.awardName}>{award.name}</h2>
-                                <p className={styles.awardDescrip}>{award.prizes}</p>
+                                <p className={styles.awardDescrip}>{award.descrip}</p>
                             </div>
                         );
                     })}

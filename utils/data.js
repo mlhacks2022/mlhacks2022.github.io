@@ -223,31 +223,31 @@ export const awards = [
   /**{
     name: 'Best Overall Hack',
     img: '/prize3.svg',
-    prizes: 'TBD!',
+    descrip: 'TBD!',
   },
   {
     name: 'Runner-Up Hack',
     img: '/circle.svg',
-    prizes: 'TBD!',
+    descrip: 'TBD!',
   },
   {
     name: 'Best Design',
     img: '/square.svg',
-    prizes: 'TBD!',
+    descrip: 'TBD!',
   },**/
   {
     name: 'Machine Learning',
     img: '/webComputer.svg',
-    prizes: 'TBD!',
+    descrip: 'Incorporate ML into your hack!',
   },
   {
     name: 'Beginner',
     img: '/rocket.svg',
-    prizes: 'TBD!',
+    descrip: 'For teams comprised of all first-time coders!',
   },
   {
     name: 'Social Good',
     img: '/people3.svg',
-    prizes: 'TBD!',
+    descrip: 'Create something to improve society!',
   },
 ];
