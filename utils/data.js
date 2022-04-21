@@ -155,7 +155,7 @@ export const events2 = [
   },
   {
     time: '4:00 PM - 5:00 PM',
-    name: 'Advanced Machine Learning Topics',
+    name: 'Advanced ML Topics',
     cat: 'workshop',
     sub: '',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
@@ -169,7 +169,7 @@ export const events2 = [
   },
   {
     time: '6:00 PM - 7:00 PM',
-    name: 'College Discussion',
+    name: 'Advanced ML Topics: COQ Proof Assistant',
     cat: 'workshop',
     sub: '',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
@@ -197,7 +197,7 @@ export const events3 = [
   },
   {
     time: '1:00 PM - 2:00 PM',
-    name: 'Proof Assistant',
+    name: 'College Discussion',
     cat: 'workshop',
     sub: '',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',

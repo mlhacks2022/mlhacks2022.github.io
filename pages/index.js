@@ -66,7 +66,7 @@ export default function Home() {
         </Parallax>
         <Parallax translateY={[200, -100]}>
           <a
-            href="https://9rnqzf9xeeo.typeform.com/to/gxTBMhTn"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSc6sGlXZhtgxIXJmEZplBYp5JYi8X50rux-sdVYRSxjKDNbzQ/viewform"
             target="_blank"
             rel="noopener noreferrer"
           >
