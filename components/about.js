@@ -42,7 +42,7 @@ export default function About() {
                         <div className={styles.introCol + ' ' + styles.col1}>
                             <div>
                                 <a
-                                    href="https://discord.gg/epVVJeUs"
+                                    href="https://discord.gg/dRsSZCYa"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
