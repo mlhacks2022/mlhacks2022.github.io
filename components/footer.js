@@ -23,7 +23,7 @@ export default function Footer() {
                                 title="icons">Home</a>
                             <a className={styles.link}
                                 target="_blank" 
-                                href="" 
+                                href="MLHacksSponsorProspectus.pdf" 
                                 rel="noopener noreferrer"
                                 title="icons">Sponsor us</a>
                             <a className={styles.link}

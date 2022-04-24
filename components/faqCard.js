@@ -61,6 +61,32 @@ export default class FAQCard extends React.Component {
                 </div>
             );
         }
+        if (this.props.number == 4) {
+            return (
+                <div className={styles.cardWrapper}
+                    id={'faqCard' + this.props.number}>
+                    <div className={styles.faqCard + " card"}
+                        onClick={this.toggleView}> 
+                        <div className={styles.question}>
+                            <h3>{this.props.question}</h3>
+                            <FaChevronDown 
+                                id={'faqArrow' + this.props.number}
+                                className={styles.faqArrow} />
+                        </div>
+                        {this.state.open &&
+                            <p className={styles.answer}>
+                                Each project will be scored based on their functionality, design, impact, and originality. 
+                                Check out our 
+                                <a href="MLHacksScoringRubric.pdf" 
+                                    target="_blank"
+                                    rel="noopener noreferrer"> scoring rubric </a>
+                                    to learn more!
+                            </p>
+                        }
+                    </div>
+                </div>
+            );
+        }
         return (
             <div className={styles.cardWrapper}
                 id={'faqCard' + this.props.number}>
