@@ -44,7 +44,7 @@ export default class FAQCard extends React.Component {
                         {this.state.open &&
                             <p className={styles.answer}>
                                 Fill in our registration form&nbsp;
-                                <a href="https://9rnqzf9xeeo.typeform.com/to/gxTBMhTn" 
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc6sGlXZhtgxIXJmEZplBYp5JYi8X50rux-sdVYRSxjKDNbzQ/viewform" 
                                     target="_blank"
                                     rel="noopener noreferrer">here</a> to sign up! 
                                 Make sure to also join our&nbsp;

@@ -117,7 +117,7 @@ export const events1 = [
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
-    time: '9:00 AM - 10:00 AM',
+    time: '9:00 PM - 10:00 PM',
     name: 'MS Paint Bob Ross Contest',
     cat: 'activity',
     sub: '',
@@ -127,7 +127,7 @@ export const events1 = [
 
 export const events2 = [
   {
-    time: '10:00 PM - 11:00 PM',
+    time: '10:00 AM - 11:00 AM',
     name: 'Intro to HTML/CSS and Javascript',
     cat: 'workshop',
     sub: '',
