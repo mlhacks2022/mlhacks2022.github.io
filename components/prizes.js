@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-import { awards, faqs1, events1 } from '../utils/data';
+import { awards } from '../utils/data';
 
 import styles from '../styles/Prizes.module.css';
 import { Parallax } from 'react-scroll-parallax';

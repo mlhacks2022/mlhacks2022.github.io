@@ -4,8 +4,12 @@ export const sections = [
     path: '#schedule',
   },
   {
-    name: 'Prizes',
+    name: 'Tracks',
     path: '#prizes',
+  },
+  {
+    name: 'Sponsors',
+    path: '#sponsors',
   },
   {
     name: 'FAQs',
@@ -249,5 +253,23 @@ export const awards = [
     name: 'Social Good',
     img: '/people3.svg',
     descrip: 'Create something to improve society!',
+  },
+];
+
+export const sponsors = [
+  {
+    name: 'AoPS',
+    img: '/planet.svg',
+    link: 'https://discord.gg/dRsSZCYa',
+  },
+  {
+    name: 'Sample',
+    img: '/tablet.svg',
+    link: 'https://discord.gg/dRsSZCYa',
+  },
+  {
+    name: 'Sample',
+    img: '/squares.svg',
+    link: 'https://discord.gg/dRsSZCYa',
   },
 ];

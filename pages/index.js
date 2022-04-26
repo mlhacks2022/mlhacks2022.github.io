@@ -5,6 +5,7 @@ import About from '../components/about';
 import Schedule from '../components/schedule';
 import FAQs from '../components/faqs';
 import Prizes from '../components/prizes';
+import Sponsors from '../components/sponsors';
 
 import styles from '../styles/Home.module.css';
 
@@ -89,6 +90,10 @@ export default function Home() {
 
       <Parallax translateY={[0, 0]}>
         <Prizes></Prizes>
+      </Parallax>
+      
+      <Parallax translateY={[0, 0]}>
+        <Sponsors></Sponsors>
       </Parallax>
 
       <Parallax translateY={[0, 15]}>

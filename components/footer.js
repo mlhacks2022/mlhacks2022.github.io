@@ -1,9 +1,6 @@
 import styles from '../styles/Footer.module.css';
 
-import Image from 'next/image';
-
-import { FaEnvelope, FaRegEnvelope, FaDiscord,
-    FaInstagram, FaInstagramSquare } from 'react-icons/fa';
+import { FaEnvelope,  FaDiscord, FaInstagram } from 'react-icons/fa';
 
 export default function Footer() {
     return (
