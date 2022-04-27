@@ -24,11 +24,11 @@ export default function Sponsors() {
                                 key={i}>
                                 <a
                                     target="_blank"
-                                    rel="noopener noreferrer">
+                                    rel="noopener noreferrer"
+                                    className={styles.sponsorCard + ' card'}>
                                     <Image
                                         src={sponsor.img}
                                         alt={sponsor.name}
-                                        className={styles.sponsorCard + ' card'}
                                         width={70}
                                         height={70}
                                     />

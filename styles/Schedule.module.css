@@ -82,3 +82,37 @@
     margin: 10px 0 0px 0;
     font-weight: 400;
 }
+
+@media (max-width: 850px) {
+    .colName {
+        font-size: 2rem;
+    }
+    .title {
+        font-size: 1.6rem;
+    }
+    .time {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 750px) {
+    .colWrapper {
+        flex-wrap: wrap;
+    }
+    .scheduleCol {
+        width: 48%;
+    }
+}
+@media (max-width: 600px) {
+    .colWrapper {
+        flex-wrap: wrap;
+    }
+    .scheduleCol {
+        width: 100%;
+    }
+}
+@media (max-width: 485px) {
+    .btn {
+        font-size: 1.4rem;
+        margin: 0px 5px 10px 5px;
+    }
+}
