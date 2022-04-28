@@ -259,17 +259,23 @@ export const awards = [
 export const sponsors = [
   {
     name: 'AoPS',
-    img: '/planet.svg',
-    link: 'https://discord.gg/dRsSZCYa',
+    img: '/aops.png',
+    link: 'https://artofproblemsolving.com/?utm_source=google&utm_medium=cpc&utm_campaign=&cmid=15593084286&agid=130908271653&search_keyword=art%20of%20problem%20solving&search_type=e&netid=g&adid=570025168704&adpos=&dvt=&ptid=&gclid=Cj0KCQjw06OTBhC_ARIsAAU1yOWP8tJ-DxiDt-p8_B7g5rN4cMmleYI3iuvD-Yh8vDM1XwgHGNoylhAaAnqDEALw_wcB',
+    width: 250,
+    height: 100,
   },
   {
-    name: 'Sample',
-    img: '/tablet.svg',
-    link: 'https://discord.gg/dRsSZCYa',
+    name: 'Sticker Giant',
+    img: '/stickerGiant.svg',
+    link: 'https://www.stickergiant.com/event-coupons?utm_source=website&utm_medium=event',
+    width: 220,
+    height: 220,
   },
   {
-    name: 'Sample',
-    img: '/squares.svg',
-    link: 'https://discord.gg/dRsSZCYa',
+    name: '.XYZ',
+    img: '/xyz-logo-color.svg',
+    link: 'https://gen.xyz/',
+    width: 130,
+    height: 130,
   },
 ];

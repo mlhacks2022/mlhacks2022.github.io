@@ -25,12 +25,12 @@ export default function Sponsors() {
                                 <a
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className={styles.sponsorCard + ' card'}>
+                                    className={styles.sponsorCard}>
                                     <Image
                                         src={sponsor.img}
                                         alt={sponsor.name}
-                                        width={70}
-                                        height={70}
+                                        width={sponsor.width}
+                                        height={sponsor.height}
                                     />
                                 </a>
                             </Link>
