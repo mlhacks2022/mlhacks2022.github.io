@@ -117,11 +117,18 @@ export const events1 = [
     time: '8:00 PM - 9:00 PM',
     name: 'Prototyping with Figma',
     cat: 'workshop',
-    sub: '',
+    sub: 'Belle',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
     time: '9:00 PM - 10:00 PM',
+    name: 'Intro to HTML/CSS & Javascript',
+    cat: 'workshop',
+    sub: '',
+    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
+  },
+  {
+    time: '10:00 PM - 11:00 PM',
     name: 'MS Paint Bob Ross Contest',
     cat: 'activity',
     sub: '',
@@ -132,23 +139,23 @@ export const events1 = [
 export const events2 = [
   {
     time: '10:00 AM - 11:00 AM',
-    name: 'Intro to HTML/CSS and Javascript',
+    name: 'Intro to Machine Learning (No Code!)',
     cat: 'workshop',
     sub: '',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
     time: '11:00 AM - 12:00 PM',
-    name: 'Intro to Machine Learning',
+    name: 'Machine Learning w/ Tensorflow',
     cat: 'workshop',
-    sub: '',
+    sub: 'Claire',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
     time: '1:00 PM - 2:00 PM',
     name: 'Intro to Github',
     cat: 'workshop',
-    sub: '',
+    sub: '@pending',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
@@ -158,26 +165,26 @@ export const events2 = [
     background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
   },
   {
-    time: '4:00 PM - 5:00 PM',
-    name: 'Advanced ML Topics',
+    time: '11:00 AM - 12:00 PM',
+    name: 'Machine Learning for Webdev',
     cat: 'workshop',
     sub: '',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
-    time: '5:00 PM - 6:00 PM',
+    time: '7:00 PM - 8:00 PM',
     name: 'Tackling Imposter Syndrome',
     cat: 'workshop',
     sub: '',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
-  {
+  /**{
     time: '6:00 PM - 7:00 PM',
     name: 'Advanced CS Topics: COQ Proof Assistant',
     cat: 'workshop',
     sub: '',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
-  },
+  },**/
   {
     time: '9:00 PM - 10:30 PM',
     name: 'Movie Night',
@@ -203,7 +210,7 @@ export const events3 = [
     time: '1:00 PM - 2:00 PM',
     name: 'College Discussion',
     cat: 'workshop',
-    sub: '',
+    sub: '@mentors',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
