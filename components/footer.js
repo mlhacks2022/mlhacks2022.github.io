@@ -39,7 +39,7 @@ export default function Footer() {
                                 target="_blank"
                                 rel="noopener noreferrer"><FaInstagram /></a>
                             <a className={styles.icon}
-                                href="https://discord.gg/QmsHH2jc" 
+                                href="https://discord.gg/WY8PJ2uTbR" 
                                 target="_blank"
                                 rel="noopener noreferrer"><FaDiscord /></a>
                         </div>

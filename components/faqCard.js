@@ -48,7 +48,7 @@ export default class FAQCard extends React.Component {
                                     target="_blank"
                                     rel="noopener noreferrer">here</a> to sign up! 
                                 Make sure to also join our&nbsp;
-                                <a href="https://discord.gg/QmsHH2jc" 
+                                <a href="https://discord.gg/WY8PJ2uTbR" 
                                     target="_blank"
                                     rel="noopener noreferrer">Discord server</a> and&nbsp; 
                                 <a href="https://ml-hacks.devpost.com/" 
