@@ -21,7 +21,7 @@ export default function Prizes() {
                                 className={styles.awardCard + ' card'}>
                                 <Image
                                     src={award.img}
-                                    alt="server"
+                                    alt={award.name}
                                     width={100}
                                     height={100}
                                 />

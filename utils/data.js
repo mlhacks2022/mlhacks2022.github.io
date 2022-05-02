@@ -189,7 +189,7 @@ export const events2 = [
 export const events3 = [
   {
     time: '8:00 AM',
-    name: 'Submissions start',
+    name: 'Submissions Open',
     cat: 'general',
   },
   {
