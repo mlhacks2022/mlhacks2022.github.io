@@ -165,8 +165,15 @@ export const events2 = [
     background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
   },
   {
-    time: '11:00 AM - 12:00 PM',
+    time: '4:00 AM - 5:00 PM',
     name: 'Machine Learning for Webdev',
+    cat: 'workshop',
+    sub: '',
+    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
+  },
+  {
+    time: '6:00 PM - 7:00 PM',
+    name: 'Advanced CS Topics: COQ Proof Assistant',
     cat: 'workshop',
     sub: '',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
@@ -178,13 +185,6 @@ export const events2 = [
     sub: '',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
-  /**{
-    time: '6:00 PM - 7:00 PM',
-    name: 'Advanced CS Topics: COQ Proof Assistant',
-    cat: 'workshop',
-    sub: '',
-    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
-  },**/
   {
     time: '9:00 PM - 10:30 PM',
     name: 'Movie Night',
