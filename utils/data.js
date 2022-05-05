@@ -117,7 +117,7 @@ export const events1 = [
     time: '8:00 PM - 9:00 PM',
     name: 'Prototyping with Figma',
     cat: 'workshop',
-    sub: 'Belle',
+    sub: '',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
@@ -148,14 +148,14 @@ export const events2 = [
     time: '11:00 AM - 12:00 PM',
     name: 'Machine Learning w/ Tensorflow',
     cat: 'workshop',
-    sub: 'Claire',
+    sub: '',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
     time: '1:00 PM - 2:00 PM',
     name: 'Intro to Github',
     cat: 'workshop',
-    sub: '@pending',
+    sub: '',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
@@ -210,7 +210,7 @@ export const events3 = [
     time: '1:00 PM - 2:00 PM',
     name: 'College Discussion',
     cat: 'workshop',
-    sub: '@mentors',
+    sub: '',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
