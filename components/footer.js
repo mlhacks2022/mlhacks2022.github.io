@@ -35,7 +35,7 @@ export default function Footer() {
                                 rel="noopener noreferrer"
                                 href="mailto:mlhacks.22@gmail.com"><FaEnvelope /></a>
                             <a className={styles.icon}
-                                href="https://www.instagram.com/ml.hacks22/" 
+                                href="https://www.instagram.com/mlhacks.22/" 
                                 target="_blank"
                                 rel="noopener noreferrer"><FaInstagram /></a>
                             <a className={styles.icon}
