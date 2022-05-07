@@ -151,13 +151,13 @@ export const events2 = [
     sub: '',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
-  {
+  /**{
     time: '1:00 PM - 2:00 PM',
     name: 'Intro to Github',
     cat: 'workshop',
     sub: '',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
-  },
+  },**/
   {
     time: '2:00 PM - 3:30 PM',
     name: 'Party Games!',
