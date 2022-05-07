@@ -159,17 +159,17 @@ export const events2 = [
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },**/
   {
-    time: '2:00 PM - 3:30 PM',
-    name: 'Party Games!',
-    cat: 'activity',
-    background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
-  },
-  {
-    time: '4:00 PM - 5:00 PM',
+    time: '1:00 PM - 2:00 PM',
     name: 'Intro to Web Development',
     cat: 'workshop',
     sub: '',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
+  },
+  {
+    time: '3:00 PM - 4:30 PM',
+    name: 'Party Games!',
+    cat: 'activity',
+    background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
   },
   {
     time: '5:00 PM - 6:00 PM',
