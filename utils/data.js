@@ -226,7 +226,7 @@ export const events3 = [
     cat: 'general',
   },
   {
-    time: '5:30 PM - 7:30 PM',
+    time: '5:30 PM - 8:30 PM',
     name: 'Judging Period',
     cat: 'general',
   },
