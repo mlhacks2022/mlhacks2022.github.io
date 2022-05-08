@@ -226,12 +226,12 @@ export const events3 = [
     cat: 'general',
   },
   {
-    time: '5:15 PM - 7:45 PM',
+    time: '5:30 PM - 7:30 PM',
     name: 'Judging Period',
     cat: 'general',
   },
   {
-    time: '8:00 PM - 8:30 PM',
+    time: '9:00 PM - 9:30 PM',
     name: 'Closing Ceremony + Winners Announced!',
     cat: 'general',
   },
