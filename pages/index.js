@@ -63,7 +63,7 @@ export default function Home() {
           <h1 className={styles.title}>ML Hacks</h1>
         </Parallax>
         <Parallax translateY={[150, -50]}>
-          <h2 className={styles.subtitle}>May 20 - 22</h2>
+          <h2 className={styles.subtitle}>June 24-26</h2>
         </Parallax>
         <Parallax translateY={[200, -100]}>
           <a
