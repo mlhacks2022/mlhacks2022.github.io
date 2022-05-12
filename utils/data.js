@@ -35,6 +35,12 @@ export const faqs1 = [
     number: 2,
   },
   {
+    question: 'Do I have to attend the whole event?',
+    answer: 'Nope! You don\'t have to be available for the whole duration of the event in order to attend, and you can choose to participate in as many or as little workshops as you like.',
+    color: '',
+    number: 11,
+  },
+  {
     question: 'Cool! How do I sign up?',
     answer: 'Fill in our sign up form here to register! Make sure to also join our Discord server and Devpost to be notified on the latest updates.',
     color: '',
@@ -46,12 +52,12 @@ export const faqs1 = [
     color: '',
     number: 4,
   },
-  {
+  /**{
     question: 'How will I submit my project?',
     answer: 'Projects will be submitted digitally through Devpost. A three-minute video demo and basic description are required, and all code written must also be accessible (whether that be through Github or some other means).',
     color: '',
     number: 5,
-  },
+  },**/
 ];
 
 export const faqs2 = [
