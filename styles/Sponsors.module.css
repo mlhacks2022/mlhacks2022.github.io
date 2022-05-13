@@ -23,19 +23,10 @@
 
 .sponsorCard {
     transition: .7s ease;
+    padding: 25px;
+    margin: auto;
 }
 .sponsorCard:hover {
     transform: scale(1.1);
     cursor: pointer;
-}
-
-.sponsorName {
-    margin: 20px 0 0 0;
-}
-
-.sponsorDescrip {
-    margin: 20px 0 0 0;
-    font-size: 1.5rem;
-    line-height: 20px;
-    text-align: center;
 }
