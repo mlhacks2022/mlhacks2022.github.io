@@ -287,7 +287,7 @@ export const sponsors = [
   {
     name: 'AoPS',
     img: '/aops.png',
-    link: 'https://artofproblemsolving.com/?utm_source=google&utm_medium=cpc&utm_campaign=&cmid=15593084286&agid=130908271653&search_keyword=art%20of%20problem%20solving&search_type=e&netid=g&adid=570025168704&adpos=&dvt=&ptid=&gclid=Cj0KCQjw06OTBhC_ARIsAAU1yOWP8tJ-DxiDt-p8_B7g5rN4cMmleYI3iuvD-Yh8vDM1XwgHGNoylhAaAnqDEALw_wcB',
+    link: 'https://artofproblemsolving.com/',
     width: 280,
     height: 100,
   },
