@@ -278,6 +278,41 @@ export const awards = [
 
 export const sponsors = [
   {
+    name: 'Taskade',
+    img: '/taskade-circle-icon.png',
+    link: 'https://www.taskade.com/',
+    width: 150,
+    height: 150,
+  },
+  {
+    name: 'echo3D',
+    img: '/echo3D.png',
+    link: '',
+    width: 500,
+    height: 80,
+  },
+  {
+    name: 'Leading Learners',
+    img: '/leadinglearners.png',
+    link: '',
+    width: 100,
+    height: 100,
+  },
+  {
+    name: '1password',
+    img: '/1password.png',
+    link: '',
+    width: 100,
+    height: 100,
+  },
+  {
+    name: 'Sticker Mule',
+    img: '/stickermule.png',
+    link: '',
+    width: 270,
+    height: 100,
+  },
+  {
     name: 'AoPS',
     img: '/aops.png',
     link: 'https://artofproblemsolving.com/?utm_source=google&utm_medium=cpc&utm_campaign=&cmid=15593084286&agid=130908271653&search_keyword=art%20of%20problem%20solving&search_type=e&netid=g&adid=570025168704&adpos=&dvt=&ptid=&gclid=Cj0KCQjw06OTBhC_ARIsAAU1yOWP8tJ-DxiDt-p8_B7g5rN4cMmleYI3iuvD-Yh8vDM1XwgHGNoylhAaAnqDEALw_wcB',
@@ -288,8 +323,8 @@ export const sponsors = [
     name: 'Sticker Giant',
     img: '/stickerGiant.svg',
     link: 'https://www.stickergiant.com/event-coupons?utm_source=website&utm_medium=event',
-    width: 220,
-    height: 220,
+    width: 250,
+    height: 250,
   },
   {
     name: '.XYZ',
