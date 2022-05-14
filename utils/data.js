@@ -81,7 +81,7 @@ export const faqs2 = [
   },
   {
     question: 'How will teams work?',
-    answer: 'Hackers may work solo or form teams of 2-4 people. Need a team? Find one through our team formation channel on Discord! If you have friends or classmates that are interested, feel free to invite them as well!',
+    answer: 'Hackers may work solo or form teams of 2-3 people. Need a team? Find one through our team formation channel on Discord! If you have friends or classmates that are interested, feel free to invite them as well!',
     color: '',
     number: 9,
   },
