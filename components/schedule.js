@@ -65,7 +65,7 @@ export default class Schedule extends React.Component {
                         <Parallax  translateY={[0, -35]}
                             className={styles.colWrapper}>
                             <div className={styles.scheduleCol}>
-                                <h2 className={styles.colName}>Friday <span className={styles.colDate}>5/20</span></h2>
+                                <h2 className={styles.colName}>Friday <span className={styles.colDate}>6/24</span></h2>
                                 {events1.map((event, i) => {
                                     let d = this.state.display;
                                     if (d === 'all' || d === event.cat) {
@@ -82,7 +82,7 @@ export default class Schedule extends React.Component {
                                 })}
                             </div>
                             <div className={styles.scheduleCol}>
-                                <h2 className={styles.colName}>Saturday <span className={styles.colDate}>5/21</span></h2>
+                                <h2 className={styles.colName}>Saturday <span className={styles.colDate}>6/25</span></h2>
                                 {events2.map((event, i) => {
                                     let d = this.state.display;
                                     if (d === 'all' || d === event.cat) {
@@ -99,7 +99,7 @@ export default class Schedule extends React.Component {
                                 })}
                             </div>
                             <div className={styles.scheduleCol}>
-                                <h2 className={styles.colName}>Sunday  <span className={styles.colDate}>5/22</span></h2>
+                                <h2 className={styles.colName}>Sunday  <span className={styles.colDate}>6/26</span></h2>
                                 {events3.map((event, i) => {
                                     let d = this.state.display;
                                     if (d === 'all' || d === event.cat) {
