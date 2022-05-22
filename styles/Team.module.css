@@ -35,12 +35,14 @@
     transition: .7s ease;
     text-align: center;
 }
-.teamCard:hover {
-    transform: scale(.95);
+
+.teamImg {
+    border-radius: 50%;
 }
 
 .teamName {
     margin: 20px 0 0 0;
+    font-weight: 500;
 }
 
 .teamDescrip {

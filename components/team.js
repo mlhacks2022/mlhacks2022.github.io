@@ -24,6 +24,7 @@ export default function Team() {
                                     alt={member.name}
                                     width={150}
                                     height={150}
+                                    className={styles.teamImg}
                                 />
                                 <h2 className={styles.teamName}>{member.name}</h2>
                                 <p className={styles.teamDescrip}>{member.title}</p>
