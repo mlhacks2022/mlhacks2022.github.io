@@ -10,7 +10,7 @@
 
 .gridWrapper {
     margin: 50px auto;
-    width: 70vw;
+    width: 75vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,7 +23,7 @@
 
 .sponsorCard {
     transition: .7s ease;
-    padding: 25px;
+    padding: 35px;
     margin: auto;
 }
 .sponsorCard:hover {

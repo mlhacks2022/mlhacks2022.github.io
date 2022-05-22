@@ -292,11 +292,11 @@ export const sponsors = [
     height: 100,
   },
   {
-    name: 'Leading Learners',
-    img: '/leadinglearners.png',
-    link: 'https://www.leading-learners.com/',
-    width: 150,
-    height: 150,
+    name: 'replit',
+    img: '/replit.png',
+    link: 'https://replit.com/redeem?code=mlHACKS',
+    width: 300,
+    height: 90,
   },
   {
     name: 'echo3D',
@@ -313,18 +313,18 @@ export const sponsors = [
     height: 80,
   },
   {
-    name: 'Sticker Mule',
-    img: '/sticker-mule.svg',
-    link: 'https://www.stickermule.com/',
-    width: 270,
-    height: 100,
+    name: 'Sticker Giant',
+    img: '/stickerGiant.png',
+    link: 'https://www.stickergiant.com/event-coupons?utm_source=website&utm_medium=event',
+    width: 200,
+    height: 130,
   },
   {
-    name: 'Sticker Giant',
-    img: '/stickerGiant.svg',
-    link: 'https://www.stickergiant.com/event-coupons?utm_source=website&utm_medium=event',
-    width: 250,
-    height: 250,
+    name: 'Leading Learners',
+    img: '/leadinglearners.png',
+    link: 'https://www.leading-learners.com/',
+    width: 150,
+    height: 150,
   },
   {
     name: '.XYZ',
@@ -333,4 +333,11 @@ export const sponsors = [
     width: 130,
     height: 130,
   },
+  /**{
+    name: 'Sticker Mule',
+    img: '/sticker-mule.svg',
+    link: 'https://www.stickermule.com/',
+    width: 290,
+    height: 120,
+  },**/
 ];
