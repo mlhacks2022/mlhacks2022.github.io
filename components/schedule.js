@@ -43,12 +43,12 @@ export default class Schedule extends React.Component {
     render() {
         return(
             <div id="schedule" className={styles.schedule + " section nav-sec"}>
-                <Parallax translateY={[10, 0]} >
+                <Parallax translateY={[0, 0]} >
                     <div className={styles.scheduleWrapper}>
-                        <Parallax translateY={[0, -400]}>
+                        <Parallax translateY={[0, 0]}>
                             <h1 className={styles.scheduleTitle}>Tentative Schedule (PST)</h1>
                         </Parallax>
-                        <Parallax translateY={[0, -400]}>
+                        <Parallax translateY={[200, -50]}>
                             <div className={styles.legend}>
                                 {eventCategories.map((cat, i) => {
                                     return (
@@ -62,7 +62,7 @@ export default class Schedule extends React.Component {
                                 })}
                             </div>
                         </Parallax>
-                        <Parallax  translateY={[0, -35]}
+                        <Parallax  translateY={[5, -10]}
                             className={styles.colWrapper}>
                             <div className={styles.scheduleCol}>
                                 <h2 className={styles.colName}>Friday <span className={styles.colDate}>6/24</span></h2>
