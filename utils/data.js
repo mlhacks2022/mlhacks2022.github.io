@@ -313,10 +313,10 @@ export const sponsors = [
     height: 80,
   },
   {
-    name: 'Sticker Giant',
-    img: '/stickerGiant.png',
-    link: 'https://www.stickergiant.com/event-coupons?utm_source=website&utm_medium=event',
-    width: 200,
+    name: '.XYZ',
+    img: '/xyz-logo-color.svg',
+    link: 'https://gen.xyz/',
+    width: 130,
     height: 130,
   },
   {
@@ -327,17 +327,52 @@ export const sponsors = [
     height: 150,
   },
   {
-    name: '.XYZ',
-    img: '/xyz-logo-color.svg',
-    link: 'https://gen.xyz/',
-    width: 130,
+    name: 'Sticker Giant',
+    img: '/stickerGiant.png',
+    link: 'https://www.stickergiant.com/event-coupons?utm_source=website&utm_medium=event',
+    width: 200,
     height: 130,
   },
-  /**{
+  {
+    name: 'Hack Club',
+    img: '/hackclub3.svg',
+    link: 'https://hackclub.com/',
+    width: 300,
+    height: 100,
+  },
+  {
     name: 'Sticker Mule',
     img: '/sticker-mule.svg',
     link: 'https://www.stickermule.com/',
     width: 290,
     height: 120,
-  },**/
+  },
+];
+
+export const team = [
+  {
+    name: 'Claire Xu',
+    img: '/claire.png',
+    title: 'founder',
+  },
+  {
+    name: 'Lilian Zhao',
+    img: '/lilian.svg',
+    title: 'founder',
+  },
+  {
+    name: 'Lilian Zhao',
+    img: '/lilian.svg',
+    title: 'founder',
+  },
+  {
+    name: 'Lilian Zhao',
+    img: '/lilian.svg',
+    title: 'founder',
+  },
+  {
+    name: 'Lilian Zhao',
+    img: '/lilian.svg',
+    title: 'founder',
+  },
 ];
