@@ -262,17 +262,17 @@ export const awards = [
   {
     name: 'Machine Learning',
     img: '/webComputer.svg',
-    descrip: 'Incorporate ML into your hack!',
+    descrip: 'Incorporate Machine Learning within your hack',
   },
   {
     name: 'Beginner',
     img: '/rocket.svg',
-    descrip: 'For teams comprised of all first-time coders!',
+    descrip: 'For teams comprised entirely of first-time coders',
   },
   {
     name: 'Social Good',
     img: '/people3.svg',
-    descrip: 'Create something to improve society!',
+    descrip: 'Create something to improve & enhance society',
   },
 ];
 

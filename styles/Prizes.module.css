@@ -26,7 +26,7 @@
 
 .awardCard {
     width: 30%;
-    max-width: 280px;
+    max-width: 300px;
     height: 250px;
     margin-top: 55px;
     border-radius: 40px;
@@ -37,6 +37,9 @@
     justify-content: flex-start;
     transition: .7s ease;
     text-align: center;
+    background-color: rgb(33, 33, 33);
+    /**background: linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%);**/
+    color: white;
 }
 .awardCard:hover {
     transform: scale(.95);
@@ -51,6 +54,7 @@
     font-size: 1.5rem;
     line-height: 20px;
     text-align: center;
+    font-style: italic;
 }
 
 @media (max-width: 900px) {
