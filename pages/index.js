@@ -4,8 +4,9 @@ import PageLoading from './PageLoading';
 import About from '../components/about';
 import Schedule from '../components/schedule';
 import FAQs from '../components/faqs';
-import Prizes from '../components/prizes';
+import Tracks from '../components/tracks';
 import Sponsors from '../components/sponsors';
+import Team from '../components/team';
 
 import styles from '../styles/Home.module.css';
 
@@ -89,11 +90,15 @@ export default function Home() {
       </Parallax>
 
       <Parallax translateY={[0, 0]}>
-        <Prizes></Prizes>
+        <Tracks></Tracks>
       </Parallax>
       
       <Parallax translateY={[0, 0]}>
         <Sponsors></Sponsors>
+      </Parallax>
+
+      <Parallax translateY={[0, 15]}>
+        <Team></Team>
       </Parallax>
 
       <Parallax translateY={[0, 15]}>

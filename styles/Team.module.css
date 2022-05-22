@@ -1,0 +1,80 @@
+.team {
+    background-color: transparent;
+    transform: skew(0deg,-2deg);
+    padding-bottom: 80px;
+}
+
+.teamWrapper {
+    transform: skew(0deg, 2deg);
+}
+
+.teamGridWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.teamTitle {
+    color: rgb(59, 59, 59);
+}
+
+.teamCard {
+    color: black;
+    width: 30%;
+    max-width: 300px;
+    height: 250px;
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    transition: .7s ease;
+    text-align: center;
+}
+.teamCard:hover {
+    transform: scale(.95);
+}
+
+.teamName {
+    margin: 20px 0 0 0;
+}
+
+.teamDescrip {
+    margin: 20px 0 0 0;
+    font-size: 1.5rem;
+    line-height: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+@media (max-width: 900px) {
+    .teamGridWrapper {
+        margin-top: 25px;
+    }
+    .teamCard {
+        width: 50%;
+        margin: 25px auto;
+    }
+}
+@media (max-width: 800px) {
+    .teamGridWrapper {
+        margin-top: 25px;
+    }
+    .teamCard {
+        width: 43%;
+        margin: 25px auto;
+    }
+}
+@media (max-width: 660px) {
+    .teamGridWrapper {
+        margin-top: 35px;
+    }
+    .teamCard {
+        width: 100%;
+        margin: 25px auto;
+    }
+}

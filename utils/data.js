@@ -5,7 +5,7 @@ export const sections = [
   },
   {
     name: 'Tracks',
-    path: '#prizes',
+    path: '#tracks',
   },
   {
     name: 'Sponsors',
@@ -243,22 +243,7 @@ export const events3 = [
   },
 ];
 
-export const awards = [
-  /**{
-    name: 'Best Overall Hack',
-    img: '/prize3.svg',
-    descrip: 'TBD!',
-  },
-  {
-    name: 'Runner-Up Hack',
-    img: '/circle.svg',
-    descrip: 'TBD!',
-  },
-  {
-    name: 'Best Design',
-    img: '/square.svg',
-    descrip: 'TBD!',
-  },**/
+export const tracks = [
   {
     name: 'Machine Learning',
     img: '/webComputer.svg',
@@ -352,27 +337,37 @@ export const sponsors = [
 export const team = [
   {
     name: 'Claire Xu',
-    img: '/claire.png',
-    title: 'founder',
+    img: '/img/claire.jpg',
+    title: 'Founder, Executive Director',
   },
   {
     name: 'Lilian Zhao',
-    img: '/lilian.svg',
-    title: 'founder',
+    img: '/img/mushroom.svg',
+    title: 'Director of Operations',
   },
   {
-    name: 'Lilian Zhao',
-    img: '/lilian.svg',
-    title: 'founder',
+    name: 'Nicole Cao',
+    img: '/img/nicole.jpg',
+    title: 'Director of Design',
   },
   {
-    name: 'Lilian Zhao',
-    img: '/lilian.svg',
-    title: 'founder',
+    name: 'Annie Wang',
+    img: '/img/annie.png',
+    title: 'Director of Communication',
   },
   {
-    name: 'Lilian Zhao',
-    img: '/lilian.svg',
-    title: 'founder',
+    name: 'Jasmine Phan',
+    img: '/img/jasmine.png',
+    title: 'Director of Marketing',
+  },
+  {
+    name: 'Jessie Chan',
+    img: '/img/pacman.svg',
+    title: 'Director of Sponsorships',
+  },
+  {
+    name: 'Shomili Banerjee',
+    img: '/img/ghost.svg',
+    title: 'Assisstant Director of Operations',
   },
 ];
