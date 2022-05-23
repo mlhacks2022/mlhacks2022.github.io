@@ -35,11 +35,11 @@
     position: absolute;
     top: -0px;
 }
-@media (max-width: 620px) {
+/*@media (max-width: 620px) {
   .welcomeWrapper {
-      display: none;
+    display: none;
   }
-}
+}*/
 
 .welcomeText {
     font-size: 20rem;
