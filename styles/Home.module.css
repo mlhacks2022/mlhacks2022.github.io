@@ -88,6 +88,7 @@
   }
   .title {
     top: -30px;
+    -webkit-text-fill-color: transparent;
   }
   .btn {
     background-color: white;
