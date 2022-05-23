@@ -9,10 +9,9 @@
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: rgb(244, 244, 244);
-    background: rgb(156,228,255);
-    background: linear-gradient(135deg, rgba(139,211,255,1) 0%, rgba(126,114,255,1) 68%, rgb(161, 93, 229) 100%);
-    transform: skew(0deg, 4deg);
+    background-color: rgb(24, 24, 24);
+    /*background: linear-gradient(135deg, rgba(139,211,255,1) 0%, rgba(126,114,255,1) 68%, rgb(161, 93, 229) 100%);*/
+    /*transform: skew(0deg, 4deg);*/
 }
 
 .introWrapper {
@@ -21,7 +20,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    transform: skew(0deg, -4deg);
+    /*transform: skew(0deg, -4deg);*/
 }
 
 .introDeco {
@@ -41,11 +40,11 @@
     font-size: 20rem;
     font-weight: 300;
     white-space: nowrap;
-    font-family: monospace;
-    color: white;
+    font-family: 'Monoton', 'Roboto Mono', 'Courier New', monospace;
+    color: rgb(167, 167, 167);
 }
 .highlight {
-    color: rgb(192, 194, 255);
+    color: rgb(230, 230, 230);
 }
 
 .logo {
