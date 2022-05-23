@@ -4,6 +4,8 @@
   --bright-pink: rgb(255, 68, 227);
   --dark-pink: rgb(56, 0, 168);
 
+  --black: rgb(24, 24, 24);
+
   --darker: rgb(0, 7, 112);
   --dark: rgb(0, 11, 168);
   --main: rgb(24, 40, 255);
@@ -113,14 +115,14 @@ button{
   border:none;
   background-color: white;
   color: black;
-  border-radius: 50px;
-  font-family: inherit;
-  font-size: 2rem;
+  width: fit-content;
+  border-radius: 8px;
+  font-family: 'Roboto Mono';
   font-weight: 600;
+  font-size: 1.6rem;
   transition: .5s ease;
   padding: 8px 12px;
   margin: 0;
-
 }
 button:hover {
   color: white;
