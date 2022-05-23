@@ -26,11 +26,11 @@ html {
   font-family: 'Open Sans', 'Inter', -apple-system, sans-serif;
 }
 
-@media (max-width: 620px) {
+/*@media (max-width: 620px) {
   html {
     overflow-x: hidden;
   }
-}
+}*/
 
 body {
   position: relative;
