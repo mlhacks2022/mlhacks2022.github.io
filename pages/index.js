@@ -35,7 +35,7 @@ export default function Home() {
           color: 0x67c9ff,
           backgroundColor: 0xffffff,
           backgroundColor: 0x0f1d4a,
-          backgroundColor: 0x171717,
+          backgroundColor: 0x181818,
         })
       );
     };
@@ -60,10 +60,10 @@ export default function Home() {
       {!loaded && <div></div>}
 
       <div ref={vantaRef} className={styles.vantaBg}>
-        <Parallax translateY={[80, -20]} className={styles.titleWrapper}>
+        <Parallax translateY={[80, 0]} className={styles.titleWrapper}>
           <h1 className={styles.title}>ML Hacks</h1>
         </Parallax>
-        <Parallax translateY={[50, -50]}>
+        <Parallax translateY={[80, 0]}>
           <h2 className={styles.subtitle}>June 24-26</h2>
         </Parallax>
         <Parallax translateY={[200, -100]}>
