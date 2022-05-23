@@ -35,11 +35,6 @@
     position: absolute;
     top: -0px;
 }
-@media (max-width: 620px) {
-  .welcomeWrapper {
-    display: none;
-  }
-}
 
 .welcomeText {
     font-size: 20rem;
@@ -50,6 +45,11 @@
 }
 .highlight {
     color: rgb(230, 230, 230);
+}
+@media (max-width: 620px) {
+  .welcomeText {
+    display: none;
+  }
 }
 
 .logo {
