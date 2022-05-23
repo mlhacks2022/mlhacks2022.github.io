@@ -365,9 +365,4 @@ export const team = [
     img: '/img/jasmine.png',
     title: 'Director of Marketing',
   },
-  {
-    name: 'Shomili Banerjee',
-    img: '/img/mushroom.svg',
-    title: 'Director of Outreach',
-  },
 ];

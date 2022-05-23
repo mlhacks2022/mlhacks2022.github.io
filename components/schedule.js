@@ -48,7 +48,7 @@ export default class Schedule extends React.Component {
                         <Parallax translateY={[0, 0]}>
                             <h1 className={styles.scheduleTitle}>Tentative Schedule (PST)</h1>
                         </Parallax>
-                        <Parallax translateY={[200, -50]}>
+                        <Parallax translateY={[100, 0]}>
                             <div className={styles.legend}>
                                 {eventCategories.map((cat, i) => {
                                     return (
