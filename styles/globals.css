@@ -21,12 +21,14 @@
 }
 
 html{
+  overflow-x: hidden;
   font-size: 62.7%;
   scroll-behavior: smooth;
   font-family: 'Open Sans', 'Inter', -apple-system, sans-serif;
 }
 
 body {
+  position: relative;
   margin: 0;
   padding: 0;
   font-size: 1.6rem;

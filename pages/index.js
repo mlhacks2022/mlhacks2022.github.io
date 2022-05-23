@@ -60,25 +60,27 @@ export default function Home() {
       {!loaded && <div></div>}
 
       <div ref={vantaRef} className={styles.vantaBg}>
-        <Parallax translateY={[80, 0]} className={styles.titleWrapper}>
-          <h1 className={styles.title}>ML Hacks</h1>
-        </Parallax>
-        <Parallax translateY={[80, 0]}>
-          <h2 className={styles.subtitle}>June 24-26</h2>
-        </Parallax>
-        <Parallax translateY={[200, -100]}>
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSc6sGlXZhtgxIXJmEZplBYp5JYi8X50rux-sdVYRSxjKDNbzQ/viewform"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className={styles.btnWrapper + ' buttonWrapper'}>
-              <button className={styles.btn}>
-                Join as a Hacker
-              </button>
-            </div>
-          </a>
-        </Parallax>
+        <div className={styles.vantaText}>
+          <Parallax translateY={[80, 0]} className={styles.titleWrapper}>
+            <h1 className={styles.title}>ML Hacks</h1>
+          </Parallax>
+          <Parallax translateY={[80, 0]}>
+            <h2 className={styles.subtitle}>June 24-26</h2>
+          </Parallax>
+          <Parallax translateY={[100, 0]}>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSc6sGlXZhtgxIXJmEZplBYp5JYi8X50rux-sdVYRSxjKDNbzQ/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className={styles.btnWrapper}>
+                <button className={styles.btn}>
+                  Join as a Hacker
+                </button>
+              </div>
+            </a>
+          </Parallax>
+        </div>
       </div>
 
       <Parallax translateY={[-6, -20]}>
