@@ -26,5 +26,8 @@
     "eslint": "8.13.0",
     "eslint-config-next": "12.1.4"
   },
-  "packageManager": "yarn@3.2.0"
+  "packageManager": "yarn@3.2.0",
+  "resolutions": {
+    "minipass": "2.7.0"
+  }
 }
