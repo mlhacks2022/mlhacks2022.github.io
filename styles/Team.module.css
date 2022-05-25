@@ -1,7 +1,8 @@
 .team {
     background-color: transparent;
     transform: skew(0deg,-2deg);
-    padding-bottom: 80px;
+    padding-top: 0px;
+    padding-bottom: 100px;
 }
 
 .teamWrapper {

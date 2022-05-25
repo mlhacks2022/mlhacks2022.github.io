@@ -1,7 +1,8 @@
 .sponsors {
     background-color: rgb(244, 244, 244);
     transform: skew(0deg,-2deg);
-    padding-bottom: 80px;
+    padding-top: 180px;
+    padding-bottom: 10px;
 }
 
 .sponsorsWrapper {
@@ -23,7 +24,7 @@
 
 .sponsorCard {
     transition: .7s ease;
-    padding: 35px;
+    padding: 25px 40px;
     margin: auto;
 }
 .sponsorCard:hover {

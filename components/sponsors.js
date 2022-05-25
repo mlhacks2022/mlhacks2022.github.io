@@ -11,10 +11,10 @@ export default function Sponsors() {
     return (
         <div id='sponsors' className={styles.sponsors + " section"}> 
             <div className={styles.sponsorsWrapper}>
-                <Parallax translateY={[0, 0]}>
+                <Parallax translateY={[10, -150]}>
                     <h1 className={styles.title}>Sponsors</h1>
                 </Parallax>
-                <Parallax translateY={[0, 0]}
+                <Parallax translateY={[0, -10]}
                     className={styles.gridWrapper}>
                     {sponsors.map((sponsor, i) => {
                         return (

@@ -95,7 +95,7 @@ export default function Home() {
         <Tracks></Tracks>
       </Parallax>
       
-      <Parallax translateY={[0, 0]}>
+      <Parallax translateY={[6, -20]}>
         <Sponsors></Sponsors>
       </Parallax>
 
