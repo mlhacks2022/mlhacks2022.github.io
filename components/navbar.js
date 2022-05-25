@@ -50,12 +50,12 @@ export default class Navbar extends React.Component {
                 </div>
                 <div className={styles.navbarTop}>
                     <Link 
-                        className="link"
+                        className={styles.logo + " link"}
                         href='https://mlhacks2022.vercel.app/'
                         passHref>
                         <a>
                             <Image
-                                src="/favicon.ico"
+                                src="/logo_white.svg"
                                 alt="Logo"
                                 width={35}
                                 height={35}
