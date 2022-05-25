@@ -1,6 +1,4 @@
 .intro {
-    height: 120vh;
-    height: 750px;
     width: 100vw;
     padding: 4rem 0;
     flex: 1;
@@ -9,7 +7,7 @@
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: rgb(24, 24, 24);
+    background-color: var(--black);
     /*background: linear-gradient(135deg, rgba(139,211,255,1) 0%, rgba(126,114,255,1) 68%, rgb(161, 93, 229) 100%);*/
     /*transform: skew(0deg, 4deg);*/
 }
@@ -115,7 +113,7 @@
     height: 100%;
     margin: 0 0 0 0;
     line-height: 1.5;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
 }
   
 .deco {
