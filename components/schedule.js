@@ -46,7 +46,7 @@ export default class Schedule extends React.Component {
                 <Parallax translateY={[0, 0]} >
                     <div className={styles.scheduleWrapper}>
                         <Parallax translateY={[0, 0]}>
-                            <h1 className={styles.scheduleTitle}>Tentative Schedule (PST)</h1>
+                            <h1 className={styles.scheduleTitle}>Tentative Schedule (PT)</h1>
                         </Parallax>
                         <Parallax translateY={[100, 0]}>
                             <div className={styles.legend}>
