@@ -36,7 +36,7 @@ export const faqs1 = [
   },
   {
     question: 'Do I have to attend the whole event?',
-    answer: 'Nope! You don\'t have to be available for the whole duration of the event in order to attend, and you can choose to participate in as many or as little workshops as you like.',
+    answer: 'Nope! You don\'t have to be available for the entire duration of the event in order to attend, and you can choose to participate in as many or as little workshops as you like.',
     color: '',
     number: 11,
   },
@@ -52,18 +52,18 @@ export const faqs1 = [
     color: '',
     number: 4,
   },
-  /**{
+  {
     question: 'How will I submit my project?',
-    answer: 'Projects will be submitted digitally through Devpost. A three-minute video demo and basic description are required, and all code written must also be accessible (whether that be through Github or some other means).',
+    answer: 'Projects will be submitted digitally through Devpost. A three-minute video demo and basic description are required, and all code written must also be accessible (through Github, a Word Document, etc.)',
     color: '',
     number: 5,
-  },**/
+  },
 ];
 
 export const faqs2 = [
   {
     question: 'Who can attend?',
-    answer: 'Any high schooler who identifies as female, nonbinary, or gender non-conforming is welcome! No prior experience is required, and hackers may join from any location across the world.',
+    answer: 'Any high schooler who identifies as female, nonbinary, or gender non-conforming is welcome! No prior experience is required, and hackers may join from any location within the US. We may not be able to ship prizes or swag outside the US, but otherwise international students are welcome as well!',
     color: '',
     number: 6,
   },
@@ -72,6 +72,12 @@ export const faqs2 = [
     answer: 'Your project must fall within one of our three tracks: Machine Learning, Beginner, or Social Good. However, the exact type of project you want to create is up to you—websites, apps, hardware, etc. are all fair game! Beginner level workshops and resources will be provided to help you get started :)',
     color: '',
     number: 7,
+  },
+  {
+    question: 'What do I need to bring?',
+    answer: 'A device with stable internet connection!',
+    color: '',
+    number: 12,
   },
   {
     question: 'Do I have to submit something?',
@@ -347,7 +353,7 @@ export const team = [
   },
   {
     name: 'Lilian Zhao',
-    img: '/img/mushroom.svg',
+    img: '/img/lilian.jpg',
     title: 'Director of Operations',
   },
   {
