@@ -348,7 +348,7 @@ export const team = [
   },
   {
     name: 'Nicole Cao',
-    img: '/img/nicole.jpg',
+    img: '/img/nicole2.jpg',
     title: 'Director of Design',
   },
   {
