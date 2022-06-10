@@ -358,7 +358,7 @@ export const team = [
   },
   {
     name: 'Jessie Chan',
-    img: '/img/mushroom.svg',
+    img: '/img/jessie.png',
     title: 'Director of Sponsorships',
   },
   {
