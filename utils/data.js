@@ -153,7 +153,7 @@ export const events2 = [
     time: '10:00 AM - 11:00 AM',
     name: 'Intro to Machine Learning (No Code!)',
     cat: 'workshop',
-    sub: 'Claire Xu',
+    sub: 'TBD',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
@@ -187,7 +187,7 @@ export const events2 = [
     time: '7:00 PM - 8:00 PM',
     name: 'Machine Learning for WebDev',
     cat: 'workshop',
-    sub: 'Lilian Zhao',
+    sub: 'TBD',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   /**{
