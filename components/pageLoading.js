@@ -9,11 +9,11 @@ export default class PageLoading extends React.Component {
         super(props);
     };
 
-    /*componentDidMount() {
+    componentDidMount() {
         const myTimeout = setTimeout(() => {
             document.getElementById('loadBox').style.display = 'none';
-        }, 3000);
-    };*/
+        }, 5000);
+    };
 
     render() {
         return (
@@ -23,7 +23,6 @@ export default class PageLoading extends React.Component {
                     height={110}
                     width={110}
                     ariaLabel="three-circles-rotating"
-                    className={styles.loader}
                 />
             </div>
         );

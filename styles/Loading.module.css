@@ -7,8 +7,14 @@
     position: fixed;
     transition: 1s ease;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeOut 1s ease-in-out 4s 1 normal forwards;
 }
 
-.loader {
-    margin: auto;
+@keyframes fadeOut {
+    to {
+        opacity: 0%;
+    }
 }
