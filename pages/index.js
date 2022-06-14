@@ -1,5 +1,6 @@
 import Head from 'next/head';
-import PageLoading from './PageLoading';
+
+import PageLoading from '../components/pageLoading';
 
 import About from '../components/about';
 import Schedule from '../components/schedule';
@@ -57,7 +58,7 @@ export default function Home() {
         <link rel="icon" href="/logo_purple.svg" />
       </Head>
 
-      {!loaded && <div></div>}
+      <PageLoading></PageLoading>
 
       <div ref={vantaRef} className={styles.vantaBg}>
         <div className={styles.vantaText}>

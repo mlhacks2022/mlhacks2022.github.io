@@ -1,5 +1,5 @@
 .page {
-    background-color: rgb(246, 245, 255);
+    background-color: var(--black);
     margin: 0;
     z-index: 200;
     width: 100vw;
@@ -7,4 +7,8 @@
     position: fixed;
     transition: 1s ease;
     overflow: hidden;
+}
+
+.loader {
+    margin: auto;
 }

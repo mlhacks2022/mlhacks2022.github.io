@@ -74,9 +74,6 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-                <div className={styles.grid}>
-                    
-                </div>
             </div>
         </div>
     );

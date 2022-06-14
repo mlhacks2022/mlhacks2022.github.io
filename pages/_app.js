@@ -16,6 +16,7 @@ function MyApp({ Component, pageProps }) {
       };
     };
   }, []);
+
   return (
     <ParallaxProvider>
       <Layout>

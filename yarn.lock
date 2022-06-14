@@ -4329,6 +4329,7 @@ __metadata:
     react: ^18.0.0
     react-dom: 18.0.0
     react-icons: ^4.3.1
+    react-loader-spinner: ^5.1.5
     react-scroll-parallax: ^3.0.6
     react-spinner-loader: ^1.1.1
     sc-react: ^0.1.7
@@ -5406,6 +5407,16 @@ __metadata:
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
+  languageName: node
+  linkType: hard
+
+"react-loader-spinner@npm:^5.1.5":
+  version: 5.1.5
+  resolution: "react-loader-spinner@npm:5.1.5"
+  peerDependencies:
+    react: ^16.0.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0
+  checksum: 2e5dd2beca5338ab9b7b9b33a8a2364ee5296d8aa32f3a7b2c82b4471e55e7768004c97d30ea9d20fd35a13aa625d24b38e960ad4ca0382d7d6eece14af5f4f5
   languageName: node
   linkType: hard
 
