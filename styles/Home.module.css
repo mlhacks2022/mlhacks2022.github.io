@@ -14,16 +14,7 @@
   left: 0vw;
 }
 
-@keyframes slideIn {
-  to {
-    left: 0;
-  }
-}
-
 .title {
-  position: relative;
-  left: -200px;
-  animation: slideIn 1s ease-in-out 0s 1 normal forwards;
   padding: 0;
   font-size: 10rem;
   font-weight: 300;
@@ -35,9 +26,6 @@
 }
 
 .subtitle {
-  position: relative;
-  left: -200px;
-  animation: slideIn 1s ease-in-out .4s 1 normal forwards;
   color: rgb(205, 205, 205);
   color: rgb(233, 233, 233);
   font-family: 'Share', 'Koulen', 'Plus Jakarta Sans', 'Inter', 'Open Sans', monospace;
@@ -45,9 +33,6 @@
 }
 
 .btn {
-  position: relative;
-  left: -200px;
-  animation: slideIn 1s ease-in-out .8s 1 normal forwards;
   width: fit-content;
   border-radius: 50px;
   /*background: linear-gradient(90deg, rgb(255, 87, 199), rgb(172, 220, 255));*/

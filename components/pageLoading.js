@@ -12,7 +12,7 @@ export default class PageLoading extends React.Component {
     componentDidMount() {
         const myTimeout = setTimeout(() => {
             document.getElementById('loadBox').style.display = 'none';
-        }, 5000);
+        }, 4500);
     };
 
     render() {
