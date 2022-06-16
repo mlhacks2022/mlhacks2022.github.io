@@ -283,6 +283,34 @@ export const sponsors = [
     height: 80,
   },
   {
+    name: 'mit',
+    img: '/sponsors/MIT.png',
+    link: 'https://www.mit.edu/',
+    width: 350,
+    height: 90,
+  },
+  {
+    name: 'wolfram',
+    img: '/sponsors/wolfram.png',
+    link: 'https://replit.com/redeem?code=mlHACKS',
+    width: 300,
+    height: 100,
+  },
+  {
+    name: 'Hack Club',
+    img: '/sponsors/hackclub3.svg',
+    link: 'https://hackclub.com/',
+    width: 280,
+    height: 90,
+  },
+  {
+    name: '.XYZ',
+    img: '/sponsors/xyz-logo-color.svg',
+    link: 'https://gen.xyz/',
+    width: 130,
+    height: 130,
+  },
+  {
     name: 'echo3D',
     img: '/sponsors/echo3D.png',
     link: 'https://www.echo3d.co/',
@@ -297,13 +325,6 @@ export const sponsors = [
     height: 70,
   },
   {
-    name: '.XYZ',
-    img: '/sponsors/xyz-logo-color.svg',
-    link: 'https://gen.xyz/',
-    width: 130,
-    height: 130,
-  },
-  {
     name: 'Leading Learners',
     img: '/sponsors/leadinglearners.png',
     link: 'https://www.leading-learners.com/',
@@ -316,13 +337,6 @@ export const sponsors = [
     link: 'https://www.stickergiant.com/event-coupons?utm_source=website&utm_medium=event',
     width: 180,
     height: 120,
-  },
-  {
-    name: 'Hack Club',
-    img: '/sponsors/hackclub3.svg',
-    link: 'https://hackclub.com/',
-    width: 280,
-    height: 90,
   },
   {
     name: 'Sticker Mule',
