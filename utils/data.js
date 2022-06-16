@@ -293,7 +293,7 @@ export const sponsors = [
     name: 'wolfram',
     img: '/sponsors/wolfram.png',
     link: 'https://replit.com/redeem?code=mlHACKS',
-    width: 300,
+    width: 290,
     height: 100,
   },
   {
