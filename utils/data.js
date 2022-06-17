@@ -180,7 +180,7 @@ export const events2 = [
     time: '7:00 PM - 8:00 PM',
     name: 'Machine Learning for WebDev',
     cat: 'workshop',
-    sub: 'TBD',
+    sub: 'Lilian Zhao',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   /**{
