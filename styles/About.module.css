@@ -85,8 +85,8 @@
     width: 137px;
 }
 .btn:hover {
-    transform: translate(8px, -8px);
-    box-shadow: -7px 5px 4px 3px rgba(0, 0, 0, 0.111);
+    transform: translate(5px, -5px);
+    box-shadow: -4px 3px 4px 3px rgba(0, 0, 0, 0.111);
 }
 
 .col2 {
@@ -107,9 +107,9 @@
     position: absolute;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .introWrapper {
-        padding: 40px 80px 180px 80px;
+        padding: 40px 3% 180px 3%;
     }
     .introCard {
         top: -50px;
@@ -118,11 +118,63 @@
         width: 70%;
     }
 }
+@media (max-width: 800px) {
+    .introWrapper {
+        padding: 40px 0 180px 0;
+    }
+}
+@media (max-width: 750px) {
+    .introWrapper {
+        padding: 40px 3% 380px 3%;
+    }
+    .introCard {
+        flex-direction: column-reverse;
+    }
+    .introCol {
+        width: 100%;
+    }
+    .col1 {
+        height: 10%;
+        border-radius: 0 0 30px 30px;
+    }
+    .btnWrapper {
+        flex-direction: row;
+        top: 0;
+    }
+    .btn {
+        margin: 0 0 0 5px;
+    }
+    .col2 {
+        height: 90%;
+        border-radius: 30px 30px 0 0;
+    }
+}
 @media (max-width: 620px) {
     .welcomeText {
         display: none;
     }
     .introCard {
         top: 0;
+    }
+}
+@media (max-width: 600px) {
+    .introWrapper {
+        padding: 40px 3% 520px 3%;
+    }
+    .btnWrapper {
+        flex-direction: column;
+    }
+    .btn {
+        margin: 10px 0 0 0;
+    }
+}
+@media (max-width: 550px) {
+    .introWrapper {
+        padding: 40px 3% 550px 3%;
+    }
+}
+@media (max-width: 400px) {
+    .introWrapper {
+        padding: 40px 0 550px 0;
     }
 }
