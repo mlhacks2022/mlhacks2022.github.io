@@ -151,16 +151,9 @@ export const events1 = [
 export const events2 = [
   {
     time: '10:00 AM - 11:00 AM',
-    name: 'Intro to Machine Learning (No Code!)',
+    name: 'Intro to Machine Learning + ML in Python',
     cat: 'workshop',
-    sub: 'TBD',
-    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
-  },
-  {
-    time: '11:00 AM - 12:00 PM',
-    name: 'Machine Learning w/ Tensorflow',
-    cat: 'workshop',
-    sub: 'TBD',
+    sub: 'Claire Xu',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
@@ -215,7 +208,7 @@ export const events3 = [
     time: '9:00 AM - 10:00 AM',
     name: 'Women in STEM Panel + Q&A',
     cat: 'workshop',
-    sub: 'TBD',
+    sub: 'Amy Jin - (Engineering PhD Student in Cambridge), Christina Chen - (SWE at Meta), Mulan Zhao - (SWE at Meta)',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
