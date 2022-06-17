@@ -10,9 +10,6 @@ export default function About() {
     return (
         <div id='about' className={styles.intro + " section nav-sec"}> 
             <div className={styles.introWrapper}>
-                <Parallax speed={0}>
-                    <div style={{display: 'none'}} className={styles.deco + " card"}></div>
-                </Parallax>
                 <div>
                     <div className={styles.welcomeWrapper}>
                         <Parallax translateX={[-40, -60]}>
@@ -31,16 +28,16 @@ export default function About() {
                             </h1>
                         </Parallax>
                     </div>
-                        <Image
-                            src="/logo.png"
-                            alt="server"
-                            width={450}
-                            height={450}
-                            className={styles.logo}
-                        />
+                    <Image
+                        src="/logo.png"
+                        alt="server"
+                        width={440}
+                        height={225}
+                        className={styles.logo}
+                    />
                     <div className={styles.introCard + " card"}>
                         <div className={styles.introCol + ' ' + styles.col1}>
-                            <div>
+                            <div className={styles.btnWrapper}>
                                 <a
                                     href="https://discord.gg/WY8PJ2uTbR"
                                     target="_blank"
