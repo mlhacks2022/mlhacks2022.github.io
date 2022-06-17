@@ -17,7 +17,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 100px;
+    padding: 100px 5%;
 }
 
 .welcomeWrapper {
@@ -38,7 +38,6 @@
 
 .logo {
     z-index: 50;
-    margin-top: 80px;
 }
 
 .introCard {
@@ -56,9 +55,9 @@
 }
 
 .introCol {
-    width: 50%;
     height: 100%;
     padding: 40px;
+    width: 50%;
 }
 
 .col1 {
@@ -76,9 +75,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 10px 0 0 10px;
-    width: 100%;
-    height: 100%;
+    position: relative;
+    top: 10px;
 }
 
 .btn {
@@ -88,7 +86,7 @@
 }
 .btn:hover {
     transform: translate(8px, -8px);
-    box-shadow: -7px 4px 4px 3px rgba(0, 0, 0, 0.111);
+    box-shadow: -7px 5px 4px 3px rgba(0, 0, 0, 0.111);
 }
 
 .col2 {
@@ -109,6 +107,17 @@
     position: absolute;
 }
 
+@media (max-width: 600px) {
+    .introWrapper {
+        padding: 40px 80px 180px 80px;
+    }
+    .introCard {
+        top: -50px;
+    }
+    .col2 {
+        width: 70%;
+    }
+}
 @media (max-width: 620px) {
     .welcomeText {
         display: none;

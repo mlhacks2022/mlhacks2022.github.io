@@ -208,7 +208,7 @@ export const events3 = [
     time: '9:00 AM - 10:00 AM',
     name: 'Women in STEM Panel + Q&A',
     cat: 'workshop',
-    sub: 'Yichen Zhu - (SWE at Google), Christina Chen - (SWE at Meta), Amy Jin - (Engineering PhD Student at Cambridge), Mulan Zhao - (SWE at Meta)',
+    sub: 'Yichen Zhu - (SWE at Google), Christina Chen - (SWE at Meta), Amy Jin - (Engineering PhD Student at Cambridge), Ria Singla - (Masters Student at Northwestern) Mulan Zhao - (SWE at Meta)',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {

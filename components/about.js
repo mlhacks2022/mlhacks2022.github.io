@@ -39,6 +39,13 @@ export default function About() {
                         <div className={styles.introCol + ' ' + styles.col1}>
                             <div className={styles.btnWrapper}>
                                 <a
+                                    href="https://docs.google.com/forms/d/e/1FAIpQLSc6sGlXZhtgxIXJmEZplBYp5JYi8X50rux-sdVYRSxjKDNbzQ/viewform"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <button className={styles.btn}>Join Now</button>
+                                </a>
+                                <a
                                     href="https://discord.gg/WY8PJ2uTbR"
                                     target="_blank"
                                     rel="noopener noreferrer"
