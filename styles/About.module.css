@@ -150,9 +150,9 @@
     }
 }
 @media (max-width: 620px) {
-    .welcomeText {
+    /*.welcomeText {
         display: none;
-    }
+    }*/
     .introCard {
         top: 0;
     }
