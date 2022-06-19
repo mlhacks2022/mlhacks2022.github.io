@@ -17,7 +17,6 @@ import * as THREE from 'three';
 import { Parallax } from 'react-scroll-parallax';
 
 export default function Home() {
-  const [loaded, setLoaded] = useState(false);
   const [vantaEffect, setVantaEffect] = useState(0);
   const vantaRef = useRef(null);
   useEffect(() => {
@@ -41,10 +40,6 @@ export default function Home() {
       );
     };
 
-    const myTimeout = setTimeout(() => {
-      setLoaded(true);
-    }, 4000);
-
     return () => {
       if (vantaEffect) vantaEffect.destroy();
     };
@@ -59,6 +54,28 @@ export default function Home() {
       </Head>
 
       <PageLoading></PageLoading>
+
+      <div ref={vantaRef} className={styles.vantaBg}>
+        <div className={styles.vantaText}>
+          <Parallax translateY={[80, 0]} className={styles.titleWrapper}>
+            <h1 className={styles.title}>ML Hacks</h1>
+          </Parallax>
+          <Parallax translateY={[80, 0]}>
+            <h2 className={styles.subtitle}>June 24-26</h2>
+          </Parallax>
+          <Parallax translateY={[100, 0]}>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSc6sGlXZhtgxIXJmEZplBYp5JYi8X50rux-sdVYRSxjKDNbzQ/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className={styles.btn}>
+                Join as a Hacker
+              </button>
+            </a>
+          </Parallax>
+        </div>
+      </div>
 
       <Parallax translateY={[-6, -20]}>
         <About></About>
