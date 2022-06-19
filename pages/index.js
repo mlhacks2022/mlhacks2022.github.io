@@ -82,29 +82,7 @@ export default function Home() {
         </div>
       </div>
 
-      <Parallax translateY={[-6, -20]}>
-        <About></About>
-      </ Parallax>
-
-      <Parallax translateY={[-20, 0]}>
-        <Schedule></Schedule>
-      </Parallax>
-
-      <Parallax translateY={[0, 0]}>
-        <Tracks></Tracks>
-      </Parallax>
       
-      <Parallax translateY={[6, -20]}>
-        <Sponsors></Sponsors>
-      </Parallax>
-
-      <Parallax translateY={[0, 15]}>
-        <Team></Team>
-      </Parallax>
-
-      <Parallax translateY={[0, 15]}>
-        <FAQs></FAQs>
-      </Parallax>
     </div>
   );
 }
