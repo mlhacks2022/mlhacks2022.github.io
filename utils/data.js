@@ -132,13 +132,13 @@ export const events1 = [
     sub: 'Belle See',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
-  {
+  /*{
     time: '9:00 PM - 10:00 PM',
     name: 'Intro to Github',
     cat: 'workshop',
     sub: 'TBD',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
-  },
+  },*/
   {
     time: '10:00 PM - 11:00 PM',
     name: 'MS Paint Bob Ross Contest',
