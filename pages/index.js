@@ -60,28 +60,29 @@ export default function Home() {
 
       <PageLoading></PageLoading>
 
-      <div ref={vantaRef} className={styles.vantaBg}>
-        <div className={styles.vantaText}>
-          <Parallax translateY={[80, 0]} className={styles.titleWrapper}>
-            <h1 className={styles.title}>ML Hacks</h1>
-          </Parallax>
-          <Parallax translateY={[80, 0]}>
-            <h2 className={styles.subtitle}>June 24-26</h2>
-          </Parallax>
-          <Parallax translateY={[100, 0]}>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSc6sGlXZhtgxIXJmEZplBYp5JYi8X50rux-sdVYRSxjKDNbzQ/viewform"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className={styles.btn}>
-                Join as a Hacker
-              </button>
-            </a>
-          </Parallax>
-        </div>
-      </div>
+      <Parallax translateY={[-6, -20]}>
+        <About></About>
+      </ Parallax>
 
+      <Parallax translateY={[-20, 0]}>
+        <Schedule></Schedule>
+      </Parallax>
+
+      <Parallax translateY={[0, 0]}>
+        <Tracks></Tracks>
+      </Parallax>
+      
+      <Parallax translateY={[6, -20]}>
+        <Sponsors></Sponsors>
+      </Parallax>
+
+      <Parallax translateY={[0, 15]}>
+        <Team></Team>
+      </Parallax>
+
+      <Parallax translateY={[0, 15]}>
+        <FAQs></FAQs>
+      </Parallax>
     </div>
   );
 }
