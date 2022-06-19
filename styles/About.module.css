@@ -150,9 +150,6 @@
     }
 }
 @media (max-width: 620px) {
-    .welcomeWrapper {
-        display: none;
-    }
     .introCard {
         top: 0;
     }
