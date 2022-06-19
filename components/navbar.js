@@ -44,10 +44,6 @@ export default class Navbar extends React.Component {
     render() {
         return (
             <div>
-                <div id="navbar-wrapper" 
-                    className={styles.navbar + this.state.display} 
-                    style={{display: this.state.display, zIndex: 100}}>
-                </div>
                 <div className={styles.navbarTop}>
                     <Link 
                         className={styles.logo + " link"}
