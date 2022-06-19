@@ -12,6 +12,7 @@ export default class PageLoading extends React.Component {
     componentDidMount() {
         const myTimeout = setTimeout(() => {
             document.getElementById('loadBox').style.display = 'none';
+            document.querySelector('body').style.overflowY = 'scroll';
         }, 4500);
     };
 
