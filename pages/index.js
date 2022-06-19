@@ -55,6 +55,7 @@ export default function Home() {
       <Head>
         <title>ML Hacks 2022</title>
         <meta name="description" content="Tri-Valley's AI & Machine Learning Hackathon for Female/Non-binary Students. " />
+        <meta name="viewport" content="user-scalable=0;"/>
         <link rel="icon" href="/logo_purple.svg" />
       </Head>
 
