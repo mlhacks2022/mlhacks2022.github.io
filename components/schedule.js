@@ -18,7 +18,6 @@ export default class Schedule extends React.Component {
     };
 
     setDisplay(cat) {
-        console.log('first cat: ' + cat)
         this.setState({
             display: cat,
         });

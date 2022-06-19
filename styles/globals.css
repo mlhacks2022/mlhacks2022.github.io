@@ -1,23 +1,9 @@
 :root {
-  --light-pink: rgb(255, 202, 248);
-  --pink: rgb(255, 145, 240);
-  --bright-pink: rgb(255, 68, 227);
-  --dark-pink: rgb(56, 0, 168);
-
   --black: rgb(24, 24, 24);
 
-  --darker: rgb(0, 7, 112);
-  --dark: rgb(0, 11, 168);
-  --main: rgb(24, 40, 255);
-  --main-light: rgb(66, 94, 255);
   --light: rgb(103, 126, 255);
   --lighter: rgb(163, 177, 255);
   --lighterer: rgb(232, 236, 255);
-
-  --sub: orange;
-  --sub-light: rgb(255, 183, 50);
-  --sub-lighter: rgb(255, 202, 103);
-  --sub-lighterer: rgb(255, 244, 223);
 }
 
 html {

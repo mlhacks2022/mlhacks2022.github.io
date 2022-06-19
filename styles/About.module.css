@@ -8,7 +8,7 @@
     align-items: center;
     color: white;
     background-color: var(--black);
-    /*background: linear-gradient(135deg, rgba(139,211,255,1) 0%, rgba(126,114,255,1) 68%, rgb(161, 93, 229) 100%);*/
+    overflow-y: hidden;
 }
 
 .introWrapper {
