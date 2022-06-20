@@ -132,13 +132,13 @@ export const events1 = [
     sub: 'Belle See',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
-  /*{
+  {
     time: '9:00 PM - 10:00 PM',
-    name: 'Intro to Github',
+    name: 'Intro to Machine Learning with Python & Tensorflow',
     cat: 'workshop',
-    sub: 'TBD',
+    sub: 'Claire Xu',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
-  },*/
+  },
   {
     time: '10:00 PM - 11:00 PM',
     name: 'MS Paint Bob Ross Contest',
@@ -151,9 +151,9 @@ export const events1 = [
 export const events2 = [
   {
     time: '10:00 AM - 11:00 AM',
-    name: 'Intro to Machine Learning in Python',
+    name: 'Useful Libraries in Python',
     cat: 'workshop',
-    sub: 'Claire Xu',
+    sub: 'Katie Kolodner',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
