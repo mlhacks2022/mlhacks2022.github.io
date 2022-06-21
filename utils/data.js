@@ -151,9 +151,9 @@ export const events1 = [
 export const events2 = [
   {
     time: '10:00 AM - 11:00 AM',
-    name: 'Useful Libraries in Python',
+    name: 'Tackling Imposter Syndrome',
     cat: 'workshop',
-    sub: 'Katie Kolodner',
+    sub: 'Isaac Rajagopal, Angeline Peng, Anuj Sakarda, Maggie Lin',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
@@ -209,6 +209,13 @@ export const events3 = [
     name: 'Women in STEM Panel + Q&A',
     cat: 'workshop',
     sub: 'Yichen Zhu - (SWE at Google), Christina Chen - (SWE at Meta), Amy Jin - (Engineering PhD Student at Cambridge), Ria Singla - (Masters Student at Northwestern) Mulan Zhao - (SWE at Meta)',
+    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
+  },
+  {
+    time: '10:00 AM - 11:00 AM',
+    name: 'Useful Libraries in Python',
+    cat: 'workshop',
+    sub: 'Katie Kolodner',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
