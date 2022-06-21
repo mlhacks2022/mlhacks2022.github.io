@@ -134,7 +134,7 @@ export const events1 = [
   },
   {
     time: '9:00 PM - 10:00 PM',
-    name: 'Intro to Machine Learning with Python & Tensorflow',
+    name: 'Intro to Machine Learning with Python',
     cat: 'workshop',
     sub: 'Claire Xu',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
