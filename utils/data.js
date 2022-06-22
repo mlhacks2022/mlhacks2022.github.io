@@ -183,13 +183,6 @@ export const events2 = [
     sub: 'Lilian Zhao',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
-  /**{
-    time: '7:00 PM - 8:00 PM',
-    name: 'Tackling Imposter Syndrome',
-    cat: 'workshop',
-    sub: '',
-    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
-  },**/
   {
     time: '9:00 PM - 10:30 PM',
     name: 'Movie Night',
@@ -297,16 +290,9 @@ export const sponsors = [
     height: 100,
   },
   {
-    name: 'Hack Club',
-    img: '/sponsors/hackclub3.svg',
-    link: 'https://hackclub.com/',
-    width: 280,
-    height: 90,
-  },
-  {
-    name: '.XYZ',
-    img: '/sponsors/xyz-logo-color.svg',
-    link: 'https://gen.xyz/',
+    name: 'Leading Learners',
+    img: '/sponsors/leadinglearners.png',
+    link: 'https://www.leading-learners.com/',
     width: 130,
     height: 130,
   },
@@ -325,11 +311,18 @@ export const sponsors = [
     height: 70,
   },
   {
-    name: 'Leading Learners',
-    img: '/sponsors/leadinglearners.png',
-    link: 'https://www.leading-learners.com/',
-    width: 130,
-    height: 130,
+    name: 'Hack Club',
+    img: '/sponsors/hackclub3.svg',
+    link: 'https://hackclub.com/',
+    width: 280,
+    height: 90,
+  },
+  {
+    name: 'HyperX',
+    img: '/sponsors/hyperx3.png',
+    link: 'https://hyperx.com/',
+    width: 290,
+    height: 120,
   },
   {
     name: 'Sticker Giant',
@@ -344,6 +337,13 @@ export const sponsors = [
     link: 'https://www.stickermule.com/',
     width: 290,
     height: 120,
+  },
+  {
+    name: '.XYZ',
+    img: '/sponsors/xyz-logo-color.svg',
+    link: 'https://gen.xyz/',
+    width: 130,
+    height: 130,
   },
 ];
 
