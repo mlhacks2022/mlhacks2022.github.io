@@ -114,7 +114,7 @@ export const events1 = [
   },
   {
     time: '6:00 PM - 7:00 PM',
-    name: 'Team Building Activities',
+    name: 'Party Games!',
     cat: 'activity',
     background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
   },
@@ -141,7 +141,7 @@ export const events1 = [
   },
   {
     time: '10:00 PM - 11:00 PM',
-    name: 'MS Paint Bob Ross Contest',
+    name: 'MS Paint Contest',
     cat: 'activity',
     sub: '',
     background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
@@ -172,7 +172,7 @@ export const events2 = [
   },
   {
     time: '5:00 PM - 6:30 PM',
-    name: 'Party Games!',
+    name: 'Party Games 2.0!',
     cat: 'activity',
     background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
   },
