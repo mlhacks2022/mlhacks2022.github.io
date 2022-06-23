@@ -201,7 +201,7 @@ export const events3 = [
     time: '9:00 AM - 10:00 AM',
     name: 'Women in STEM Panel + Q&A',
     cat: 'workshop',
-    sub: 'Yichen Zhu - (SWE at Google), Christina Chen - (SWE at Meta), Amy Jin - (Engineering PhD Student at Cambridge), Ria Singla - (Masters Student at Northwestern) Mulan Zhao - (SWE at Meta)',
+    sub: 'Yichen Zhu - (SWE at Google), Christina Chen - (SWE at Meta), Amy Jin - (Engineering PhD Student at Cambridge), Ria Singla - (Masters Student at Northwestern), Mulan Zhao - (SWE at Meta)',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
@@ -216,6 +216,13 @@ export const events3 = [
     name: 'College Discussion',
     cat: 'workshop',
     sub: 'Catherine Huang - (Harvard, Google SWE), Katie Kolodner - (Princeton, Meta Data Science), Amy Deng - (Carnegie Mellon, Meta SWE), Alison Gan - (UChicago, Lawrence Berkeley Lab CS Research)',
+    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
+  },
+  {
+    time: '3:00 PM - 4:00 PM',
+    name: 'Applying CS Principles to Molecular Engineering',
+    cat: 'workshop',
+    sub: 'Lulu Qian, Professor at Caltech',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
