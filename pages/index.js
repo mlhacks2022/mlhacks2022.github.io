@@ -81,7 +81,7 @@ export default function Home() {
         <About></About>
       </ Parallax>
 
-      <Parallax translateY={[-20, 0]}>
+      <Parallax translateY={[-17, 0]}>
         <Schedule></Schedule>
       </Parallax>
 

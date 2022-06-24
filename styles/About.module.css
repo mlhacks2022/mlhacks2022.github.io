@@ -107,6 +107,15 @@
     position: absolute;
 }
 
+.bottomCover {
+    width: 100vw;
+    height: 500px;
+    background-color: var(--black);
+    position: absolute;
+    left: 0px;
+    top: 920px;
+}
+
 @media (max-width: 1000px) {
     .introWrapper {
         padding: 40px 3% 180px 3%;
@@ -164,6 +173,9 @@
     .btn {
         margin: 10px 0 0 0;
     }
+    .bottomCover {
+        top: 1450px;
+    }
 }
 @media (max-width: 550px) {
     .introWrapper {
@@ -173,5 +185,18 @@
 @media (max-width: 400px) {
     .introWrapper {
         padding: 40px 0 550px 0;
+    }
+    .bottomCover {
+        top: 1700px;
+    }
+}
+@media (max-width: 300px) {
+    .bottomCover {
+        top: 1800px;
+    }
+}
+@media (max-width: 260px) {
+    .bottomCover {
+        top: 2200px;
     }
 }
