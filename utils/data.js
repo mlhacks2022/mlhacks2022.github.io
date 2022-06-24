@@ -185,12 +185,12 @@ export const events2 = [
 ];
 
 export const events3 = [
-  {
+  /**{
     time: '8:00 AM',
     name: 'Submissions Open',
     cat: 'general',
   },
-  /**{
+  {
     time: '9:00 AM - 10:00 AM',
     name: 'Women in Tech Panel + Q&A',
     cat: 'workshop',
