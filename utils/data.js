@@ -119,13 +119,6 @@ export const events1 = [
     background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
   },
   {
-    time: '7:00 PM - 8:00 PM',
-    name: 'Intro to Python',
-    cat: 'workshop',
-    sub: 'Amy Deng',
-    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
-  },
-  {
     time: '8:00 PM - 9:00 PM',
     name: 'Prototyping with Figma',
     cat: 'workshop',
@@ -134,14 +127,14 @@ export const events1 = [
   },
   {
     time: '9:00 PM - 10:00 PM',
-    name: 'Useful Libraries in Python',
+    name: 'Intro to Python/Useful Libraries',
     cat: 'workshop',
     sub: 'Katie Kolodner',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
     time: '10:00 PM - 11:00 PM',
-    name: 'MS Paint Contest',
+    name: 'MS Paint Bob Ross Contest',
     cat: 'activity',
     sub: '',
     background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
@@ -171,13 +164,6 @@ export const events2 = [
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
-    time: '3:00 PM - 4:00 PM',
-    name: 'Advanced CS: Coq Proof Assistant',
-    cat: 'workshop',
-    sub: 'Pratyush Venkatakrishnan',
-    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
-  },
-  {
     time: '5:00 PM - 6:30 PM',
     name: 'Party Games 2.0!',
     cat: 'activity',
@@ -204,18 +190,18 @@ export const events3 = [
     name: 'Submissions Open',
     cat: 'general',
   },
-  {
+  /**{
     time: '9:00 AM - 10:00 AM',
     name: 'Women in Tech Panel + Q&A',
     cat: 'workshop',
     sub: 'Yichen Zhu - (SWE at Google), Christina Chen - (SWE at Meta), Amy Jin - (Engineering PhD Student at Cambridge), Ria Singla - (Masters Student at Northwestern), Mulan Zhao - (SWE at Meta)',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
-  },
+  },**/
   {
     time: '1:00 PM - 2:00 PM',
     name: 'College Discussion',
     cat: 'workshop',
-    sub: 'Catherine Huang - (Harvard, Google SWE), Katie Kolodner - (Princeton, Meta Data Science), Amy Deng - (Carnegie Mellon, Meta SWE), Alison Gan - (UChicago, Lawrence Berkeley Lab CS Research)',
+    sub: 'Katie Kolodner - (Princeton, Meta Data Science), Amy Deng - (Carnegie Mellon, Meta SWE), Alison Gan - (UChicago, Lawrence Berkeley Lab CS Research), Theo Ko - (UChicago CS Research)',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
@@ -229,6 +215,20 @@ export const events3 = [
     time: '5:00 PM',
     name: 'Hacking Ends',
     cat: 'general',
+  },
+  {
+    time: '5:30 PM',
+    name: 'Advanced CS: Coq Proof Assistant',
+    cat: 'workshop',
+    sub: 'Pratyush Venkatakrishnan',
+    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
+  },
+  {
+    time: '7:00 PM',
+    name: 'Recruiting for Internships',
+    cat: 'workshop',
+    sub: 'Amy Deng',
+    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
     time: '5:30 PM - 8:30 PM',
