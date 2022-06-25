@@ -224,16 +224,16 @@ export const events3 = [
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
+    time: '5:30 PM - 8:30 PM',
+    name: 'Judging Period',
+    cat: 'general',
+  },
+  {
     time: '7:00 PM',
     name: 'Recruiting for Internships',
     cat: 'workshop',
     sub: 'Amy Deng',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
-  },
-  {
-    time: '5:30 PM - 8:30 PM',
-    name: 'Judging Period',
-    cat: 'general',
   },
   {
     time: '9:00 PM - 9:30 PM',
