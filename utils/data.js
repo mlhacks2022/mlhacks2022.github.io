@@ -213,7 +213,7 @@ export const events3 = [
     time: '7:00 PM - 8:00 PM',
     name: 'College Discussion',
     cat: 'workshop',
-    sub: 'Katie Kolodner - (Princeton, Meta Data Science), Amy Deng - (Carnegie Mellon, Meta SWE), Alison Gan - (UChicago, Lawrence Berkeley Lab CS Research), Theo Ko - (UChicago CS Research)',
+    sub: 'Alison Gan - (UChicago, Lawrence Berkeley Lab CS Research), Katie Liu - (Stanford), Theo Ko - (UChicago CS Research)',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   /**{
