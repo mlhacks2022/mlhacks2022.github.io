@@ -114,7 +114,7 @@ export const events1 = [
   },
   {
     time: '6:00 PM - 7:00 PM',
-    name: 'Party Games!',
+    name: 'Team Building Activities',
     cat: 'activity',
     background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
   },
@@ -146,7 +146,7 @@ export const events2 = [
     time: '10:00 AM - 11:00 AM',
     name: 'Tackling Imposter Syndrome',
     cat: 'workshop',
-    sub: 'Isaac Rajagopal, Angeline Peng, Anuj Sakarda, Maggie Lin',
+    sub: 'Isaac Rajagopal, Angeline Peng, Anuj Sakarda, Maggie Lin, Jessie Chan, Nicole Cao, Warren Xu',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
   {
@@ -165,7 +165,7 @@ export const events2 = [
   },
   {
     time: '5:00 PM - 6:30 PM',
-    name: 'Party Games 2.0!',
+    name: 'Party Games!',
     cat: 'activity',
     background: 'linear-gradient(135deg, rgba(255,203,0,1) 0%, rgba(245,116,255,1) 100%)',
   },
@@ -185,25 +185,6 @@ export const events2 = [
 ];
 
 export const events3 = [
-  /**{
-    time: '8:00 AM',
-    name: 'Submissions Open',
-    cat: 'general',
-  },
-  {
-    time: '9:00 AM - 10:00 AM',
-    name: 'Women in Tech Panel + Q&A',
-    cat: 'workshop',
-    sub: 'Yichen Zhu - (SWE at Google), Christina Chen - (SWE at Meta), Amy Jin - (Engineering PhD Student at Cambridge), Ria Singla - (Masters Student at Northwestern), Mulan Zhao - (SWE at Meta)',
-    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
-  },**/
-  {
-    time: '1:00 PM - 2:00 PM',
-    name: 'College Discussion',
-    cat: 'workshop',
-    sub: 'Katie Kolodner - (Princeton, Meta Data Science), Amy Deng - (Carnegie Mellon, Meta SWE), Alison Gan - (UChicago, Lawrence Berkeley Lab CS Research), Theo Ko - (UChicago CS Research)',
-    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
-  },
   {
     time: '3:00 PM - 4:00 PM',
     name: 'Applying CS Principles to Molecular Engineering',
@@ -229,12 +210,26 @@ export const events3 = [
     cat: 'general',
   },
   {
+    time: '7:00 PM - 8:00 PM',
+    name: 'College Discussion',
+    cat: 'workshop',
+    sub: 'Katie Kolodner - (Princeton, Meta Data Science), Amy Deng - (Carnegie Mellon, Meta SWE), Alison Gan - (UChicago, Lawrence Berkeley Lab CS Research), Theo Ko - (UChicago CS Research)',
+    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
+  },
+  /**{
     time: '7:00 PM',
     name: 'Recruiting for Internships',
     cat: 'workshop',
     sub: 'Amy Deng',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },
+  {
+    time: '8:00 AM - 9:00 AM',
+    name: 'Women in Tech Panel + Q&A',
+    cat: 'workshop',
+    sub: 'Christina Chen - (Meta SWE)',
+    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
+  },**/
   {
     time: '9:00 PM - 9:30 PM',
     name: 'Closing Ceremony + Winners Announced!',
