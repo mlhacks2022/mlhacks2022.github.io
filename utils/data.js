@@ -186,6 +186,11 @@ export const events2 = [
 
 export const events3 = [
   {
+    time: '8:00 AM',
+    name: 'Submissions Open',
+    cat: 'general',
+  },
+  {
     time: '3:00 PM - 4:00 PM',
     name: 'Applying CS Principles to Molecular Engineering',
     cat: 'workshop',
@@ -221,13 +226,6 @@ export const events3 = [
     name: 'Recruiting for Internships',
     cat: 'workshop',
     sub: 'Amy Deng',
-    background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
-  },
-  {
-    time: '8:00 AM - 9:00 AM',
-    name: 'Women in Tech Panel + Q&A',
-    cat: 'workshop',
-    sub: 'Christina Chen - (Meta SWE)',
     background: 'linear-gradient(135deg, rgba(106,255,150,1) 0%, rgba(112,140,255,1) 100%)',
   },**/
   {
