@@ -215,7 +215,7 @@ export const events3 = [
     cat: 'general',
   },
   {
-    time: '7:00 PM - 8:00 PM',
+    time: '7:30 PM - 8:30 PM',
     name: 'College Discussion',
     cat: 'workshop',
     sub: 'Katie Kolodner - (Princeton, Meta Data Science), Alison Gan - (UChicago, Lawrence Berkeley Lab CS Research), Katie Liu - (Stanford), Theo Ko - (UChicago CS Research), Iris Hwang - (UChicago)',
