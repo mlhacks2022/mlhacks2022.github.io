@@ -361,7 +361,7 @@ export const team = [
   {
     name: 'Lilian Zhao',
     img: '/img/lilian.jpg',
-    title: 'Director of Operations',
+    title: 'Director of Technology',
   },
   {
     name: 'Jessie Chan',
